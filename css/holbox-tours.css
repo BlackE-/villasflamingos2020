@@ -1,0 +1,137 @@
+.desktop{height:auto;}.mobile{height:0;}
+@media (max-width: 40.06rem) {.desktop{height:0;}.mobile{height:auto;}}
+
+.holbox_tour_header{height: 100vh;width: 100%;background-image: url('../img/holbox-tours-desktop.jpg');background-position: 50%;background-repeat: no-repeat;background-size:cover;}
+@media (max-width: 40.06rem) {.holbox_tour_header{background-image: url('../img/holbox-tours-mobile.jpg');}}
+
+
+.holbox_tour_texto{padding:100px 0 50px 0;}
+.holbox_tour_texto #text1{opacity: 0;transform: translate(-1000px,0);text-align: center;text-align: center;max-width: 450px;}
+.holbox_tour_texto h1{font-weight: 500;font-size: 40px;}
+.holbox_tour_texto h1 b{font-weight: 800;text-transform: uppercase;}
+.holbox_tour_texto p{font-size: 20px;}
+
+.holbox_tours_container {padding: 50px 0;}
+.holbox_tours_container h2{opacity: 0;transform: translate(100px,0);text-align: right;position: relative;text-transform: uppercase;font-size: 30px;}
+.holbox_tours_container h2:after{content: '';position: absolute;bottom:-5px;right:0;height:2px;width:20px;background: #000;}
+
+
+.boxContainer{display: grid;grid-template-columns: 1fr 1fr;justify-content: center;align-items: center;grid-gap: 50px;padding:50px 0;}
+@media (max-width: 40.06rem) {.boxContainer{grid-template-columns: 1fr;padding:25px 0;}}
+.boxContainer p{font-size: 20px;margin:0;}
+.boxContainer .boxTextContainer p{margin-bottom:20px;}
+.boxContainer .box{position: relative;}
+.boxContainer .box .title{font-size: 35px;}
+.boxContainer .boxText span{text-transform: uppercase;}
+.boxContainer .box .icon{position: absolute;}
+.boxContainer .button{position:relative;outline:none;background: #000;opacity:0;text-align:center;text-transform: uppercase;color:#fff;border:0;transition: all 0.3s ease-in;max-width: 200px;margin: 10px auto;}
+.boxContainer .button a{text-transform: uppercase;color:#fff;font-size:16px;text-decoration:none;transition: all 0.3s ease-in;}
+.boxContainer .button:before{content: '';position: absolute;top: 0;left: 0;width: 1px;height: 100%;background-color: #000;transform: scaleY(0);transform-origin: top left;transition: transform 1s;}
+.boxContainer .button:after{content: '';position: absolute;bottom: 0;right: 0;width: 1px;height: 100%;background-color: #000;transform: scaleY(0);transform-origin: bottom right;transition: transform 1s;}
+.boxContainer .button:hover{cursor: pointer;background:#fff;}
+.boxContainer .button:hover a{color:#000;}
+.boxContainer .button:hover:before,
+.boxContainer .button:hover:after{transform: scaleY(1);}
+.boxContainer .button span{position: relative;display: block;padding:5px 0;}
+.boxContainer .button span:before{content: '';position: absolute;top: 0;left: 0;width: 100%;height: 1px;background-color: #000;transform: scaleX(0);transform-origin: top left;transition: transform 1s;}
+.boxContainer .button span:after{content: '';position: absolute;bottom: 0;right: 0;width: 100%;height: 1px;background-color: #000;transform: scaleX(0);transform-origin: bottom right;transition: transform 1s;}
+.boxContainer .button:hover span:after,
+.boxContainer .button:hover span:before{transform: scaleX(1);}
+
+
+
+#tiburonBallenaBox{align-items: start;}
+#tiburonBallenaBox .box #TiburonBallena_desktop{opacity: 0;transform: translate(-200px,0);}
+#tiburonBallenaBox .box #TiburonBallena_mobile{opacity: 0;transform: translate(-200px,0);}
+#tiburonBallenaBox .box #titleTiburonBallena{position: absolute;right: 0;bottom:-25px;opacity: 0;transform: translate(0,100px);}
+#tiburonBallenaBox .boxTextContainer ul li p{margin-bottom: 0px;}
+#tiburonBallenaBox .boxTextContainer p#textTiburonBallena{opacity: 0;transform: translate(100px,0px);}
+#tiburonBallenaBox .boxTextContainer p#textTiburonBallena2{opacity: 0;transform: translate(100px,0px);}
+#tiburonBallenaBox .boxTextContainer p#textTiburonBallena3{opacity: 0;transform: translate(100px,0px);}
+#tiburonBallenaBox .boxTextContainer #textTiburonBallena4{opacity: 0;transform: translate(100px,0px);}
+#tiburonBallenaBox .boxTextContainer p#textTiburonBallena5{opacity: 0;transform: translate(100px,0px);}
+#tiburonBallenaBox .boxTextContainer p#textTiburonBallena6{opacity: 0;transform: translate(100px,0px);}
+#tiburonBallenaBox .boxTextContainer #tiburonBallenaButton{margin:10px 0 0 0;}
+
+#tresIslasBox{text-align: left;overflow: hidden;align-items: start;}
+#tresIslasBox .box #TresIslas_desktop{opacity: 0;transform: translate(200px,0);}
+#tresIslasBox .box #TresIslas_mobile{opacity: 0;transform: translate(200px,0);}
+#tresIslasBox .box #titleTresIslas{position: absolute;left: 0px;bottom:-0.5em;width:100%;text-align:center;opacity: 0;transform: translate(0,100px);}
+#tresIslasBox p#textTresIslas1{opacity: 0;transform: translate(-100px,0px);}
+#tresIslasBox p#textTresIslas2{opacity: 0;transform: translate(-100px,0px);}
+#tresIslasBox p#textTresIslas2{opacity: 0;transform: translate(-100px,0px);}
+#tresIslasBox p#textTresIslas3{opacity: 0;transform: translate(-100px,0px);}
+#tresIslasBox p#textTresIslas4{opacity: 0;transform: translate(-100px,0px);}
+#tresIslasBox p#textTresIslas5{opacity: 0;transform: translate(-100px,0px);}
+#tresIslasBox p#textTresIslas6{opacity: 0;transform: translate(-100px,0px);}
+#tresIslasBox p#textTresIslas7{opacity: 0;transform: translate(-100px,0px);}
+#tresIslasBox .boxTextContainer #TresIslasButton{margin:10px 0 0 0;}
+@media (max-width: 40.06rem) {
+	#tresIslasBox .box{grid-row-start: 1;grid-row-end: 2;}
+	#tresIslasBox .boxTextContainer{text-align: center;}
+	#tresIslasBox .boxTextContainer #TresIslasButton{margin:10px auto;}
+
+}
+
+#chichenItzaBox .box #chichenItza_desktop{opacity: 0;transform: translate(-200px,0);}
+#chichenItzaBox .box #chichenItza_mobile{opacity: 0;transform: translate(-200px,0);}
+#chichenItzaBox .box #titlechichenItza{position: absolute;right: 0;bottom:-25px;opacity: 0;transform: translate(0,100px);}
+#chichenItzaBox .boxTextContainer p#textchichenItza1{opacity: 0;transform: translate(100px,0px);}
+#chichenItzaBox .boxTextContainer p#textchichenItza2{opacity: 0;transform: translate(100px,0px);}
+#chichenItzaBox .boxTextContainer p#textchichenItza3{opacity: 0;transform: translate(100px,0px);}
+#chichenItzaBox .boxTextContainer p#textchichenItza4{opacity: 0;transform: translate(100px,0px);}
+#chichenItzaBox .boxTextContainer #ChichenItzaButton{margin:10px 0 0 0;}
+
+#pescaDeAlturaBox{text-align: right;overflow: hidden;}
+#pescaDeAlturaBox .box #pescaDeAltura_desktop{opacity: 0;transform: translate(200px,0);}
+#pescaDeAlturaBox .box #pescaDeAltura_mobile{opacity: 0;transform: translate(200px,0);}
+#pescaDeAlturaBox .box #titlePescaDeAltura{position: absolute;left: 0px;bottom:-0.5em;width:100%;text-align:center;opacity: 0;transform: translate(0,100px);}
+#pescaDeAlturaBox p#textPescaAltura1{opacity: 0;transform: translate(-100px,0px);}
+#pescaDeAlturaBox p#textPescaAltura2{opacity: 0;transform: translate(-100px,0px);}
+#pescaDeAlturaBox p#textPescaAltura3{opacity: 0;transform: translate(-100px,0px);}
+#pescaDeAlturaBox p#textPescaAltura4{opacity: 0;transform: translate(-100px,0px);}
+#pescaDeAlturaBox p#textTresIslas7{opacity: 0;transform: translate(-100px,0px);}
+#pescaDeAlturaBox .boxTextContainer #PescaAlturaButton{margin:0;float: right;    width: 200px;}
+@media (max-width: 40.06rem) {
+	#pescaDeAlturaBox .box{grid-row-start: 1;grid-row-end: 2;}
+}
+
+#MiniPescaBox .box #MiniPesca_desktop{opacity: 0;transform: translate(-200px,0);}
+#MiniPescaBox .box #MiniPesca_mobile{opacity: 0;transform: translate(-200px,0);}
+#MiniPescaBox .box #titleMiniPesca{position: absolute;right: 0;bottom:-25px;opacity: 0;transform: translate(0,100px);}
+#MiniPescaBox .boxTextContainer p#textMiniPesca1{opacity: 0;transform: translate(100px,0px);}
+#MiniPescaBox .boxTextContainer p#textMiniPesca2{opacity: 0;transform: translate(100px,0px);}
+#MiniPescaBox .boxTextContainer #MiniPescaButton{margin:10px 0 0 0;}
+
+
+
+#KayaksBox .box #Kayaks_desktop{opacity: 0;transform: translate(-200px,0);}
+#KayaksBox .box #Kayaks_mobile{opacity: 0;transform: translate(-200px,0);}
+#KayaksBox .box #titleKayaks{position: absolute;right: 0;bottom:-25px;opacity: 0;transform: translate(0,-100px);}
+#KayaksBox .boxTextContainer p#textKayaks{opacity: 0;transform: translate(-100px,0px);}
+#KayaksBox .boxTextContainer p#textKayaks2{opacity: 0;transform: translate(-100px,0px);}
+#KayaksBox .boxTextContainer #KayaksButton{margin:10px 0 0 0;}
+
+@media (max-width: 40.06rem) {
+	#KayaksBox .box{grid-row-start: 1;grid-row-end: 2;}
+}
+
+
+#PaseoCaballoBox{text-align: right;overflow: hidden;}
+#PaseoCaballoBox .box #PaseoCaballo_desktop{opacity: 0;transform: translate(200px,0);}
+#PaseoCaballoBox .box #PaseoCaballo_mobile{opacity: 0;transform: translate(200px,0);}
+#PaseoCaballoBox .box #titlePaseoCaballo{position: absolute;left: 0px;bottom:-0.5em;width:100%;text-align:center;opacity: 0;transform: translate(0,100px);}
+#PaseoCaballoBox p#textPaseoCaballo{opacity: 0;transform: translate(100px,0px);}
+#PaseoCaballoBox p#textPaseoCaballo2{opacity: 0;transform: translate(100px,0px);}
+#PaseoCaballoBox .boxTextContainer #PaseoCaballoButton{margin:0;float: right;    width: 200px;}
+
+
+#CarritoGolfBox .box #CarritoGolf_desktop{opacity: 0;transform: translate(-200px,0);}
+#CarritoGolfBox .box #CarritoGolf_mobile{opacity: 0;transform: translate(-200px,0);}
+#CarritoGolfBox .box #titleCarritoGolf{position: absolute;right: 0;bottom:-25px;opacity: 0;transform: translate(0,100px);}
+#CarritoGolfBox .boxTextContainer p#textCarritoGolf{opacity: 0;transform: translate(-100px,0px);}
+#CarritoGolfBox .boxTextContainer p#textCarritoGolf2{opacity: 0;transform: translate(-100px,0px);}
+#CarritoGolfBox .boxTextContainer #titleCarritoGolf{margin:10px 0 0 0;}
+@media (max-width: 40.06rem) {
+	#CarritoGolfBox .box{grid-row-start: 1;grid-row-end: 2;}
+}

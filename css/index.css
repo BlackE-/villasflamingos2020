@@ -1,0 +1,168 @@
+.desktop{height:auto;}.mobile{height:0;}
+@media (max-width: 40.06rem) {
+	.desktop{height:0;}.mobile{height:auto;}
+}
+
+
+.videoSection{height: 100vh;}
+.videoContainer{position: absolute;width: 100%;height: 100vh;overflow: hidden;}
+#vid{object-fit: cover;width: 100vw;height: 100vh;position: absolute;top: 0;left: 0;}
+.textContainerSection{padding:50px 0;text-align: center;}
+
+
+.textContainerSection #text1{opacity: 0;transform:translate(-300px,0);text-align: center;max-width: 450px;}
+.textContainerSection #text1 p{margin:10px auto;font-size: 20px;}
+.textContainerSection #text1 p b{text-transform: uppercase;}
+.textContainerSection #text1 p b i{text-transform: none;}
+@media (max-width: 40.06rem) {.textContainerSection #text1 p{max-width: 360px;}}
+
+
+.habitacionesSection{margin:0 auto;}
+@media (max-width: 40.06rem) {.habitacionesSection{overflow: hidden;}}
+.habitacionesSection h2{opacity:0;transform:translate(1000px,0);text-align: right;text-transform: uppercase;position: relative;}
+.habitacionesSection h2:after{content:'';position: absolute;width:20px;height: 2px;background: #000;bottom:-10px;right:0;}
+.habitacionesSection .controls{opacity:0;transform:translate(1000px,0);justify-content: right;align-items: center;padding: 10px 0 20px 0;text-align: right;}
+.habitacionesSection .controls button{background-color: rgba(255, 255, 255, 0.5);outline:none;width: 15px;height: 15px;padding: 0;border-radius: 15px;border: 1px solid #000;|transition: all 300ms ease-in-out;cursor: pointer;line-height: 0;margin: 0 0.25em;}
+.habitacionesSection .controls button.active{background: #000;}
+.habitacionesSection .controls button:hover{background: #000;}
+
+.habitacionesSection .gridCarousel{display: grid;grid-template-columns: 1fr 1fr;justify-content: center;align-items: center;}
+@media (max-width: 40.06rem) {.habitacionesSection .gridCarousel{display: unset;}}
+.habitacionesSection .habitacionesSlider{overflow: hidden;opacity:0;transform:translate(0,1000px);position: relative;}
+.habitacionesSection .habitacionesSlider:after{content:'';position: absolute;width:100%;height:100%;z-index:1000;top:0;}
+
+.habitacionesSection .habitacionesSlider .sliderContainer .habitacionInput{z-index:0;position: absolute;right: 40px;top: 10px;font-size: 30px;font-weight:800;font-family: none;opacity:0;transform:translate(0, -50px);transition: all 1s cubic-bezier(0.75, 0.01, 0.26, 1.01);}
+.habitacionesSection .habitacionesSlider .sliderContainer.active .habitacionInput{z-index:20;opacity: 1;transform:translate(0, 0);}
+.habitacionesSection .habitacionesSlider .sliderContainer amp-img{position:absolute;width:100%;transform:scale(0.5);bottom:-50px;right:-100%;opacity: 0;
+	-webkit-transition: all 1s cubic-bezier(0.75, 0.01, 0.26, 1.01), opacity 1ms;                 
+    -moz-transition: all 1s cubic-bezier(0.75, 0.01, 0.26, 1.01), opacity 1ms;                
+    -o-transition: all 1s cubic-bezier(0.75, 0.01, 0.26, 1.01), opacity 1ms;  
+    -ms-transition: all 1s cubic-bezier(0.75, 0.01, 0.26, 1.01), opacity 1ms;         
+    transition: all 1s cubic-bezier(0.75, 0.01, 0.26, 1.01), opacity 1ms;
+}
+.habitacionesSection .habitacionesSlider .sliderContainer.active amp-img{position:relative;z-index:1;transform:scale(0.9);top:0;left:0;opacity: 1;}
+.habitacionesSection .habitacionesSlider .sliderContainer.next amp-img{transform:scale(0.6);z-index:10;    bottom: -20%;right: -20%;opacity: 1;}
+.habitacionesSection .habitacionesSlider .habitacionesSliderNumber{position:absolute;right:0;top:40px;z-index:20;font-weight:100;font-family: none;font-size: 30px;text-align: right;}
+.habitacionesSection .habitacionesSlider .habitacionesSliderNumber:after{content:'/';position: absolute;left: -10px;bottom: 5px;font-size: 50px;}
+
+.habitacionesText h3{position:absolute;top:-50px;left:0;width:100%;text-align:center;z-index: 15;font-size:25px;font-weight:300;opacity: 0;transition: all 1s ease-in-out;}
+.habitacionesText h3 b{font-weight: 800;text-transform: uppercase;}
+.habitacionesText h3.active{opacity: 1;bottom:10;}
+@media (max-width: 40.06rem) {.habitacionesText h3{position:absolute;top:-80px;left:0;text-align:left;z-index: 15;font-size:25px;font-weight:300;opacity: 0;transition: all 1s ease-in-out;}}
+
+
+
+.habitacionesSection .habitacionesText{opacity:0;transform:translate(0,1000px);text-align: center;max-width: 80%;margin:0 auto;font-size: 20px;}
+.habitacionesSection .habitacionesText p b i{text-transform: uppercase;}
+.habitacionesSection .habitacionesText #reservaHabitaciones{position:relative;outline:none;background: #000;text-transform: uppercase;color:#fff;border:0;transition: all 0.3s ease-in;}
+.habitacionesSection .habitacionesText #reservaHabitaciones:before{content: '';position: absolute;top: 0;left: 0;width: 1px;height: 100%;background-color: #000;transform: scaleY(0);transform-origin: top left;transition: transform 1s;}
+.habitacionesSection .habitacionesText #reservaHabitaciones:after{content: '';position: absolute;bottom: 0;right: 0;width: 1px;height: 100%;background-color: #000;transform: scaleY(0);transform-origin: bottom right;transition: transform 1s;}
+.habitacionesSection .habitacionesText #reservaHabitaciones:hover{cursor: pointer;background:#fff;color:#000;}
+.habitacionesSection .habitacionesText #reservaHabitaciones:hover:before,
+.habitacionesSection .habitacionesText #reservaHabitaciones:hover:after{transform: scaleY(1);}
+.habitacionesSection .habitacionesText #reservaHabitaciones span{position: relative;display: block;padding:5px 0;}
+.habitacionesSection .habitacionesText #reservaHabitaciones span:before{content: '';position: absolute;top: 0;left: 0;width: 100%;height: 1px;background-color: #000;transform: scaleX(0);transform-origin: top left;transition: transform 1s;}
+.habitacionesSection .habitacionesText #reservaHabitaciones span:after{content: '';position: absolute;bottom: 0;right: 0;width: 100%;height: 1px;background-color: #000;transform: scaleX(0);transform-origin: bottom right;transition: transform 1s;}
+.habitacionesSection .habitacionesText #reservaHabitaciones:hover span:after,
+.habitacionesSection .habitacionesText #reservaHabitaciones:hover span:before{transform: scaleX(1);}
+
+
+
+
+.tripAdvisorSection{padding:50px 0;margin:50px auto;background-image: url(../img/tripadvisor.png);background-position: 0;background-size:cover;background-repeat: no-repeat;text-align: center;}
+.tripAdvisorSection .container h3{font-size:25px;}
+.tripAdvisorSection .container ul{list-style: none;position:relative;padding: 0;height:5vh;overflow:hidden;display:flex;justify-content: center;align-items: center;overflow:hidden;}
+.tripAdvisorSection .container ul:after{content:'';position: absolute;width:100%;height:100%;z-index:1000;top:0;}
+@media (max-width:40.06rem){.tripAdvisorSection .container ul{height: 15vh;}}
+.tripAdvisorSection .container ul li{position:absolute;opacity: 0;font-size:18px;transition: all 0.3s ease-in;width:100%;}
+.tripAdvisorSection .container ul li.active{opacity: 1;}
+.tripAdvisorSection .tripadvisorButtons{margin:0 auto;}
+.tripAdvisorSection .tripadvisorButtons button{background-color: rgba(255, 255, 255, 0.5);outline:none;width:15px;height:15px;padding: 0;border-radius: 15px;border: 1px solid #000;transition: all 300ms ease-in-out;cursor: pointer;line-height: 0;margin: 0 0.25em;}
+.tripAdvisorSection .tripadvisorButtons button.active{background: #000;}
+.tripAdvisorSection .tripadvisorButtons button:hover{background: #000;}
+@media (max-width: 40.06rem) {.tripAdvisorSection{max-width:360px;}}
+
+
+.serviciosSection{margin:0px auto;}
+.serviciosSection .container{overflow: hidden;}
+.serviciosSection h2{text-align: left;text-transform: uppercase;position: relative;}
+.serviciosSection h2:after{content: '';position: absolute;width: 45px;height: 1px;background: #000;bottom: 0px;left: 0;}
+.serviciosSection .box{max-width:50%;position: relative;text-align: center;}
+@media (max-width: 40.06rem) {.serviciosSection .box{max-width:360px;margin:0 0 100px 0;}}
+.serviciosSection .box .image{margin:40px auto;}
+.serviciosSection .box .icon{position:absolute; }
+.serviciosSection .box p{position:absolute;font-size:40px;margin:0;}
+.serviciosSection .box .button{position:relative;outline:none;background: #000;text-align:center;text-transform: uppercase;color:#fff;border:0;transition: all 0.3s ease-in;max-width: 200px;margin: 10px auto;}
+.serviciosSection .box .button a{text-transform: uppercase;color:#fff;font-size:16px;text-decoration:none;transition: all 0.3s ease-in;}
+.serviciosSection .box .button:before{content: '';position: absolute;top: 0;left: 0;width: 1px;height: 100%;background-color: #000;transform: scaleY(0);transform-origin: top left;transition: transform 1s;}
+.serviciosSection .box .button:after{content: '';position: absolute;bottom: 0;right: 0;width: 1px;height: 100%;background-color: #000;transform: scaleY(0);transform-origin: bottom right;transition: transform 1s;}
+.serviciosSection .box .button:hover{cursor: pointer;background:#fff;}
+.serviciosSection .box .button:hover a{color:#000;}
+.serviciosSection .box .button:hover:before,
+.serviciosSection .box .button:hover:after{transform: scaleY(1);}
+.serviciosSection .box .button span{position: relative;display: block;padding:5px 0;}
+.serviciosSection .box .button span:before{content: '';position: absolute;top: 0;left: 0;width: 100%;height: 1px;background-color: #000;transform: scaleX(0);transform-origin: top left;transition: transform 1s;}
+.serviciosSection .box .button span:after{content: '';position: absolute;bottom: 0;right: 0;width: 100%;height: 1px;background-color: #000;transform: scaleX(0);transform-origin: bottom right;transition: transform 1s;}
+.serviciosSection .box .button:hover span:after,
+.serviciosSection .box .button:hover span:before{transform: scaleX(1);}
+@media (max-width: 40.06rem) {.serviciosSection{max-width:360px;}}
+
+.serviciosSection .trasladosContainer{position: relative;text-align: center;}
+/*@media (max-width: 40.06rem) {.serviciosSection .trasladosContainer{}}*/
+.serviciosSection .trasladosContainer .image{opacity: 0;transform: translate(200px,0);margin:40px 0 20px 0;}
+.serviciosSection .trasladosContainer .icon{opacity: 0;position:absolute;bottom:80px;left:0px; }
+.serviciosSection .trasladosContainer p{opacity: 0;transform: translate(0,-50px);position:absolute;left:0;bottom:60px;width:100%;text-align: center; font-size:40px;font-weight: 700;margin:0;}
+#trasladosButton{opacity: 0;}
+@media (max-width: 40.06rem) {
+	.serviciosSection .trasladosContainer .image{margin:0 auto;}
+	.serviciosSection .trasladosContainer .image.mobile{margin:25px auto 50px auto;}
+}
+.serviciosSection .sensacionesContainer{text-align: left;margin-left:auto; margin-right:0;}
+.serviciosSection .sensacionesContainer .image{margin:40px 0 20px 0;opacity: 0;transform: translate(-200px,0);}
+.serviciosSection .sensacionesContainer .icon{bottom:80px;right:15px;opacity: 0; }
+.serviciosSection .sensacionesContainer p{left:0;bottom:65px;width:100%;text-align: left;opacity: 0;transform: translate(0,50px);}
+@media (max-width: 40.06rem) {
+	.serviciosSection .sensacionesContainer .image{margin:0 auto;}
+	.serviciosSection .sensacionesContainer .image.mobile{margin:25px auto 50px auto;}
+	.serviciosSection .sensacionesContainer p{bottom:45px;}
+}
+#sensacionesButton{opacity: 0;}
+.serviciosSection .toursContainer{position: relative;text-align: left;margin:100px 0 150px 0;}
+.serviciosSection .toursContainer .image{margin:40px 0;opacity: 0;transform: translate(200px,0);}
+.serviciosSection .toursContainer .icon{top:-25px;left:0; opacity: 0;}
+.serviciosSection .toursContainer p{left:0;top:-25px;width:100%;text-align: center;opacity: 0;transform: translate(0,-50px);}
+@media (max-width: 40.06rem) {
+	.serviciosSection .toursContainer .image{margin: 0 auto;}
+}
+.serviciosSection .toursContainer .button{opacity: 0;position:absolute;left:calc(50% - 100px);top:50px;width:100%;text-align: center;}
+
+.serviciosSection .cenaContainer{text-align: right;margin-left:auto; margin-right:0;}
+.serviciosSection .cenaContainer .image{margin:40px 0;opacity: 0;transform: translate(-200px,0);}
+.serviciosSection .cenaContainer .icon{top:-25px;right:30px;opacity: 0; }
+.serviciosSection .cenaContainer p{left:0;top:-25px;width:90%;text-align: center;opacity: 0;transform: translate(0,50px);}
+@media (max-width: 40.06rem) {
+	.serviciosSection .cenaContainer{margin:0 0 50px 0;}
+	.serviciosSection .cenaContainer .image{margin:0 auto;}
+	.serviciosSection .cenaContainer p{top:-65px;}
+	.serviciosSection .cenaContainer .icon{right:0;}
+}
+.serviciosSection .cenaContainer .button{opacity: 0;position:absolute;left:calc(40% - 100px);top:50px;width:100%;text-align: center;}
+
+
+.ultimoRinconSection{margin:50px auto;}
+@media (max-width: 40.06rem) {.ultimoRinconSection{max-width:360px;}}
+.ultimoRinconSection h2{font-weight:300;}
+
+.ultimoRinconSection .gridImages{display:none;}
+@media (max-width: 40.06rem) {
+	.ultimoRinconSection .gridImages{display:grid;grid-template-columns: 1fr 1fr;grid-gap:5px;}
+	.ultimoRinconSection .gridImages div{display:grid;grid-gap:5px;}
+	.ultimoRinconSection .gridImages div .rinconImg{opacity: 0;transform:scale(0.1);}
+}
+
+.ultimoRinconSection .mosaico{display: grid;grid-template-columns: repeat(3,1fr);grid-gap:30px;}
+.ultimoRinconSection .mosaico div{display: grid;grid-gap:30px;}
+.ultimoRinconSection .mosaico div .rinconImg{opacity: 0;transform:scale(0.1);}
+
+.ultimoRinconSection .mobile{opacity: 0;}
+@media (max-width: 40.06rem) {.ultimoRinconSection .mobile{opacity: 1;}.ultimoRinconSection .desktop{opacity: 0;}}

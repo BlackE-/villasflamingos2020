@@ -1,0 +1,119 @@
+.desktop{height:auto;}.mobile{height:0;}
+@media (max-width: 40.06rem) {.desktop{height:0;}.mobile{height:auto;}}
+
+.habitaciones_general_header{height: 100vh;width: 100%;background-image: url('../img/habitaciones-general-header-desktop.jpg');background-position: 50%;background-repeat: no-repeat;background-size:cover;}
+@media (max-width: 40.06rem) {.habitaciones_general_header{background-image: url('../img/habitaciones-general-header-mobile.jpg');}}
+
+.habitaciones_general_texto{padding:100px 0 50px 0;}
+.habitaciones_general_texto #text1{opacity: 0;transform: translate(-1000px,0);text-align: center;max-width: 450px;}
+.habitaciones_general_texto h1{font-weight: 500;font-size: 40px;}
+.habitaciones_general_texto h1 b{font-weight: 800;text-transform: uppercase;}
+.habitaciones_general_texto p{font-size: 20px;}
+.habitaciones_general_texto span{text-transform: uppercase;}
+
+
+
+.habitaciones_container h2{opacity: 0;transform: translate(100px,0);text-align: right;position: relative;text-transform: uppercase;font-size: 30px;}
+.habitaciones_container h2:after{content: '';position: absolute;bottom:-5px;right:0;height:2px;width:20px;background: #000;}
+
+
+
+.holbox_tours_container{padding:50px 0;}
+.boxContainer{display: grid;grid-template-columns: 1fr 1fr;justify-content: center;align-items: center;grid-gap: 50px;padding:50px 0;}
+@media (max-width: 40.06rem) {.boxContainer{grid-template-columns: 1fr;padding:25px 0;}}
+.boxContainer p{font-size: 20px;margin:0;}
+.boxContainer .boxTextContainer p{margin-bottom:20px;}
+.boxContainer .box{position: relative;}
+.boxContainer .box .title{font-size: 35px;}
+.boxContainer .boxText span{text-transform: uppercase;}
+.boxContainer .box .icon{position: absolute;}
+.boxContainer .button{position:relative;outline:none;background: #000;opacity:0;text-align:center;text-transform: uppercase;color:#fff;border:0;transition: all 0.3s ease-in;max-width: 200px;margin: 10px auto;}
+.boxContainer .button a{text-transform: uppercase;color:#fff;font-size:16px;text-decoration:none;transition: all 0.3s ease-in;}
+.boxContainer .button:before{content: '';position: absolute;top: 0;left: 0;width: 1px;height: 100%;background-color: #000;transform: scaleY(0);transform-origin: top left;transition: transform 1s;}
+.boxContainer .button:after{content: '';position: absolute;bottom: 0;right: 0;width: 1px;height: 100%;background-color: #000;transform: scaleY(0);transform-origin: bottom right;transition: transform 1s;}
+.boxContainer .button:hover{cursor: pointer;background:#fff;}
+.boxContainer .button:hover a{color:#000;}
+.boxContainer .button:hover:before,
+.boxContainer .button:hover:after{transform: scaleY(1);}
+.boxContainer .button span{position: relative;display: block;padding:5px 0;}
+.boxContainer .button span:before{content: '';position: absolute;top: 0;left: 0;width: 100%;height: 1px;background-color: #000;transform: scaleX(0);transform-origin: top left;transition: transform 1s;}
+.boxContainer .button span:after{content: '';position: absolute;bottom: 0;right: 0;width: 100%;height: 1px;background-color: #000;transform: scaleX(0);transform-origin: bottom right;transition: transform 1s;}
+.boxContainer .button:hover span:after,
+.boxContainer .button:hover span:before{transform: scaleX(1);}
+
+
+
+#cuartosBox{}
+#cuartosBox .box #Cuartos_desktop{opacity: 0;transform: translate(-200px,0);}
+#cuartosBox .box #Cuartos_mobile{opacity: 0;transform: translate(-200px,0);}
+#cuartosBox .box #titleCuartos{position: absolute;right: 0;bottom:-25px;opacity: 0;transform: translate(0,100px);}
+#cuartosBox .boxTextContainer p#textCuartos{opacity: 0;transform: translate(100px,0px);text-align: right;}
+#cuartosBox .boxTextContainer #CuartosButton{width:200px;float:right;}
+
+#bungalosBox{text-align: left;overflow: hidden;}
+#bungalosBox .box #Bungalos_desktop{opacity: 0;transform: translate(200px,0);}
+#bungalosBox .box #Bungalos_mobile{opacity: 0;transform: translate(200px,0);}
+#bungalosBox .box #titleBungalos{position: absolute;left: 0px;bottom:-0.5em;width:100%;text-align:left;opacity: 0;transform: translate(0,100px);}
+#bungalosBox p#textBungalos{opacity: 0;transform: translate(-100px,0px);}
+#bungalosBox .boxTextContainer #BungalosButton{margin:10px 0 0 0;}
+@media (max-width: 40.06rem) {
+	#bungalosBox .box{grid-row-start: 1;grid-row-end: 2;}
+	#bungalosBox .boxTextContainer{text-align: center;}
+	#bungalosBox .boxTextContainer #BungalosButton{margin:10px auto;}
+}
+
+#SuiteLunaBox .box{padding-bottom: 50px}
+#SuiteLunaBox .box .bigger{width: 70%;}
+#SuiteLunaBox .box .smaller{position: absolute;bottom:0px;right:0;width: 45%;}
+@media (max-width: 40.06rem) {
+	#SuiteLunaBox .box .bigger{width: 80%;}
+	#SuiteLunaBox .box .smaller{width: 50%;}
+}
+
+#SuiteLunaBox .box #SuiteLuna_desktop{opacity: 0;transform: translate(-200px,0);}
+#SuiteLunaBox .box #SuiteLuna_mobile{opacity: 0;transform: translate(-200px,0);}
+#SuiteLunaBox .box #SuiteLuna_1_desktop{opacity: 0;transform: translate(200px,0);}
+#SuiteLunaBox .box #SuiteLuna_1_mobile{opacity: 0;transform: translate(200px,0);}
+#SuiteLunaBox .box #titleSuiteLuna{position: absolute;right: 0;bottom:-25px;opacity: 0;transform: translate(0,100px);}
+#SuiteLunaBox .boxTextContainer p#textSuiteLuna{opacity: 0;transform: translate(100px,0px);text-align: center;}
+
+
+
+
+#MasterSuiteBox{text-align: left;overflow: hidden;}
+#MasterSuiteBox .box #MasterSuite_desktop{opacity: 0;transform: translate(200px,0);}
+#MasterSuiteBox .box #MasterSuite_mobile{opacity: 0;transform: translate(200px,0);}
+#MasterSuiteBox .box #titleMasterSuite{position: absolute;left: 0px;bottom:-0.5em;width:100%;text-align:right;opacity: 0;transform: translate(0,100px);}
+#MasterSuiteBox p#textMasterSuite{opacity: 0;transform: translate(-100px,0px);}
+#MasterSuiteBox .boxTextContainer #MasterSuiteButton{margin:10px 0 0 0;}
+@media (max-width: 40.06rem) {
+	#MasterSuiteBox .box{grid-row-start: 1;grid-row-end: 2;}
+	#MasterSuiteBox .boxTextContainer{text-align: right;}
+	#MasterSuiteBox .boxTextContainer #MasterSuiteButton{float:right;width:200px;}
+}
+
+
+
+.habitacionescompararContainer{height: 60vh;width: 100%;background-image: url('../img/habitaciones-general-compara-desktop.jpg');background-position: 50%;background-repeat: no-repeat;background-size:cover;}
+@media (max-width: 40.06rem) {.habitaciones_general_header{background-image: url('../img/habitaciones-general-compara-mobile.jpg');}}
+.habitacionescompararContainer .container{display: grid;justify-content: center;align-items: center;height: 100%;}
+@media (max-width: 40.06rem) {
+	.habitacionescompararContainer .container{justify-content: left;}
+}
+
+.habitacionescompararContainer .container h1{font-weight: 500;font-size: 40px;opacity: 0;transform: translate(0,-100px);}
+.habitacionescompararContainer .container h1 b{font-weight: 800;text-transform: uppercase;}
+
+.habitacionescompararContainer .container .button{position:relative;outline:none;background: #000;opacity:0;text-align:center;text-transform: uppercase;color:#fff;border:0;transition: all 0.3s ease-in;max-width: 200px;margin: 10px auto;}
+.habitacionescompararContainer .container .button a{text-transform: uppercase;color:#fff;font-size:16px;text-decoration:none;transition: all 0.3s ease-in;}
+.habitacionescompararContainer .container .button:before{content: '';position: absolute;top: 0;left: 0;width: 1px;height: 100%;background-color: #000;transform: scaleY(0);transform-origin: top left;transition: transform 1s;}
+.habitacionescompararContainer .container .button:after{content: '';position: absolute;bottom: 0;right: 0;width: 1px;height: 100%;background-color: #000;transform: scaleY(0);transform-origin: bottom right;transition: transform 1s;}
+.habitacionescompararContainer .container .button:hover{cursor: pointer;background: transparent;}
+.habitacionescompararContainer .container .button:hover a{color:#000;}
+.habitacionescompararContainer .container .button:hover:before,
+.habitacionescompararContainer .container .button:hover:after{transform: scaleY(1);}
+.habitacionescompararContainer .container .button span{position: relative;display: block;padding:5px 0;}
+.habitacionescompararContainer .container .button span:before{content: '';position: absolute;top: 0;left: 0;width: 100%;height: 1px;background-color: #000;transform: scaleX(0);transform-origin: top left;transition: transform 1s;}
+.habitacionescompararContainer .container .button span:after{content: '';position: absolute;bottom: 0;right: 0;width: 100%;height: 1px;background-color: #000;transform: scaleX(0);transform-origin: bottom right;transition: transform 1s;}
+.habitacionescompararContainer .container .button:hover span:after,
+.habitacionescompararContainer .container .button:hover span:before{transform: scaleX(1);}

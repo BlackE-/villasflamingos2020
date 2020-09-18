@@ -1,0 +1,124 @@
+.desktop{height:auto;}.mobile{height:0;}
+@media (max-width: 40.06rem) {.desktop{height:0;}.mobile{height:auto;}}
+
+.habitaciones_cuartos_texto{padding:100px 0 50px 0;}
+.habitaciones_cuartos_texto #text1{opacity: 0;transform: translate(-1000px,0);text-align: center;max-width: 450px;}
+.habitaciones_cuartos_texto h1{font-weight: 500;font-size: 40px;}
+.habitaciones_cuartos_texto h1 b{font-weight: 800;text-transform: uppercase;}
+.habitaciones_cuartos_texto p{font-size: 20px;}
+.habitaciones_cuartos_texto span{text-transform: uppercase;}
+
+.Bungalow_Tipo_carousel .container{display: grid;grid-template-columns: 2fr 1fr;grid-gap:50px;}
+@media (max-width: 40.06rem) {	
+	.Bungalow_Tipo_carousel .container{grid-template-columns: 1fr;grid-gap: 0;}
+}
+
+.carousel{position:relative;overflow: hidden;width: 100%;height:80vh;opacity: 0;transform: translate(0,1000px);}
+@media (min-width: 1080px) {	
+	.carousel{height: 100vh;}
+}
+.carouselItem{height: 100%;width:100%;position: absolute;top:0;left:0;}
+.carouselItem amp-img{position: absolute;opacity: 0;width:100%;transform:scale(0.45);transform-origin: 0 0;top:100%;left:0;opacity: 0;
+	-webkit-transition: all 1s cubic-bezier(0.75, 0.01, 0.26, 1.01), opacity 1ms;                 
+    -moz-transition: all 1s cubic-bezier(0.75, 0.01, 0.26, 1.01), opacity 1ms;                
+    -o-transition: all 1s cubic-bezier(0.75, 0.01, 0.26, 1.01), opacity 1ms;  
+    -ms-transition: all 1s cubic-bezier(0.75, 0.01, 0.26, 1.01), opacity 1ms;         
+    transition: all 1s cubic-bezier(0.75, 0.01, 0.26, 1.01), opacity 1ms;
+ 	z-index:0;   
+}
+.carouselItem.active amp-img{opacity:1;top:0;left:0;z-index:1;transform:scale(0.8);}
+.carouselItem.next amp-img{opacity:1;top:50%;left:50%;z-index:5;transform: scale(0.45);}
+.carousel_text{max-width: 250px;margin:0 auto;position: relative;}
+.carousel_text h2{opacity: 0;transform: translate(100px,0);text-align: left;position: relative;text-transform: uppercase;font-size: 30px;}
+.carousel_text h2:after{content: '';position: absolute;bottom:-5px;left:0;height:2px;width:20px;background: #000;}
+
+.controls{position: absolute;top:0;left:-50px;opacity: 0;display: grid;grid-template-rows: repeat(4,1fr);grid-gap: 20px;}
+.controls button{background-color: rgba(255, 255, 255, 0.5);outline:none;width: 15px;height: 15px;padding: 0;border-radius: 15px;border: 1px solid #000;|transition: all 300ms ease-in-out;cursor: pointer;line-height: 0;margin: 0 0.25em;}
+.controls button.active{background: #000;}
+.controls button:hover{background: #000;}
+
+@media (max-width: 40.06rem) {
+	.carousel{height: 50vh;}
+	.carousel_text{width:100%;max-width: 360px;}
+	.carouselItem.active amp-img{opacity:1;top:0;left:0;z-index:1;transform:scale(0.8);}
+.carouselItem.next amp-img{opacity:1;top:50%;left:50%;z-index:5;transform: scale(0.45);}
+
+
+	.controls{top:-330px;left:unset;right:0;}
+}
+
+
+.carousel_text .amenidades{opacity: 0;transform: translate(-200px,0);}
+.carousel_text .amenidades li p{font-size: 20px;}
+.reservar_section{padding:50px 0;margin:50px auto;background-image: url(../img/tripadvisor.png);background-position: 0;background-size:cover;background-repeat: no-repeat;text-align: center;}
+.reservar_section p{transform: translate(0, -100px);opacity: 0;font-size: 20px;}
+.reservar_section .button{position:relative;outline:none;background: #000;opacity:0;text-align:center;text-transform: uppercase;color:#fff;border:0;transition: all 0.3s ease-in;max-width: 200px;margin: 10px auto;}
+.reservar_section .button a{text-transform: uppercase;color:#fff;font-size:16px;text-decoration:none;transition: all 0.3s ease-in;}
+.reservar_section .button:before{content: '';position: absolute;top: 0;left: 0;width: 1px;height: 100%;background-color: #000;transform: scaleY(0);transform-origin: top left;transition: transform 1s;}
+.reservar_section .button:after{content: '';position: absolute;bottom: 0;right: 0;width: 1px;height: 100%;background-color: #000;transform: scaleY(0);transform-origin: bottom right;transition: transform 1s;}
+.reservar_section .button:hover{cursor: pointer;background:#fff;}
+.reservar_section .button:hover a{color:#000;}
+.reservar_section .button:hover:before,
+.reservar_section .button:hover:after{transform: scaleY(1);}
+.reservar_section .button span{position: relative;display: block;padding:5px 0;}
+.reservar_section .button span:before{content: '';position: absolute;top: 0;left: 0;width: 100%;height: 1px;background-color: #000;transform: scaleX(0);transform-origin: top left;transition: transform 1s;}
+.reservar_section .button span:after{content: '';position: absolute;bottom: 0;right: 0;width: 100%;height: 1px;background-color: #000;transform: scaleX(0);transform-origin: bottom right;transition: transform 1s;}
+.reservar_section .button:hover span:after,
+.reservar_section .button:hover span:before{transform: scaleX(1);} 
+
+
+.habitaciones_container{padding:50px 0;}
+.habitaciones_container h2{opacity: 0;transform: translate(100px,0);text-align: right;position: relative;text-transform: uppercase;font-size: 30px;}
+.habitaciones_container h2:after{content: '';position: absolute;bottom:-5px;right:0;height:2px;width:20px;background: #000;}
+
+.habitaciones_container .boxContainer{display: grid;grid-template-columns: 1fr 1fr;min-height:50vh;justify-content: center;align-items: center;grid-gap: 50px;padding:50px 0;}
+@media (max-width: 40.06rem) {.habitaciones_container .boxContainer{grid-template-columns: 1fr;padding:25px 0;grid-gap:0;}}
+.boxContainer p{font-size: 20px;margin:0;}
+.boxContainer .boxTextContainer p{margin-bottom:20px;}
+.boxContainer .box{position: relative;}
+.boxContainer .box .title{font-size: 35px;}
+.boxContainer .boxText span{text-transform: uppercase;}
+.boxContainer .box .icon{position: absolute;}
+.boxContainer .button{position:relative;outline:none;background: #000;opacity:0;text-align:center;text-transform: uppercase;color:#fff;border:0;transition: all 0.3s ease-in;max-width: 200px;margin: 10px auto;}
+.boxContainer .button a{text-transform: uppercase;color:#fff;font-size:16px;text-decoration:none;transition: all 0.3s ease-in;}
+.boxContainer .button:before{content: '';position: absolute;top: 0;left: 0;width: 1px;height: 100%;background-color: #000;transform: scaleY(0);transform-origin: top left;transition: transform 1s;}
+.boxContainer .button:after{content: '';position: absolute;bottom: 0;right: 0;width: 1px;height: 100%;background-color: #000;transform: scaleY(0);transform-origin: bottom right;transition: transform 1s;}
+.boxContainer .button:hover{cursor: pointer;background:#fff;}
+.boxContainer .button:hover a{color:#000;}
+.boxContainer .button:hover:before,
+.boxContainer .button:hover:after{transform: scaleY(1);}
+.boxContainer .button span{position: relative;display: block;padding:5px 0;}
+.boxContainer .button span:before{content: '';position: absolute;top: 0;left: 0;width: 100%;height: 1px;background-color: #000;transform: scaleX(0);transform-origin: top left;transition: transform 1s;}
+.boxContainer .button span:after{content: '';position: absolute;bottom: 0;right: 0;width: 100%;height: 1px;background-color: #000;transform: scaleX(0);transform-origin: bottom right;transition: transform 1s;}
+.boxContainer .button:hover span:after,
+.boxContainer .button:hover span:before{transform: scaleX(1);}
+
+#CuartosBox{text-align: left;overflow: hidden;padding:0 0 50px 0;}
+#CuartosBox .box #Cuartos_desktop{opacity: 0;transform: translate(-200px,0);}
+#CuartosBox .box #Cuartos_mobile{opacity: 0;transform: translate(-200px,0);}
+#CuartosBox .box #titleCuartos{position: absolute;left: 0px;bottom:-0.5em;width:100%;text-align:left;opacity: 0;transform: translate(0,100px);}
+#CuartosBox #CuartosButton{margin:35px 0 0 0;}
+
+#bungalosBox{text-align: left;overflow: hidden;padding:0 0 50px 0;}
+#bungalosBox .box #Bungalos_desktop{opacity: 0;transform: translate(200px,0);}
+#bungalosBox .box #Bungalos_mobile{opacity: 0;transform: translate(200px,0);}
+#bungalosBox .box #titleBungalos{position: absolute;left: 0px;bottom:-0.5em;width:100%;text-align:right;opacity: 0;transform: translate(0,100px);}
+#bungalosBox #BungalosButton{margin:35px 0 0 0;width: 200px;float: right;}
+
+@media (max-width: 40.06rem) {
+	#bungalosBox .box{grid-row-start: 1;grid-row-end: 2;}
+}
+
+#SuiteLunaBox .box #SuiteLuna_desktop{opacity: 0;transform: translate(-200px,0);}
+#SuiteLunaBox .box #SuiteLuna_mobile{opacity: 0;transform: translate(-200px,0);}
+#SuiteLunaBox .box #titleSuiteLuna{position: absolute;left: 0;bottom:-25px;opacity: 0;transform: translate(0,100px);}
+#SuiteLunaBox #SuiteLunaButton{margin:35px 0 0 0;}
+
+#MasterSuiteBox{text-align: left;overflow: hidden;}
+#MasterSuiteBox .box #MasterSuite_desktop{opacity: 0;transform: translate(200px,0);}
+#MasterSuiteBox .box #MasterSuite_mobile{opacity: 0;transform: translate(200px,0);}
+#MasterSuiteBox .box #titleMasterSuite{position: absolute;left: 0px;bottom:-0.5em;width:100%;text-align:right;opacity: 0;transform: translate(0,100px);}
+#MasterSuiteBox #MasterSuiteButton{float:right;width:200px;margin:35px 0 0 0;}
+@media (max-width: 40.06rem) {
+	#MasterSuiteBox .box{grid-row-start: 1;grid-row-end: 2;}
+}

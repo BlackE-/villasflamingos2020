@@ -1,0 +1,73 @@
+.desktop{height:auto;}.mobile{height:0;}
+@media (max-width: 40.06rem) {.desktop{height:0;}.mobile{height:auto;}}
+
+.hotel_traslados_header{height: 100vh;width: 100%;background-image: url('../img/hotel-traslados-header-desktop.jpg');background-position: 50%;background-repeat: no-repeat;background-size:cover;}
+@media (max-width: 40.06rem) {.hotel_traslados_header{background-image: url('../img/hotel-traslados-header-mobile.jpg');}}
+
+.hotel_traslados_texto{padding:100px 0 50px 0;}
+.hotel_traslados_texto #text1{opacity: 0;transform: translate(-1000px,0);text-align: center;max-width: 450px;}
+.hotel_traslados_texto h1{font-weight: 500;font-size: 40px;}
+.hotel_traslados_texto h1 b{font-weight: 800;text-transform: uppercase;}
+.hotel_traslados_texto p{font-size: 20px;}
+.hotel_traslados_texto span{text-transform: uppercase;}
+
+
+.boxContainer .titleBox{background-color:#f2f2f2;display: inline-block;}
+.boxContainer .titleBox h2{font-weight:400;font-size: 35px;margin:0;transform: translate(0,50px);opacity: 0;}
+
+.hotel_traslados_container{padding:50px 0;}
+.hotel_traslados_container .container{display: grid;grid-template-columns: 1fr 1fr;justify-content: center;align-items: center;grid-gap: 50px;padding:50px 0;}
+@media (max-width: 40.06rem) {.hotel_traslados_container .container{grid-template-columns: 1fr;padding:25px 0;}}
+.boxContainer p{font-size: 20px;}
+.boxContainer .box{position: relative;}
+.boxContainer .button{position:relative;outline:none;background: #000;opacity:0;text-align:center;text-transform: uppercase;color:#fff;border:0;transition: all 0.3s ease-in;max-width: 200px;margin: 10px auto;}
+.boxContainer .button a{text-transform: uppercase;color:#fff;font-size:16px;text-decoration:none;transition: all 0.3s ease-in;}
+.boxContainer .button:before{content: '';position: absolute;top: 0;left: 0;width: 1px;height: 100%;background-color: #000;transform: scaleY(0);transform-origin: top left;transition: transform 1s;}
+.boxContainer .button:after{content: '';position: absolute;bottom: 0;right: 0;width: 1px;height: 100%;background-color: #000;transform: scaleY(0);transform-origin: bottom right;transition: transform 1s;}
+.boxContainer .button:hover{cursor: pointer;background:#fff;}
+.boxContainer .button:hover a{color:#000;}
+.boxContainer .button:hover:before,
+.boxContainer .button:hover:after{transform: scaleY(1);}
+.boxContainer .button span{position: relative;display: block;padding:5px 0;}
+.boxContainer .button span:before{content: '';position: absolute;top: 0;left: 0;width: 100%;height: 1px;background-color: #000;transform: scaleX(0);transform-origin: top left;transition: transform 1s;}
+.boxContainer .button span:after{content: '';position: absolute;bottom: 0;right: 0;width: 100%;height: 1px;background-color: #000;transform: scaleX(0);transform-origin: bottom right;transition: transform 1s;}
+.boxContainer .button:hover span:after,
+.boxContainer .button:hover span:before{transform: scaleX(1);}
+
+
+#holboxAeropuertoCancunBox .boxTextContainer p#textholboxAeropuertoCancun{opacity: 0;transform: translate(-100px,0px);}
+#holboxAeropuertoCancunBox .boxTextContainer p#textholboxAeropuertoCancun2{opacity: 0;transform: translate(-100px,0px);}
+#holboxAeropuertoCancunBox .boxTextContainer #textholboxAeropuertoCancun3{opacity: 0;transform: translate(-100px,0px);}
+#holboxAeropuertoCancunBox .boxTextContainer p#textholboxAeropuertoCancun4{opacity: 0;transform: translate(-100px,0px);}
+#holboxAeropuertoCancunBox #holboxAeropuertoCancunButton{opacity: 0;}
+
+#holboxCancunBox .boxTextContainer p#textholboxCancun{opacity: 0;transform: translate(100px,0px);}
+#holboxCancunBox .boxTextContainer p#textholboxCancun2{opacity: 0;transform: translate(100px,0px);}
+#holboxCancunBox .boxTextContainer #textholboxCancun3{opacity: 0;transform: translate(100px,0px);}
+#holboxCancunBox .boxTextContainer p#textholboxCancun4{opacity: 0;transform: translate(100px,0px);}
+#holboxCancunBox #holboxCancunButton{opacity: 0;}
+
+#holboxPlayaCarmenBox .boxTextContainer p#textholboxPlayaCarmen{opacity: 0;transform: translate(-100px,0px);}
+#holboxPlayaCarmenBox .boxTextContainer p#textholboxPlayaCarmen2{opacity: 0;transform: translate(-100px,0px);}
+#holboxPlayaCarmenBox .boxTextContainer #textholboxPlayaCarmen3{opacity: 0;transform: translate(-100px,0px);}
+#holboxPlayaCarmenBox .boxTextContainer p#textholboxPlayaCarmen4{opacity: 0;transform: translate(-100px,0px);}
+#holboxPlayaCarmenBox #holboxPlayaCarmenButton{opacity: 0;}
+
+#holboxTulumBox .boxTextContainer p#textholboxTulum{opacity: 0;transform: translate(100px,0px);}
+#holboxTulumBox .boxTextContainer p#textholboxTulum2{opacity: 0;transform: translate(100px,0px);}
+#holboxTulumBox .boxTextContainer #textholboxTulum3{opacity: 0;transform: translate(100px,0px);}
+#holboxTulumBox .boxTextContainer p#textholboxTulum4{opacity: 0;transform: translate(100px,0px);}
+#holboxTulumBox #holboxTulumButton{opacity: 0;}
+
+#holboxMeridaBox .boxTextContainer p#textholboxMerida{opacity: 0;transform: translate(-100px,0px);}
+#holboxMeridaBox .boxTextContainer p#textholboxMerida2{opacity: 0;transform: translate(-100px,0px);}
+#holboxMeridaBox .boxTextContainer #textholboxMerida3{opacity: 0;transform: translate(-100px,0px);}
+#holboxMeridaBox .boxTextContainer p#textholboxMerida4{opacity: 0;transform: translate(-100px,0px);}
+#holboxMeridaBox #holboxMeridaButton{opacity: 0;}
+
+#holboxVilladolidBox .boxTextContainer p#textholboxVilladolid{opacity: 0;transform: translate(100px,0px);}
+#holboxVilladolidBox .boxTextContainer p#textholboxVilladolid2{opacity: 0;transform: translate(100px,0px);}
+#holboxVilladolidBox .boxTextContainer #textholboxVilladolid3{opacity: 0;transform: translate(100px,0px);}
+#holboxVilladolidBox .boxTextContainer p#textholboxVilladolid4{opacity: 0;transform: translate(100px,0px);}
+#holboxVilladolidBox #holboxVilladolidButton{opacity: 0;}
+
