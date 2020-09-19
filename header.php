@@ -28,40 +28,68 @@
 		<nav class="ampstart-sidebar-nav ampstart-nav">
 			<ul class="list-reset m0 p0 ampstart-label">
 		      <li><div class="ampstart-nav-item"><a class="ampstart-nav-link" on="tap:header-sidebar.close" href="index">Inicio</a></div></li>
-		      <li><div class="ampstart-nav-item"><a class="ampstart-nav-link" on="tap:header-sidebar.close" href="habitaciones-general">Habitaciones</a></div>
-		      	<ul>
-		      		<li class="ampstart-subnav-link"><a href="habitaciones-cuartos">Cuartos</a></li>
-		      		<ul>
-		      			<li class="ampstart-subnav-link"><a href="habitaciones-vista-jardin">Vista Jardín</a></li>
-		      			<li class="ampstart-subnav-link"><a href="habitaciones-vista-mar">Vista Mar</a></li>
-		      		</ul>
-		      		<li class="ampstart-subnav-link"><a href="habitaciones-bungalows">Búngalos</a></li>
-		      		<ul>
-		      			<li class="ampstart-subnav-link"><a href="habitaciones-bungalow-arena">Arena</a></li>
-		      			<li class="ampstart-subnav-link"><a href="habitaciones-bungalow-cielo">Cielo</a></li>
-		      			<li class="ampstart-subnav-link"><a href="habitaciones-bungalow-jardin">Jardín</a></li>
-		      			<li class="ampstart-subnav-link"><a href="habitaciones-bungalow-mangle">Mangle</a></li>
-		      		</ul>
-		      		<li class="ampstart-subnav-link"><a href="habitaciones-suite-luna-de-miel">Suite Luna de Miel</a></li>
-		      		<li class="ampstart-subnav-link"><a href="habitaciones-master-suite">Master Suite Palapa</a></li>
-		      		<li class="ampstart-subnav-link"><a href="habitaciones-comparar">Comparar</a></li>
+		    </ul>
+		    <details>
+		    	<summary>Habitaciones</summary>
+		    	<ul>
+		      		<li class="ampstart-nav-item"><a href="habitaciones-vista-jardin"><p>Vista Jardín</p><img src="img/h2.svg"/></a></li>
+		      		<li class="ampstart-nav-item"><a href="habitaciones-vista-mar"><p>Vista Mar</p><img src="img/h2.svg"/></a></li>
+		      		<li class="ampstart-nav-item"><a href="habitaciones-bungalow-jardin"><p>Bungalow Jardín</p><img src="img/h4.svg"/></a></li>
+		      		<li class="ampstart-nav-item"><a href="habitaciones-bungalow-arena"><p>Bungalow Arena</p><img src="img/h4.svg"/></a></li>
+		      		<li class="ampstart-nav-item"><a href="habitaciones-bungalow-mangle"><p>Bungalow Mangle</p><img src="img/h2.svg"/></a></li>
+		      		<li class="ampstart-nav-item"><a href="habitaciones-cacao"><p>Cacao</p><img src="img/h2.svg"/></a></li>
+		      		<li class="ampstart-nav-item"><a href="habitaciones-coco"><p>Coco</p><img src="img/h2.svg"/></a></li>
+		      		<li class="ampstart-nav-item"><a href="habitaciones-miel"><p>Miel</p><img src="img/h2.svg"/></a></li>
+		      		<li class="ampstart-nav-item"><a href="habitaciones-suite-luna-de-miel"><p>Suite Luna de Miel</p><img src="img/h2.svg"/></a></li>
+		      		<li class="ampstart-nav-item"><a href="habitaciones-bungalow-cielo"><p>Bungalow Cielo</p><img src="img/h2.svg"/></a></li>
+		      		<li class="ampstart-nav-item"><a href="habitaciones-master-suite"><p>Master Suite Palapa</p><img src="img/h2.svg"/></a></li>
+		      		<li class="ampstart-nav-item"><a href="habitaciones-comparar">Comparar</a></li>
 		      	</ul>
-		      </li>
-		      <li><p>Hotel</p>
-		      	<ul>
-		      		<li class="ampstart-subnav-link"><a href="hotel-restaurante">Restaurante</a></li>
-		      		<li class="ampstart-subnav-link"><a href="hotel-traslados">Traslados</a></li>
-		      		<li class="ampstart-subnav-link"><a href="hotel-anfitriones">Anfitriones</a></li>
+		    </details>
+		    <details>
+		    	<summary>Hotel</summary>
+		    	<ul>
+		    		<li class="ampstart-nav-item"><a href="hotel-restaurante">Restaurante El Mangle</a></li>
+		      		<li class="ampstart-nav-item"><a href="hotel-traslados">Traslados</a></li>
+		      		<li class="ampstart-nav-item">
+		      			<details>
+					    	<summary>Experiencias</summary>
+					    	<ul>
+					    		<li class="ampstart-nav-item"><a href="experiencias-cenas-romanticas">Cenas Romanticas</a></li>
+					    		<li class="ampstart-nav-item"><a href="experiencias-propuesta-matrimonio">Propuesta de Matrimonio</a></li>
+					    		<li class="ampstart-nav-item"><a href="experiencias-busqueda-tesoro">Búsqueda de Tesoro</a></li>
+					    		<li class="ampstart-nav-item"><a href="experiencias-sorpresa-en-habitacion">Sorpresa en tu habitación</a></li>
+					    		<li class="ampstart-nav-item"><a href="experiencias-masajes">Masajes</a></li>
+					    		<li class="ampstart-nav-item"><a href="experiencias-paddleboard-bicicletas">Paddle Board y Bicicletas</a></li>
+					    	</ul>
+					    </details>
+		      		</li>
+		      		<li class="ampstart-nav-item">
+		      			<details>
+					    	<summary>Eventos</summary>
+					    	<ul>
+					    		<li class="ampstart-nav-item"><a href="eventos-bodas-cumple">Bodas / Cumpleaños</a></li>
+					    		<li class="ampstart-nav-item"><a href="eventos-sala-conferencias">Sala de Conferencias</a></li>
+					    		<li class="ampstart-nav-item"><a href="eventos-yoga">Yoga</a></li>
+					    	</ul>
+					    </details>
+		      		</li>
 		      	</ul>
-		      </li>
-		      <li><p>Holbox</p>
-		      	<ul>
-		      		<li class="ampstart-subnav-link"><a href="holbox-sensaciones">Sensaciones</a></li>
-		      		<li class="ampstart-subnav-link"><a href="holbox-tips">Tips</a></li>
-		      		<li class="ampstart-subnav-link"><a href="holbox-tours">Tours</a></li>
+		    </details>
+		    <ul>
+		      <li class="ampstart-nav-item"><a class="ampstart-nav-link" on="tap:header-sidebar.close" href="galeria">Galería</a></li>
+			</ul>
+		    <details>
+		    	<summary>Holbox</summary>
+		    	<ul>
+		    		<li class="ampstart-nav-item"><a href="holbox-ubicacion">Ubicación</a></li>
+		      		<li class="ampstart-nav-item"><a href="holbox-tips">Tips</a></li>
+		      		<li class="ampstart-nav-item"><a href="holbox-tours">Tours</a></li>
 		      	</ul>
-		      </li>
+		    </details>
+		   	<ul>
 		      <li class="ampstart-nav-item"><a class="ampstart-nav-link" on="tap:header-sidebar.close" href="contacto">Contacto</a></li>
+		      <li class="ampstart-nav-item"><a class="ampstart-nav-link" on="tap:header-sidebar.close" href="faq">Preguntas Frecuentes</a></li>
 			</ul>
 		</nav>
 	</amp-sidebar>

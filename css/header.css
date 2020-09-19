@@ -69,17 +69,11 @@ body { margin: 0;font-family: 'Cormorant Upright', serif;}
   100% { opacity: 0;transform: translateY(1000px);}
 }
 
-header{width: 90%;max-width: 1920px;margin:0 auto;position: relative;}
+header{position:fixed;top:0px;width: 100%;z-index: 10;padding: 10px 0;background: linear-gradient(180deg, #000, transparent);}
 @media (max-width: 40.06rem) {
     header{max-width: 360px;}
 }
-.ampstart-headerbar {
-  position: absolute;top:20px;width:100%;z-index: 999;color: #fff;
-  background-color: transparent;border:0;outline:none;
-  display: grid; 
-  grid-template-columns: repeat(3,1fr);
-}
-
+.ampstart-headerbar {width:90%;max-width:1080px;color: #fff;background-color: transparent;border:0;outline:none;display: grid; grid-template-columns: repeat(3,1fr);}
 header .center{width:100%;text-align: center;}
 
 
@@ -107,25 +101,33 @@ header .available:hover span:after,.available:hover span:before{transform: scale
     }
 
 
-.ampstart-headerbar .ampstart-navbar-trigger:focus{outline: none;} /*HAMBURGUER ICON*/
+.ampstart-navbar-trigger{font-size: 30px;} /*HAMBURGUER ICON*/
+.ampstart-navbar-trigger:focus{outline: none;} /*HAMBURGUER ICON*/
 .ampstart-headerbar-nav .ampstart-nav-item {padding: 0 1rem;background: transparent;opacity: 0.8;}
 .ampstart-headerbar-nav {line-height: 3.5rem;}
 
 
 
 
-.ampstart-sidebar{background-color: #00000085;min-width: 300px;width: 300px;}
+.ampstart-sidebar{background-color: #00000085;min-width: 300px;width: 300px;overflow-y: scroll !important;}
 .ampstart-sidebar .ampstart-sidebar-header {line-height: 3.5rem;min-height: 3.5rem;}
-.ampstart-sidebar .ampstart-navbar-trigger{cursor: pointer;color: #fff;text-decoration: none;line-height: 3.5rem;font-size: 1.75rem;padding:0 20px;line-height: inherit;}
+.ampstart-sidebar .ampstart-navbar-trigger{cursor: pointer;color: #fff;text-decoration: none;line-height: 3.5rem;font-size: 30px;padding:0 20px;text-align: right;}
 .ampstart-sidebar .ampstart-navbar-trigger:focus{outline: none;} /*ICON CLOSE*/
 
-.ampstart-sidebar .ampstart-sidebar-nav ul{margin: 0 auto;list-style: none;width:50%;margin:0;}
-@media (max-width: 40.06rem) {.ampstart-sidebar .ampstart-sidebar-nav ul{width:80%;}}
+.ampstart-sidebar .ampstart-sidebar-nav{width:80%;margin:0 auto;}
+
+.ampstart-sidebar .ampstart-sidebar-nav details{list-style: none;color:#fff;}
+.ampstart-sidebar .ampstart-sidebar-nav summary{outline: none;padding:10px;background-image:url('../img/close.svg');background-repeat: no-repeat; background-position: 98% 50%;background-size: 30px;}
+.ampstart-sidebar .ampstart-sidebar-nav details[open] summary{background-image:url('../img/open.svg');}
+.ampstart-sidebar .ampstart-sidebar-nav details > summary::-webkit-details-marker { display: none;}
+.ampstart-sidebar .ampstart-sidebar-nav ul{list-style: none;width:100%;padding: 0;}
 .ampstart-sidebar .ampstart-sidebar-nav ul li p{color:#fff;}
-.ampstart-sidebar .ampstart-nav-item{margin: 0;position: relative;padding: 5px;}
+.ampstart-sidebar .ampstart-nav-item{margin: 0;position: relative;}
 .ampstart-sidebar .ampstart-nav-item:before{content: '';position: absolute;top: 0;left: 0;width: 1px;height: 100%;background-color: #fff;transform: scaleY(0);transform-origin: top left;transition: transform 0.3s;}
 .ampstart-sidebar .ampstart-nav-item:after{content: '';position: absolute;bottom: 0;right: 0;width: 1px;height: 100%;background-color: #fff;transform: scaleY(0);transform-origin: bottom right;transition: transform 0.3s;}
-.ampstart-sidebar .ampstart-nav a{cursor: pointer;color: #fff;text-decoration: none;padding: 10px;}
+.ampstart-sidebar .ampstart-nav a{padding:10px;position:relative;cursor: pointer;color: #fff;text-decoration: none;display: grid;grid-template-columns: auto 20px;align-items: center;}
+.ampstart-sidebar .ampstart-nav a p{margin:0;}
+
 .ampstart-sidebar .ampstart-nav a:before{content: '';position: absolute;top: 0;left: 0;width: 100%;height: 1px;background-color: #fff;transform: scaleX(0);transform-origin: top left;transition: transform 0.3s;}
 .ampstart-sidebar .ampstart-nav a:after{content: '';position: absolute;bottom: 0;right: 0;width: 100%;height: 1px;background-color: #fff;transform: scaleX(0);transform-origin: bottom right;transition: transform 0.3s;}
 .ampstart-sidebar .ampstart-nav-item:hover:before,.ampstart-sidebar .ampstart-nav-item:hover:after{transform: scaleY(1);}
