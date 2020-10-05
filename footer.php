@@ -46,5 +46,5 @@
 			</div>
 			<p class="footerText">VILLAS FLAMINGOS <span><?php echo date("Y")?></span> <a href="" target="_blank">Aviso de privacidad</a></p>
 		</div>
-		
 	</footer>
+	<script type="text/javascript" src="https://js.mirai.com/mirai-loader/mirai.loader.js"></script>

@@ -68,60 +68,11 @@
     gsap.to('.habitacionesSlider', {scrollTrigger: ".habitacionesSection",opacity:1,y:0,duration:1.5});
     gsap.to('.habitacionesText', {scrollTrigger: ".habitacionesSection",opacity:1,y:0,duration:1.5});
 
-    let habitacionesSliderNumber = 0;
-    let intervalHabitaciones = 7000;
-    let habitacionesSliderButtons = document.getElementsByClassName('habitacionesSliderButton');
-    let habitacionInputs = document.getElementsByClassName('habitacionInput');
-    let habitacionesSliderImgs = document.getElementsByClassName('sliderContainer');
-    let habitacionesSliderTitles = document.getElementsByClassName('habitacionesSliderh3');
-    habitacionesSliderF = (num) =>{
-        for(let habitacionesSliderImg of habitacionesSliderImgs){habitacionesSliderImg.classList.remove('active');habitacionesSliderImg.classList.remove('next');}
-        for(let habitacionInput of habitacionInputs){habitacionInput.classList.remove('active');}
-        for(let habitacionesSliderTitle of habitacionesSliderTitles){habitacionesSliderTitle.classList.remove('active');}
-        for(let habitacionesSliderButton of habitacionesSliderButtons){habitacionesSliderButton.classList.remove('active');}
-        habitacionInputs[num].classList.add('active');
-        habitacionesSliderButtons[num].classList.add('active');
-        habitacionesSliderImgs[num].classList.add('active');
-        (num == 3) ? habitacionesSliderImgs[0].classList.add('next') : habitacionesSliderImgs[num+1].classList.add('next');
-        habitacionesSliderTitles[num].classList.add('active');
-    }
-    leftHabitaciones = () =>{
-        habitacionesSliderNumber++;
-        habitacionesSliderNumber = habitacionesSliderNumber%4;
-        habitacionesSliderF(habitacionesSliderNumber);
-    }
-    rightHabitaciones = () =>{
-        habitacionesSliderNumber--;
-        (habitacionesSliderNumber == -1) ? habitacionesSliderNumber = 3 : habitacionesSliderNumber;
-        habitacionesSliderF(habitacionesSliderNumber);
-    }
 
-    swipeLeft = () =>{
-        habitacionesSliderNumber++;
-        habitacionesSliderNumber = habitacionesSliderNumber%4;
-        habitacionesSliderF(habitacionesSliderNumber);
-        clearInterval(timerHabitacionesSlider);
-        setInterval(leftHabitaciones,intervalHabitaciones);
-    }
 
-    swipeRight = () =>{
-        habitacionesSliderNumber--;
-        (habitacionesSliderNumber == -1) ? habitacionesSliderNumber = 3 : habitacionesSliderNumber;
-        habitacionesSliderF(habitacionesSliderNumber);
-        clearInterval(timerHabitacionesSlider);
-        setInterval(leftHabitaciones,intervalHabitaciones);
-    }
+    
 
-    let timerHabitacionesSlider = setInterval(leftHabitaciones,intervalHabitaciones);
-    for(let habitacionesSliderButton of habitacionesSliderButtons){
-        habitacionesSliderButton.addEventListener('click',(e)=>{
-            let num = habitacionesSliderButton.getAttribute('data-src');
-            habitacionesSliderNumber = num;
-            habitacionesSliderF(parseInt(num));
-            clearInterval(timerHabitacionesSlider);
-            setInterval(leftHabitaciones,intervalHabitaciones);
-        });
-    }
+
 
 
     //TRIPADVIROS

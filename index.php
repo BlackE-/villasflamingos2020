@@ -4,10 +4,12 @@
   <?php include('header_meta.php');?>
   <style amp-boilerplate="">body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate="">body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 
-  <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.2.js"></script>
-  <script custom-element="amp-image-lightbox" src="https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js" async=""></script>
+  
   <script custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js" async=""></script>
   <script async custom-element="amp-video" src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>
+  <script custom-element="amp-image-lightbox" src="https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js" async=""></script>
+  <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.2.js"></script>
+  
   <link rel="stylesheet" type="text/css" href="css/index.css">
   <style amp-custom="">
   </style>
@@ -32,66 +34,116 @@
       <section class="habitacionesSection">
         <div class="container">
           <h2>Habitaciones</h2>
-          <div class="controls">
-            <button class="habitacionesSliderButton active" data-src="0"></button>
-            <button class="habitacionesSliderButton" data-src="1"></button>
-            <button class="habitacionesSliderButton" data-src="2"></button>
-            <button class="habitacionesSliderButton" data-src="3"></button>
-          </div>
-          <div class="gridCarousel">
-            <div class="habitacionesSlider" id="swipezone">
-              <p class="habitacionesSliderNumber">04</p>
-              <div class="sliderContainer active" id="1">
-                <p class="habitacionInput">01</p>
-                <amp-img class="habitacionesSlideImg desktop" src="img/home-carousel-1-desktop.webp" width="720" height="720" layout="responsive" alt="Habitacion Suite Luna" media="(min-width: 645px)">
-                  <amp-img fallback src="img/home-carousel-1-desktop.jpg" width="720" height="720" layout="responsive" alt="Habitacion Suite Luna" media="(min-width: 645px)"></amp-img>
-                </amp-img>
-                <amp-img class="habitacionesSlideImg mobile" src="img/home-carousel-1-mobile.webp" width="250" height="250" layout="responsive" alt="Habitacion Suite Luna" media="(max-width: 644px)">
-                  <amp-img fallback src="img/home-carousel-1-mobile.jpg" width="250" height="250" layout="responsive" alt="Habitacion Suite Luna" media="(max-width: 644px)"></amp-img>
-                </amp-img>
-              </div>
-              <div class="sliderContainer next" id="2">
-                <p class="habitacionInput">02</p>
-                <amp-img class="habitacionesSlideImg desktop" src="img/home-carousel-2-desktop.webp" width="720" height="720" layout="responsive" alt="Habitacion Master" media="(min-width: 645px)">
-                  <amp-img fallback src="img/home-carousel-2-desktop.jpg" width="720" height="720" layout="responsive" alt="Habitacion Master" media="(min-width: 645px)"
-                  ></amp-img>
-                </amp-img>
-                <amp-img class="habitacionesSlideImg mobile" src="img/home-carousel-2-mobile.webp" width="250" height="250" layout="responsive" alt="Habitacion Master">
-                  <amp-img fallback src="img/home-carousel-2-mobile.jpg" width="250" height="250" layout="responsive" alt="Habitacion Master"
-                  ></amp-img>
-                </amp-img>
-              </div>
-              <div class="sliderContainer" id="3">
-                <p class="habitacionInput">03</p>
-                <amp-img class="habitacionesSlideImg desktop" src="img/home-carousel-3-desktop.webp" width="720" height="720" layout="responsive" alt="Habitacion Bungalow Mangle" media="(min-width: 645px)">
-                  <amp-img fallback src="img/home-carousel-3-desktop.jgp" width="720" height="720" layout="responsive" alt="Habitacion Bungalow Mangle" media="(min-width: 645px)"
-                  ></amp-img>
-                </amp-img>
-                <amp-img class="habitacionesSlideImg mobile" src="img/home-carousel-3-mobile.webp" width="250" height="250" layout="responsive" alt="Habitacion Bungalow Mangle" media="(max-width: 644px)">
-                  <amp-img fallback src="img/home-carousel-3-mobile.jpg" width="250" height="250" layout="responsive" alt="Habitacion Bungalow Mangle" media="(max-width: 644px)"
-                  ></amp-img>
-                </amp-img>
-              </div>
-              <div class="sliderContainer" id="4">
-                <p class="habitacionInput">04</p>
-                <amp-img class="habitacionesSlideImg desktop" src="img/home-carousel-4-desktop.webp" width="720" height="720" layout="responsive" alt="Habitacion Vista Jardín" media="(min-width: 645px)">
-                  <amp-img fallback src="img/home-carousel-4-desktop.jpg" width="720" height="720" layout="responsive" alt="Habitacion Vista Jardín" media="(min-width: 645px)"
-                  ></amp-img>
-                </amp-img>
-                <amp-img class="habitacionesSlideImg mobile" src="img/home-carousel-4-mobile.webp" width="250" height="250" layout="responsive" alt="Habitacion Vista Jardin" media="(max-width: 644px)">
-                  <amp-img fallback src="img/home-carousel-4-mobile.jpg" width="250" height="250" layout="responsive" alt="Habitacion Vista Jardin" media="(max-width: 644px)"
-                  ></amp-img>
-                </amp-img>
+          <!-- <amp-carousel class="mobile" type="carousel" width="360" height="460" layout="responsive" controls loop  delay="3000" role="region" aria-label="Looping carousel" data-next-button-aria-label="Go to next slide" data-previous-button-aria-label="Go to previous slide">
+            <div class="carouselDiv vista-jardin">
+              <div class="carouselDivBox">
+                <div class="imgContainer">
+                  <amp-img src="img/habitaciones-vista-jardin-1-mobile.webp" width="360" height="240" layout="responsive">
+                    <amp-img fallback src="img/habitaciones-vista-jardin-1-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
+                  </amp-img>
+                </div>
+                <div class="dataContainer">
+                  <h3>Vista <b>Jardín</b></h3>
+                  <p>Envueltas en vegetación y tranquilidad nuestras habitaciones <b><i>Vista Jardín</i></b> ofrecen los mejores precios de nuestro hotel. <b><i>Un lugar perfecto</i></b> para tus vacaciones en Holbox.</p>
+                  <div class="reservaHabitaciones" on="tap:reservar" role="button"><span>RESERVAR ahora</span></div>
+                </div>
               </div>
             </div>
-            <div class="habitacionesText">
-              <h3 class="habitacionesSliderh3 active">Suite <b>Luna de miel</b></h3>
-              <h3 class="habitacionesSliderh3">Master <b>SUITE</b></h3>
-              <h3 class="habitacionesSliderh3">Bungalos</h3>
-              <h3 class="habitacionesSliderh3">Cuartos</h3>
-              <p>Envueltas en vegetación y tranquilidad nuestras habitaciones <b><i>Vista Jardín y Vista Mar</i></b> ofrecen los mejores precios de nuestro hotel. <b><i>Un lugar perfecto</i></b> para tus vacaciones en Holbox.</p>
-              <div id="reservaHabitaciones"on="tap:bookingButton" role="button"><span>RESERVAR ahora</span></div>
+            <div class="carouselDiv vistaMar">
+              <div class="carouselDivBox">
+                <div class="imgContainer">
+                  <amp-img src="img/habitaciones-vista-mar-1-mobile.webp" width="360" height="240" layout="responsive">
+                    <amp-img fallback src="img/habitaciones-vista-mar-1-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
+                  </amp-img>
+                </div>
+                <div class="dataContainer">
+                  <h3>Vista <b>Mar</b></h3>
+                  <p>Dotadas de terrazas, nuestras habitaciones <b>Vista Mar</b> de nuestras más habitaciones más populares ofrecen los mejores precios de nuestro hotel. <b><i>Un lugar perfecto</i></b> para tus vacaciones en Holbox.</p>
+                  <div class="reservaHabitaciones" on="tap:reservar" role="button"><span>RESERVAR ahora</span></div>
+                </div>
+              </div>
             </div>
+          </amp-carousel>
+
+          <amp-carousel class="desktop" type="slides" width="1280" height="550" layout="responsive" controls loop  delay="3000" role="region" aria-label="Looping carousel">
+            <div class="carouselDiv vista-jardin">
+                <div class="imgContainer">
+                  <amp-img class="desktop" src="img/habitaciones-vista-jardin-1.webp" width="1080" height="720" layout="responsive">
+                    <amp-img fallback src="img/habitaciones-vista-jardin-1.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                  </amp-img>
+                </div>
+                <div class="dataContainer">
+                  <h3>Vista <b>Jardín</b></h3>
+                  <p>Envueltas en vegetación y tranquilidad nuestras habitaciones <b><i>Vista Jardín</i></b> ofrecen los mejores precios de nuestro hotel. <b><i>Un lugar perfecto</i></b> para tus vacaciones en Holbox.</p>
+                  <div class="reservaHabitaciones" on="tap:reservar" role="button"><span>RESERVAR ahora</span></div>
+                </div>
+            </div>
+            <div class="carouselDiv vistaMar">
+                <div class="imgContainer">
+                  <amp-img class="desktop" src="img/habitaciones-vista-mar-1.webp" width="1080" height="720" layout="responsive">
+                    <amp-img fallback src="img/habitaciones-vista-mar-1.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                  </amp-img>
+                </div>
+                <div class="dataContainer">
+                  <h3>Vista <b>Mar</b></h3>
+                  <p>Dotadas de terrazas, nuestras habitaciones <b>Vista Mar</b> de nuestras más habitaciones más populares ofrecen los mejores precios de nuestro hotel. <b><i>Un lugar perfecto</i></b> para tus vacaciones en Holbox.</p>
+                  <div class="reservaHabitaciones" on="tap:reservar" role="button"><span>RESERVAR ahora</span></div>
+                </div>
+            </div>
+          </amp-carousel> -->
+
+<amp-carousel type="slides" width="1280" height="550" layout="responsive" controls loop  delay="3000" role="region" aria-label="Looping carousel">
+  <div class="carouselDiv vista-jardin">
+      <div class="imgContainer">
+        <amp-img class="desktop" src="img/habitaciones-vista-jardin-1.webp" width="1080" height="720" layout="responsive">
+          <amp-img fallback src="img/habitaciones-vista-jardin-1.jpg" width="1080" height="720" layout="responsive"></amp-img>
+        </amp-img>
+        <amp-img class="mobile" src="img/habitaciones-vista-jardin-1-mobile.webp" width="360" height="240" layout="responsive">
+                    <amp-img fallback src="img/habitaciones-vista-jardin-1-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
+                  </amp-img>
+      </div>
+      <div class="dataContainer">
+        <h3>Vista <b>Jardín</b></h3>
+        <p>Envueltas en vegetación y tranquilidad nuestras habitaciones <b><i>Vista Jardín</i></b> ofrecen los mejores precios de nuestro hotel. <b><i>Un lugar perfecto</i></b> para tus vacaciones en Holbox.</p>
+        <div class="reservaHabitaciones" on="tap:reservar" role="button"><span>RESERVAR ahora</span></div>
+      </div>
+  </div>
+  <div class="carouselDiv vistaMar">
+      <div class="imgContainer">
+        <amp-img class="desktop" src="img/habitaciones-vista-mar-1.webp" width="1080" height="720" layout="responsive">
+          <amp-img fallback src="img/habitaciones-vista-mar-1.jpg" width="1080" height="720" layout="responsive"></amp-img>
+        </amp-img>
+        <amp-img class="mobile" src="img/habitaciones-vista-mar-1-mobile.webp" width="360" height="240" layout="responsive">
+                    <amp-img fallback src="img/habitaciones-vista-mar-1-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
+                  </amp-img>
+      </div>
+      <div class="dataContainer">
+        <h3>Vista <b>Mar</b></h3>
+        <p>Dotadas de terrazas, nuestras habitaciones <b>Vista Mar</b> de nuestras más habitaciones más populares ofrecen los mejores precios de nuestro hotel. <b><i>Un lugar perfecto</i></b> para tus vacaciones en Holbox.</p>
+        <div class="reservaHabitaciones" on="tap:reservar" role="button"><span>RESERVAR ahora</span></div>
+      </div>
+  </div>
+  <div class="carouselDiv bungalowsJardin">
+      <div class="imgContainer">
+        <amp-img class="desktop" src="img/habitaciones-bungalow-jardin-1.webp" width="1080" height="720" layout="responsive">
+          <amp-img fallback src="img/habitaciones-bungalow-jardin-1.jpg" width="1080" height="720" layout="responsive"></amp-img>
+        </amp-img>
+        <amp-img class="mobile" src="img/habitaciones-bungalow-jardin-1-mobile.webp" width="360" height="240" layout="responsive">
+                    <amp-img fallback src="img/habitaciones-bungalow-jardin-1-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
+                  </amp-img>
+      </div>
+      <div class="dataContainer">
+        <h3>Bungalow <b>Jardin</b></h3>
+        <p>Rodeados de un jardín tropical <b>Bungalow Jardín</b> cuenta con <i>piscina interior</i> con agua caliente. <b><i>Un lugar perfecto</i></b> para tus vacaciones en Holbox.</p>
+        <div class="reservaHabitaciones" on="tap:reservar" role="button"><span>RESERVAR ahora</span></div>
+      </div>
+  </div>
+</amp-carousel>
+
+
+
+
+
           </div>
         </div>
       </section>
@@ -244,7 +296,6 @@
   <?php include('footer.php')?>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/gsap.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/ScrollTrigger.min.js"></script>
-    <script type="text/javascript" src="script/swiped-events.min.js"></script>
     <script type="text/javascript" src="script/index.js"></script>
 </body>
 </html>

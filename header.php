@@ -11,14 +11,15 @@
   	<div class="container ampstart-headerbar">
   		<div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger">☰</div>
 	    <div class="center"><a href="index"><amp-img layout="fixed" width="67" height="45" src="img/villasflamingos-logo.svg"></amp-img></amp-layout></a></div>
-	    <div class="buttonContainer"><div class="available" on="tap:bookingButton" role="button"><span>RESERVAR</span></div></div>
+	    <div class="buttonContainer"><div class="available" on="tap:reservar" role="button"><span>RESERVAR</span></div></div>
   	</div>
   </header>
 
-  	<!-- <amp-lightbox id="bookingButton" layout="nodisplay">
-  		<iframe id="booking_modal" src="https://www.thebookingbutton.co.uk/hotel-villas-flamingos-holbox/properties/vflamingosdirect/widget?number_of_days=12&amp;locale=es" height="700" width="100%" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
-	  <button on="tap:bookingButton.close">✕</button>
-	</amp-lightbox> -->
+  	<amp-lightbox id="reservar" layout="nodisplay">
+  		<div data-mirai-engine="mirai_be" data-lang="es" data-idhotel="100376918"></div>
+		<div data-mirai-engine="mirai_rs"></div>
+	  	<button on="tap:reservar.close">✕</button>
+	</amp-lightbox>
 
   	<!-- Start Sidebar -->
 	<amp-sidebar id="header-sidebar" class="ampstart-sidebar px3  " layout="nodisplay">
