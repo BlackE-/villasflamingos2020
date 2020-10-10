@@ -54,7 +54,10 @@
         <meta property="og:description" content="Villas Flamingos, un lugar donde la naturaleza se manifiesta." />
         
         <script async="" src="https://cdn.ampproject.org/v0.js"></script>
+        <script custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js" async=""></script>
         <script async custom-element="amp-lightbox" src="https://cdn.ampproject.org/v0/amp-lightbox-0.1.js"></script>
         
         <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;700&display=swap" rel="stylesheet"> 
-        <link rel="stylesheet" type="text/css" href="css/header.css" > 
+        <link rel="stylesheet" type="text/css" href="css/header.css" >
+
+        <style amp-boilerplate="">body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate="">body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript> 
