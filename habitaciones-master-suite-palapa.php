@@ -1,63 +1,124 @@
 <html ⚡="">
+
 <head>
   <?php include('header_meta.php');?>
-  <link rel="stylesheet" type="text/css" href="css/habitaciones-comparar.css">
+  <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.2.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/habitaciones.css">
 </head>
 <body>
   <?php include('header_habitaciones.php')?>
   <div class="indexContainer">
       <section class="habitaciones_cuartos_texto">
         <div class="container" id="text1">
-          <h1>Compara las <span><b>habitaciones</b></span></h1>
-          <p>Nuestras categorías cuentan con amenidades diferentes. <span><b><i>Selecciona la ideal para ti.</i></b></span></p>
+          <h1>Master <span><b>SUITE PALAPA</b></span></h1>
+          <p>Nuestra Master Suite Palapa tiene <span><b><i>la mejor vista al mar del hotel</i></b></span> además cuenta con una doble terraza desde donde también podrán <b><i>disfrutar de la laguna de Yalahau y verdes manglares.</i></b> Con su atractivo diseño arquitectónico de altos techos de Palapa, esta habitación es única en su tipo. Situada en el tercer piso, podrás pasar horas viendo el espectáculo de las olas del océano.</p>
         </div>
       </section>
-      <section class="comparar_section">
+
+      <section class="habitacionTipo_carousel">
         <div class="container">
-          <div class="habitacion_container habitacion_left">
-            <select class="habitacion_select" id="habitacion_select_left">
-              <option value="suitemasterpalapa" selected="">Master Suite Palapa</option>
-              <option value="bungalow-cielo">Bungalow Cielo</option>
-              <option value="suitelunademiel">Suite Luna de Miel</option>
-              <option value="miel">Miel</option>
-              <option value="coco">Coco</option>
-              <option value="cacao">Cacao</option>
-              <option value="bungalow-mangle">Bungalow Mangle</option>
-              <option value="bungalow-arena">Bungalow Arena</option>
-              <option value="bungalow-jardin">Bungalow Jardín</option>
-              <option value="vista-mar">Vista Mar</option>
-              <option value="vista-jardin">Vista Jardín</option>
-            </select>
-            <div class="habitacion_img" id="leftimg"></div>
-            <div class="habitacion_amenidades" id="left"></div>
+          <div class="carouselContainer">
+            <amp-carousel id="carouselHabitaciones" type="slides" width="1080" height="720" layout="responsive" controls loop autoplay delay="5000" role="region" aria-label="Tipo Habitaciones">
+              <div class="carouselDiv">
+                  <div class="imgContainer">
+                    <amp-img class="desktop" src="img/habitaciones-suitemasterpalapa-1.webp" width="1080" height="720" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-suitemasterpalapa-1.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                    </amp-img>
+                    <amp-img class="mobile" src="img/habitaciones-suitemasterpalapa-1-mobile.webp" width="360" height="240" layout="responsive">
+                        <amp-img fallback src="img/habitaciones-suitemasterpalapa-1-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
+                      </amp-img>
+                  </div>
+              </div>
+              <div class="carouselDiv">
+                  <div class="imgContainer">
+                    <amp-img class="desktop" src="img/habitaciones-suitemasterpalapa-2.webp" width="1080" height="720" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-suitemasterpalapa-2.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                    </amp-img>
+                    <amp-img class="mobile" src="img/habitaciones-suitemasterpalapa-2-mobile.webp" width="360" height="240" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-suitemasterpalapa-2-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
+                    </amp-img>
+                  </div>
+              </div>
+              <div class="carouselDiv">
+                  <div class="imgContainer">
+                    <amp-img class="desktop" src="img/habitaciones-suitemasterpalapa-3.webp" width="1080" height="720" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-suitemasterpalapa-3.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                    </amp-img>
+                    <amp-img class="mobile" src="img/habitaciones-suitemasterpalapa-3-mobile.webp" width="360" height="240" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-suitemasterpalapa-3-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
+                    </amp-img>
+                  </div>
+              </div>
+              <div class="carouselDiv">
+                  <div class="imgContainer">
+                    <amp-img class="desktop" src="img/habitaciones-suitemasterpalapa-4.webp" width="1080" height="720" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-suitemasterpalapa-4.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                    </amp-img>
+                    <amp-img class="mobile" src="img/habitaciones-suitemasterpalapa-4-mobile.webp" width="360" height="240" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-suitemasterpalapa-4-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
+                    </amp-img>
+                  </div>
+              </div>
+              <div class="carouselDiv">
+                  <div class="imgContainer">
+                    <amp-img class="desktop" src="img/habitaciones-suitemasterpalapa-5.webp" width="1080" height="720" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-suitemasterpalapa-5.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                    </amp-img>
+                    <amp-img class="mobile" src="img/habitaciones-suitemasterpalapa-5-mobile.webp" width="360" height="240" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-suitemasterpalapa-5-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
+                    </amp-img>
+                  </div>
+              </div>
+              <div class="carouselDiv">
+                  <div class="imgContainer">
+                    <amp-img class="desktop" src="img/habitaciones-suitemasterpalapa-6.webp" width="1080" height="720" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-suitemasterpalapa-6.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                    </amp-img>
+                    <amp-img class="mobile" src="img/habitaciones-suitemasterpalapa-6-mobile.webp" width="360" height="240" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-suitemasterpalapa-6-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
+                    </amp-img>
+                  </div>
+              </div>
+              <div class="carouselDiv">
+                  <div class="imgContainer">
+                    <amp-img class="desktop" src="img/habitaciones-suitemasterpalapa-7.webp" width="1080" height="720" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-suitemasterpalapa-7.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                    </amp-img>
+                    <amp-img class="mobile" src="img/habitaciones-suitemasterpalapa-7-mobile.webp" width="360" height="240" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-suitemasterpalapa-7-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
+                    </amp-img>
+                  </div>
+              </div>
+            </amp-carousel>
           </div>
-          <div class="habitacion_container habitacion_right">
-            <select class="habitacion_select" id="habitacion_select_right">
-              <option value="suitemasterpalapa">Master Suite Palapa</option>
-              <option value="bungalow-cielo" selected="">Bungalow Cielo</option>
-              <option value="suitelunademiel">Suite Luna de Miel</option>
-              <option value="miel">Miel</option>
-              <option value="coco">Coco</option>
-              <option value="cacao">Cacao</option>
-              <option value="bungalow-mangle">Bungalow Mangle</option>
-              <option value="bungalow-arena">Bungalow Arena</option>
-              <option value="bungalow-jardin">Bungalow Jardín</option>
-              <option value="vista-mar">Vista Mar</option>
-              <option value="vista-jardin">Vista Jardín</option>
-            </select>
-            <div class="habitacion_amenidades" id="right"></div>
-            <div class="habitacion_img" id="rightimg"></div>
+          <div class="carousel_text">
+            <h2>AMENIDADES</h2>
+            <ul class="amenidades">
+              <li><p>Superficie Interior: 80m²</p></li>
+              <li><p>Superficie Exterior: 14m²</p></li>
+              <li><p>Vista al mar</p></li>
+              <li><p>Distancia al mar: 50m</p></li>
+              <li><p>1 cama King Size</p></li>
+              <li><p>Regadera exterior</p></li>
+              <li><p>Jacuzzi privado</p></li>
+              <li><p>Terraza privada</p></li>
+              <li><p>Aire acondicionado</p></li>
+              <li><p>Caja fuerte </p></li>
+              <li><p>Detector de humo</p></li>
+              <li><p>Ventilador</p></li>
+              <li><p>Frigobar </p></li>
+            </ul>
           </div>
         </div>
       </section>
 
       <section class="reservar_section">
         <div class="container">
-          <p><b>Todos nuestras habitaciones:</b><br>Incluyen desayuno bufete.</p>
+          <p>Capacidad máxima: 2 personas<br>Niños no permitidos  |  2 Niveles<br>Todos nuestros cuartos incluyen desayuno bufete.</p>
+          <div class="button" id="reservar" role="button"><a href="#"><span>RESERVAR</span></a></div>
         </div>
       </section>
       <div class="container"><hr></div>
-
       <section class="habitaciones_container">
             <div class="container">
               <h2>Otras <b>HABITACIONES</b></h2>
@@ -191,27 +252,21 @@
                     </div>
                 </div>
               </div>
-              <div class="boxContainer" id="lastBox">
-                <div class="boxGrid" id="room11">
-                  <div class="box">
-                    <amp-img class="desktop" id="room11_desktop" alt="Villas CUARTOS" src="img/habitaciones-suitemasterpalapa-1.webp"  width="1080" height="720"  layout="responsive" media="(min-width: 645px)">
-                      <amp-img fallback alt="Villas CUARTOS" src="img/habitaciones-suitemasterpalapa-1.jpg"  width="1080" height="720"  layout="responsive" media="(min-width: 645px)"></amp-img>
-                    </amp-img>
-                    <amp-img class="mobile" id="room11_mobile" alt="Villas CUARTOS" src="img/habitaciones-suitemasterpalapa-1-mobile.webp" width="360" height="240" layout="responsive" media="(max-width: 644px)">
-                      <amp-img fallback alt="Villas CUARTOS" src="img/habitaciones-suitemasterpalapa-1-mobile.jpg" width="292" height="240" layout="responsive" media="(max-width: 644px)"></amp-img>
-                    </amp-img>
-                    <p class="title" id="room9_title">Master <b><i>SUITE PALAPA</i></b></p>
-                    <div class="button" id="room9_Button" role="button"><a href="habitaciones-master-suite-palapa"><span>DESCUBRE MÁS</span></a></div>
-                  </div>
-                </div>
-              </div>
             </div>
       </section>
-      
-  </div>
+      <section class="habitacionescompararContainer">
+        <div class="container" id="compararContainer">
+          <div>
+            <h1><b>COMPARA</b><br>las Habitaciones</h1>
+            <div class="button" id="compararButton" role="button"><a href="habitaciones-comparar"><span>DESCUBRE MÁS</span></a></div>
+          </div>
+        </div>
+      </section>
+
+      </div>
   <?php include('footer.php')?>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/gsap.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/ScrollTrigger.min.js"></script>
-    <script type="text/javascript" src="script/habitaciones-comparar.js"></script>
+    <script type="text/javascript" src="script/habitaciones.js"></script>
 </body>
 </html>

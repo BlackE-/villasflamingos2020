@@ -8,8 +8,9 @@
 .habitaciones_cuartos_texto p{font-size: 20px;}
 .habitaciones_cuartos_texto span{text-transform: uppercase;}
 
-.Vista_carousel .container{display: grid;grid-template-columns: 2fr 1fr;grid-gap:50px;}
-@media (max-width: 40.06rem) {	.Vista_carousel .container{grid-template-columns: 1fr;grid-gap: 0;}}
+.Bungalow_Tipo_carousel .container{display: grid;grid-template-columns: 2fr 1fr;grid-gap:50px;}
+@media (max-width: 40.06rem) {	.Bungalow_Tipo_carousel .container{grid-template-columns: 1fr;grid-gap: 0;}}
+
 .carouselContainer{position: relative;opacity: 0;transform: translate(200px,0);}
 #carouselHabitaciones .i-amphtml-carousel-arrows .amp-carousel-button {background-image: none;background: none;}
 .carouselContainer .carouselButtonsContainer{position: absolute;top:0;right:10px;height:100%;    display: grid;align-items: center;}
@@ -153,7 +154,7 @@
 .habitacionescompararContainer .container .button a{text-transform: uppercase;color:#fff;font-size:16px;text-decoration:none;transition: all 0.3s ease-in;}
 .habitacionescompararContainer .container .button:before{content: '';position: absolute;top: 0;left: 0;width: 1px;height: 100%;background-color: #000;transform: scaleY(0);transform-origin: top left;transition: transform 1s;}
 .habitacionescompararContainer .container .button:after{content: '';position: absolute;bottom: 0;right: 0;width: 1px;height: 100%;background-color: #000;transform: scaleY(0);transform-origin: bottom right;transition: transform 1s;}
-.habitacionescompararContainer .container .button:hover{cursor: pointer;background: #fff;}
+.habitacionescompararContainer .container .button:hover{cursor: pointer;background: #FFF;}
 .habitacionescompararContainer .container .button:hover a{color:#000;}
 .habitacionescompararContainer .container .button:hover:before,
 .habitacionescompararContainer .container .button:hover:after{transform: scaleY(1);}

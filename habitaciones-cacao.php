@@ -10,8 +10,8 @@
   <div class="indexContainer">
       <section class="habitaciones_cuartos_texto">
         <div class="container" id="text1">
-          <h1>Bungalow <span><b>MANGLE</b></span></h1>
-          <p>En estos exclusivos búngalos de dos niveles <span><b><i>disfrutarás la brisa del mar y la vista al manglar.</i></b></span> Los Búngalo manglar son el reflejo del espíritu de Villas Flamingos. Cada uno de estos 2 búngalos están ubicados en planta alta. Cuenta con su <b><i>propio jacuzzi interior,</i></b> rodeado por hamacas tejidas a mano por pescadores locales, <b><i>una ducha al exterior ideal para disfrutar</i></b> de un buen baño mientras ves <b><i>las estrellas.</i></b></p>
+          <h1><span><b>CACAO</b></span></h1>
+          <p>Solamente hay una habitación de esta categoría por lo cual la hace muy codiciada, está ubicada en un segundo nivel. La terraza privada con vista al mar y regadera externa es una de las más grandes en toda la propiedad.</p>
         </div>
       </section>
 
@@ -21,51 +21,81 @@
             <amp-carousel id="carouselHabitaciones" type="slides" width="1080" height="720" layout="responsive" controls loop autoplay delay="5000" role="region" aria-label="Tipo Habitaciones">
               <div class="carouselDiv">
                   <div class="imgContainer">
-                    <amp-img class="desktop" src="img/habitaciones-bungalow-mangle-1.webp" width="1080" height="720" layout="responsive">
-                      <amp-img fallback src="img/habitaciones-bungalow-mangle-1.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                    <amp-img class="desktop" src="img/habitaciones-cacao-1.webp" width="1080" height="720" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-cacao-1.jpg" width="1080" height="720" layout="responsive"></amp-img>
                     </amp-img>
-                    <amp-img class="mobile" src="img/habitaciones-bungalow-mangle-1-mobile.webp" width="360" height="240" layout="responsive">
-                        <amp-img fallback src="img/habitaciones-bungalow-mangle-1-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
+                    <amp-img class="mobile" src="img/habitaciones-cacao-1-mobile.webp" width="360" height="240" layout="responsive">
+                        <amp-img fallback src="img/habitaciones-cacao-1-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
                       </amp-img>
                   </div>
               </div>
               <div class="carouselDiv">
                   <div class="imgContainer">
-                    <amp-img class="desktop" src="img/habitaciones-bungalow-mangle-2.webp" width="1080" height="720" layout="responsive">
-                      <amp-img fallback src="img/habitaciones-bungalow-mangle-2.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                    <amp-img class="desktop" src="img/habitaciones-cacao-2.webp" width="1080" height="720" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-cacao-2.jpg" width="1080" height="720" layout="responsive"></amp-img>
                     </amp-img>
-                    <amp-img class="mobile" src="img/habitaciones-bungalow-mangle-2-mobile.webp" width="360" height="240" layout="responsive">
-                      <amp-img fallback src="img/habitaciones-bungalow-mangle-2-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
-                    </amp-img>
-                  </div>
-              </div>
-              <div class="carouselDiv">
-                  <div class="imgContainer">
-                    <amp-img class="desktop" src="img/habitaciones-bungalow-mangle-3.webp" width="1080" height="720" layout="responsive">
-                      <amp-img fallback src="img/habitaciones-bungalow-mangle-3.jpg" width="1080" height="720" layout="responsive"></amp-img>
-                    </amp-img>
-                    <amp-img class="mobile" src="img/habitaciones-bungalow-mangle-3-mobile.webp" width="360" height="240" layout="responsive">
-                      <amp-img fallback src="img/habitaciones-bungalow-mangle-3-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
+                    <amp-img class="mobile" src="img/habitaciones-cacao-2-mobile.webp" width="360" height="240" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-cacao-2-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
                     </amp-img>
                   </div>
               </div>
               <div class="carouselDiv">
                   <div class="imgContainer">
-                    <amp-img class="desktop" src="img/habitaciones-bungalow-mangle-4.webp" width="1080" height="720" layout="responsive">
-                      <amp-img fallback src="img/habitaciones-bungalow-mangle-4.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                    <amp-img class="desktop" src="img/habitaciones-cacao-3.webp" width="1080" height="720" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-cacao-3.jpg" width="1080" height="720" layout="responsive"></amp-img>
                     </amp-img>
-                    <amp-img class="mobile" src="img/habitaciones-bungalow-mangle-4-mobile.webp" width="360" height="240" layout="responsive">
-                      <amp-img fallback src="img/habitaciones-bungalow-mangle-4-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
+                    <amp-img class="mobile" src="img/habitaciones-cacao-3-mobile.webp" width="360" height="240" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-cacao-3-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
                     </amp-img>
                   </div>
               </div>
               <div class="carouselDiv">
                   <div class="imgContainer">
-                    <amp-img class="desktop" src="img/habitaciones-bungalow-mangle-5.webp" width="1080" height="720" layout="responsive">
-                      <amp-img fallback src="img/habitaciones-bungalow-mangle-5.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                    <amp-img class="desktop" src="img/habitaciones-cacao-4.webp" width="1080" height="720" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-cacao-4.jpg" width="1080" height="720" layout="responsive"></amp-img>
                     </amp-img>
-                    <amp-img class="mobile" src="img/habitaciones-bungalow-mangle-5-mobile.webp" width="360" height="240" layout="responsive">
-                      <amp-img fallback src="img/habitaciones-bungalow-mangle-5-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
+                    <amp-img class="mobile" src="img/habitaciones-cacao-4-mobile.webp" width="360" height="240" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-cacao-4-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
+                    </amp-img>
+                  </div>
+              </div>
+              <div class="carouselDiv">
+                  <div class="imgContainer">
+                    <amp-img class="desktop" src="img/habitaciones-cacao-5.webp" width="1080" height="720" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-cacao-5.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                    </amp-img>
+                    <amp-img class="mobile" src="img/habitaciones-cacao-5-mobile.webp" width="360" height="240" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-cacao-5-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
+                    </amp-img>
+                  </div>
+              </div>
+              <div class="carouselDiv">
+                  <div class="imgContainer">
+                    <amp-img class="desktop" src="img/habitaciones-cacao-6.webp" width="1080" height="720" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-cacao-6.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                    </amp-img>
+                    <amp-img class="mobile" src="img/habitaciones-cacao-6-mobile.webp" width="360" height="240" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-cacao-6-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
+                    </amp-img>
+                  </div>
+              </div>
+              <div class="carouselDiv">
+                  <div class="imgContainer">
+                    <amp-img class="desktop" src="img/habitaciones-cacao-7.webp" width="1080" height="720" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-cacao-7.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                    </amp-img>
+                    <amp-img class="mobile" src="img/habitaciones-cacao-7-mobile.webp" width="360" height="240" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-cacao-7-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
+                    </amp-img>
+                  </div>
+              </div>
+              <div class="carouselDiv">
+                  <div class="imgContainer">
+                    <amp-img class="desktop" src="img/habitaciones-cacao-8.webp" width="1080" height="720" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-cacao-8.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                    </amp-img>
+                    <amp-img class="mobile" src="img/habitaciones-cacao-8-mobile.webp" width="360" height="240" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-cacao-8-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
                     </amp-img>
                   </div>
               </div>
@@ -158,14 +188,14 @@
               <div class="boxContainer" >
                 <div class="boxGrid" id="room5">
                   <div class="box">
-                    <amp-img class="desktop" id="room5_desktop" alt="Villas CUARTOS" src="img/habitaciones-cacao-1.webp"  width="1080" height="720"  layout="responsive" media="(min-width: 645px)">
-                      <amp-img fallback alt="Villas CUARTOS" src="img/habitaciones-cacao-1.jpg"  width="1080" height="720"  layout="responsive" media="(min-width: 645px)"></amp-img>
+                    <amp-img class="desktop" id="room5_desktop" alt="Villas CUARTOS" src="img/habitaciones-bungalow-mangle-1.webp"  width="1080" height="720"  layout="responsive" media="(min-width: 645px)">
+                      <amp-img fallback alt="Villas CUARTOS" src="img/habitaciones-bungalow-mangle-1.jpg"  width="1080" height="720"  layout="responsive" media="(min-width: 645px)"></amp-img>
                     </amp-img>
-                    <amp-img class="mobile" id="room5_mobile" alt="Villas CUARTOS" src="img/habitaciones-cacao-1-mobile.webp" width="360" height="240" layout="responsive" media="(max-width: 644px)">
-                      <amp-img fallback alt="Villas CUARTOS" src="img/habitaciones-cacao-1-mobile.jpg" width="292" height="240" layout="responsive" media="(max-width: 644px)"></amp-img>
+                    <amp-img class="mobile" id="room5_mobile" alt="Villas CUARTOS" src="img/habitaciones-bungalow-mangle-1-mobile.webp" width="360" height="240" layout="responsive" media="(max-width: 644px)">
+                      <amp-img fallback alt="Villas CUARTOS" src="img/habitaciones-bungalow-mangle-1-mobile.jpg" width="292" height="240" layout="responsive" media="(max-width: 644px)"></amp-img>
                     </amp-img>
-                    <p class="title" id="room5_title"><b><i>CACAO</i></b></p>
-                    <div class="button" id="room5_Button" role="button"><a href="habitaciones-cacao"><span>DESCUBRE MÁS</span></a></div>
+                    <p class="title" id="room5_title">Bungalow <b><i>MANGLE</i></b></p>
+                    <div class="button" id="room5_Button" role="button"><a href="habitaciones-bungalow-mangle"><span>DESCUBRE MÁS</span></a></div>
                   </div>
                 </div>
                 <div class="boxGrid" id="room6">

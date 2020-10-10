@@ -23,7 +23,7 @@
 	  		</div>
 	  		
 		    <div class="center"><a href="index"><amp-img layout="fixed" width="67" height="45" src="img/villasflamingos-logo-black.svg"></amp-img></amp-layout></a></div>
-		    <div class="buttonContainer"><div class="available habitaciones blackBorder" on="tap:bookingButton" role="button"><span>RESERVAR</span></div></div>
+		    <div class="buttonContainer"><div class="available habitaciones blackBorder" on="tap:reservar" role="button"><span>RESERVAR</span></div></div>
 	  	</div>
 	</header>
   	<amp-lightbox id="reservar" layout="nodisplay">
