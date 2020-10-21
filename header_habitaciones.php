@@ -45,7 +45,7 @@
 			<ul class="list-reset m0 p0 ampstart-label">
 		      <li><div class="ampstart-nav-item"><a class="ampstart-nav-link" on="tap:header-sidebar.close" href="index">Inicio</a></div></li>
 		    </ul>
-		    <details>
+		    <details class="firstOrder" title="close">
 		    	<summary>Habitaciones</summary>
 		    	<ul>
 		      		<li class="ampstart-nav-item"><a href="habitaciones-vista-jardin"><p>Vista Jardín</p><img src="img/h2.svg"/></a></li>
@@ -59,16 +59,16 @@
 		      		<li class="ampstart-nav-item"><a href="habitaciones-suite-luna-de-miel"><p>Suite Luna de Miel</p><img src="img/h2.svg"/></a></li>
 		      		<li class="ampstart-nav-item"><a href="habitaciones-bungalow-cielo"><p>Bungalow Cielo</p><img src="img/h2.svg"/></a></li>
 		      		<li class="ampstart-nav-item"><a href="habitaciones-master-suite"><p>Master Suite Palapa</p><img src="img/h2.svg"/></a></li>
-		      		<li class="ampstart-nav-item"><a href="habitaciones-comparar">Comparar</a></li>
+		      		<li class="ampstart-nav-item"><a href="habitaciones-comparar">Comparar habitaciones</a></li>
 		      	</ul>
 		    </details>
-		    <details>
+		    <details class="firstOrder" title="close">
 		    	<summary>Hotel</summary>
 		    	<ul>
 		    		<li class="ampstart-nav-item"><a href="hotel-restaurante">Restaurante El Mangle</a></li>
 		      		<li class="ampstart-nav-item"><a href="hotel-traslados">Traslados</a></li>
-		      		<li class="ampstart-nav-item">
-		      			<details>
+		      		<li >
+		      			<details class="secondOrder">
 					    	<summary>Experiencias</summary>
 					    	<ul>
 					    		<li class="ampstart-nav-item"><a href="experiencias-cenas-romanticas">Cenas Romanticas</a></li>
@@ -80,8 +80,8 @@
 					    	</ul>
 					    </details>
 		      		</li>
-		      		<li class="ampstart-nav-item">
-		      			<details>
+		      		<li >
+		      			<details class="secondOrder">
 					    	<summary>Eventos</summary>
 					    	<ul>
 					    		<li class="ampstart-nav-item"><a href="eventos-bodas-cumple">Bodas / Cumpleaños</a></li>
@@ -95,7 +95,7 @@
 		    <ul>
 		      <li class="ampstart-nav-item"><a class="ampstart-nav-link" on="tap:header-sidebar.close" href="galeria">Galería</a></li>
 			</ul>
-		    <details>
+		    <details class="firstOrder" title="close">
 		    	<summary>Holbox</summary>
 		    	<ul>
 		    		<li class="ampstart-nav-item"><a href="holbox-ubicacion">Ubicación</a></li>

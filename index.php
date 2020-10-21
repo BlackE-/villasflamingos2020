@@ -40,7 +40,7 @@
       </div>
       <div class="dataContainer">
         <h3>Vista <b>Jardín</b></h3>
-        <p>Envueltas en vegetación y tranquilidad nuestras habitaciones <b><i>Vista Jardín</i></b> ofrecen los mejores precios de nuestro hotel. <b><i>Un lugar perfecto</i></b> para tus vacaciones en Holbox.</p>
+        <p>Ubicadas en nuestro jardín tropical lleno de paz, nuestra habitación <b><i>Vista Jardín</i></b> ofrece el mejor precio del hotel.</p>
         <div class="reservaHabitaciones" on="tap:reservar" role="button"><span>RESERVAR ahora</span></div>
       </div>
   </div>
@@ -55,7 +55,7 @@
       </div>
       <div class="dataContainer">
         <h3>Vista <b>Mar</b></h3>
-        <p>Dotadas de terrazas, nuestras habitaciones <b>Vista Mar</b> de nuestras más habitaciones más populares ofrecen los mejores precios de nuestro hotel. <b><i>Un lugar perfecto</i></b> para tus vacaciones en Holbox.</p>
+        <p>Dotadas de terrazas con una vista al maravilloso mar que te ofrece Holbox, <b><i>Vista Mar</i></b>, por su atractivo precio hace de esta habitación una de las populares, pues su vista al mar, cama king y la ubicación en planta baja o segundo nivel, ofrecen una experiencia inolvidable. </p>
         <div class="reservaHabitaciones" on="tap:reservar" role="button"><span>RESERVAR ahora</span></div>
       </div>
   </div>
@@ -70,7 +70,7 @@
       </div>
       <div class="dataContainer">
         <h3>Bungalow <b>Jardín</b></h3>
-        <p>Rodeados de un jardín tropical <b>Bungalow Jardín</b> cuenta con <i>piscina interior</i> con agua caliente. <b><i>Un lugar perfecto</i></b> para tus vacaciones en Holbox.</p>
+        <p>Rodeados de un jardín tropical lleno de paz, cada una de estos dos <b><i>búngalos jardín</i></b> ubicados en planta baja y cuentan con su propia piscina interior con agua tibia, 2 camas queen, una ducha al exterior rodeada de naturaleza y una terraza perfecta para disfrutar de un buen libro. Ideales para familias.</p>
         <div class="reservaHabitaciones" on="tap:reservar" role="button"><span>RESERVAR ahora</span></div>
       </div>
   </div>
@@ -85,7 +85,7 @@
       </div>
       <div class="dataContainer">
         <h3>Bungalow <b>Arena</b></h3>
-        <p>El lugar perfecto para los amantes del mar, <b>Bungalow Arena</b>, ya que a tan sólo unos pasos, podrás sumergir tus pies en él. <b><i>Un lugar perfecto</i></b> para tus vacaciones en Holbox.</p>
+        <p>Estos exclusivos búngalos son el lugar perfecto para los amantes del mar ya que a tan solo unos pasos, podrás sumergir tus pies en él. <b><i>Bungalow Arena</i></b> cada una de estos 4 búngalos están ubicados en planta baja. Cuenta con su propia piscina interior con agua tibia, 2 camas queen, una ducha al exterior rodeada de naturaleza y una terraza perfecta para ver los atardeceres. Ideales para familias.</p>
         <div class="reservaHabitaciones" on="tap:reservar" role="button"><span>RESERVAR ahora</span></div>
       </div>
   </div>
@@ -100,7 +100,7 @@
       </div>
       <div class="dataContainer">
         <h3>Bungalow <b>Mangle</b></h3>
-        <p>Exclusivos bungalows de dos niveles, <b>Bungalow mangle</b>, podras disfrutar la brisa del mar y la vista al manglar. <b><i>Un lugar perfecto</i></b> para tus vacaciones en Holbox.</p>
+        <p>En estos exclusivos búngalos de dos niveles disfrutarás la brisa del mar y la vista al manglar. Los <b><i>Búngalo mangle</i></b> son el reflejo del espíritu de Villas Flamingos. Cada uno de estos 2 búngalos están ubicados en planta alta. Cuenta con su propio jacuzzi interior, rodeado por hamacas tejidas a mano por pescadores locales una ducha al exterior ideal para disfrutar de un buen baño mientras ves las estrellas.</p>
         <div class="reservaHabitaciones" on="tap:reservar" role="button"><span>RESERVAR ahora</span></div>
       </div>
   </div>
@@ -115,7 +115,7 @@
       </div>
       <div class="dataContainer">
         <h3><b>Cacao</b></h3>
-        <p>Solamente hay una habitación de esta categoría por lo cual la hace muy codiciada <b>Cacao</b> está ubicada en un segundo nivel. <b><i>Un lugar perfecto</i></b> para tus vacaciones en Holbox.</p>
+        <p>Solamente hay una habitación de esta categoría por lo cual la hace muy codiciada, <b><i>Cacao</i></b> está ubicada en un segundo nivel. La terraza privada con vista al mar y regadera externa es una de las más grandes en toda la propiedad. Cuenta con una cama King sizes y en el segundo nivel de la habitación encontraras un jacuzzi para 2 personas. Cuenta con aire acondicionado, frigobar, caja de seguridad, mesa de apoyo y sillas, closet, lámpara de lectura, soporte para maletas.</p>
         <div class="reservaHabitaciones" on="tap:reservar" role="button"><span>RESERVAR ahora</span></div>
       </div>
   </div>
@@ -130,7 +130,7 @@
       </div>
       <div class="dataContainer">
         <h3><b>Coco</b></h3>
-        <p>Solo hay una en su categoría, <b>Coco</b> su ubicación es privilegiada en planta baja y a escasos pasos de la orilla del mar. <b><i>Un lugar perfecto</i></b> para tus vacaciones en Holbox.</p>
+        <p>Solo hay una en su categoría, <b><i>Coco</i></b> la ubicación de esta habitación es privilegiada en planta baja y a escasos pasos de la orilla del mar. Se destaca por su alberca interior con un gran ventanal panorámico con vistas al mar. Además cuenta con  una regadera exterior, terraza privada con sillas y mesita,  aire acondicionado, frigobar, caja de seguridad, mesa de apoyo y sillas, closet, lámpara de lectura y soporte para maletas. Ubicada en la planta baja con cama King sizes.</p>
         <div class="reservaHabitaciones" on="tap:reservar" role="button"><span>RESERVAR ahora</span></div>
       </div>
   </div>
@@ -145,7 +145,7 @@
       </div>
       <div class="dataContainer">
         <h3><b>Miel</b></h3>
-        <p>Esta es la única habitación en donde podrás observar el amanecer y el atardecer desde tu jacuzzi localizado convenientemente al interior de la habitación para mayor privacidad. <b>Miel</b>. <b><i>Un lugar perfecto</i></b> para tus vacaciones en Holbox.</p>
+        <p>Esta es la única habitación en donde podrás observar el amanecer y el atardecer desde tu jacuzzi localizado convenientemente al interior de la habitación para mayor privacidad. <b><i>Miel</i></b> ubicada en segundo piso con cama King además con una terraza con vista al mar, regadera exterior y una segunda terraza con vista al manglar, aire acondicionado, frigobar, caja de seguridad, mesa de apoyo, sillas, closet, lámpara de lectura y soporte para maletas</p>
         <div class="reservaHabitaciones" on="tap:reservar" role="button"><span>RESERVAR ahora</span></div>
       </div>
   </div>
@@ -160,7 +160,7 @@
       </div>
       <div class="dataContainer">
         <h3>Suite Luna <b>de Miel</b></h3>
-        <p>Esta es la única habitación están especialmente diseñadas para celebrar con tu persona especial. <b>Suite Luna de Miel</b>. <b><i>Un lugar perfecto</i></b> para tus vacaciones en Holbox.</p>
+        <p>Podrás disfrutar al máximo con tu pareja en nuestras <b><i>Suite Luna de Miel</i></b>, las cuales están especialmente diseñadas para celebrar con tu persona especial, convenientemente esta ubicadas en planta alta para mayor privacidad, cuentan con vista al mar y jacuzzi interior donde podrás pasar horas relajándote mientras escuchas el sonido del mar y de las aves de Holbox.</p>
         <div class="reservaHabitaciones" on="tap:reservar" role="button"><span>RESERVAR ahora</span></div>
       </div>
   </div>
@@ -175,7 +175,7 @@
       </div>
       <div class="dataContainer">
         <h3>Bungalow <b>Cielo</b></h3>
-        <p><b>Bungalow Cielo</b> es el reflejo del espíritu de Villas Flamingos, te garantizamos la mejor vista al mar de todo Holbox. <b><i>Un lugar perfecto</i></b> para tus vacaciones en Holbox.</p>
+        <p>En estos exclusivos búngalos de dos niveles te garantizamos la mejor vista al mar de todo Holbox. Los <b><i>búngalos Cielo</i></b> son el reflejo del espíritu de Villas Flamingos. Son 4 y están ubicados en planta alta, ideales para recibir la brisa del mar. Cuenta con su propio jacuzzi interior, rodeado por hamacas tejidas a mano por pescadores locales, una ducha al exterior ideal para disfrutar de un buen baño mientras ves las estrellas.</p>
         <div class="reservaHabitaciones" on="tap:reservar" role="button"><span>RESERVAR ahora</span></div>
       </div>
   </div>
@@ -190,7 +190,7 @@
       </div>
       <div class="dataContainer">
         <h3>Suite Master <b>Palapa</b></h3>
-        <p>Si quieres realmente sorprender a tu pareja entonces la <b>Master Suite Palapa</b> es tu elección<b><i>Un lugar perfecto</i></b> para tus vacaciones en Holbox.</p>
+        <p>Si quieres realmente sorprender a tu pareja entonces la <b><i>Master Suite Palapa</i></b> es tu elección. Ubicada en un tercer nivel lo cual permite tener mayor privacidad. Con sus dos terrazas observaras el mar y el manglar también. Cuenta con jacuzzi y regadera al aire libre. Su atractivo diseño arquitectónico y la amplitud de la suite son únicos en todo Holbox.  Cuenta con cama King sizes, aire acondicionado, frigobar, caja de seguridad, mesa de apoyo y sillas, closet, lámpara de lectura, soporte para maletas.</p>
         <div class="reservaHabitaciones" on="tap:reservar" role="button"><span>RESERVAR ahora</span></div>
       </div>
   </div>
@@ -361,8 +361,6 @@
       </section>
   </div>
   <?php include('footer.php')?>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/gsap.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/ScrollTrigger.min.js"></script>
     <script type="text/javascript" src="script/index.js"></script>
 </body>
 </html>

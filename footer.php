@@ -37,5 +37,7 @@
 		<p class="footerText">VILLAS FLAMINGOS <span><?php echo date("Y")?></span> <a href="" target="_blank">Aviso de privacidad</a></p>
 	</div>
 </footer>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/gsap.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/ScrollTrigger.min.js"></script>
 <script type="text/javascript" src="script/header.js"></script>
 <!-- <script type="text/javascript" src="https://js.mirai.com/mirai-loader/mirai.loader.js"></script> -->

@@ -62,19 +62,18 @@ body { margin: 0;font-family: 'Cormorant Upright', serif;}
   100% { opacity: 0;transform: translateY(1000px);}
 }
 
-header{position:fixed;top:0px;width: 100%;z-index: 10;padding: 10px 0;background: linear-gradient(180deg, #000, transparent);}
+header{position:fixed;top:0px;width: 100%;z-index: 10;padding: 10px 0;background: linear-gradient(180deg, rgba(0,0,0,1) 0%, transparent 100%);}
 header .ampstart-headerbar {width:90%;max-width:1080px;color: #fff;background-color: transparent;border:0;outline:none;display: grid; grid-template-columns: repeat(3,1fr);}
 header .center{width:100%;text-align: center;max-width: 100px;margin:0 auto;}
 
 header .ampstart-headerbar .leftContainer{display: grid;grid-template-columns: 1fr 30px 40px;grid-gap:40px;align-items: center;}
 header .ampstart-headerbar .leftContainer svg{width: 100%;}
 header .ampstart-headerbar .ampstart-navbar-trigger{font-size: 30px;} /*HAMBURGUER ICON*/
-header .ampstart-headerbar .ampstart-navbar-trigger:focus{outline: none;} /*HAMBURGUER ICON*/
+header .ampstart-headerbar .ampstart-navbar-trigger:focus{outline: none;cursor: pointer;} /*HAMBURGUER ICON*/
+header .ampstart-headerbar .ampstart-navbar-trigger:hover{outline: none;cursor: pointer;} /*HAMBURGUER ICON*/
 @media (max-width: 40.06rem) {
-  header .ampstart-headerbar {grid-template-rows: auto 1fr;grid-gap: 10%;}
-  header .ampstart-headerbar .leftContainer{grid-gap: 10px;grid-column-start: 1;grid-column-end: 3;}
-  header .ampstart-headerbar .center{grid-row-start: 2;grid-row-end: 3;grid-column-start: 2;grid-column-end: 3;}
-  header .ampstart-headerbar .buttonContainer{grid-column-start: 3;grid-column-end: 4;}
+  header .ampstart-headerbar {grid-gap:10px;}
+  header .ampstart-headerbar .leftContainer{grid-gap: 5px;grid-template-columns: 1fr 20px 30px;}
 }
 
 
@@ -106,10 +105,17 @@ header .available:hover span:after,.available:hover span:before{transform: scale
 .ampstart-sidebar .ampstart-navbar-trigger:focus{outline: none;} /*ICON CLOSE*/
 .ampstart-sidebar .ampstart-sidebar-nav{width:80%;margin:0 auto;}
 .ampstart-sidebar .ampstart-sidebar-nav details{list-style: none;color:#fff;}
-.ampstart-sidebar .ampstart-sidebar-nav summary{outline: none;padding:10px;background-image:url('../img/close.svg');background-repeat: no-repeat; background-position: 98% 50%;background-size: 30px;}
-.ampstart-sidebar .ampstart-sidebar-nav details[open] summary{background-image:url('../img/open.svg');}
+.ampstart-sidebar .ampstart-sidebar-nav details ::marker {color: transparent;font-size: 0;}
 .ampstart-sidebar .ampstart-sidebar-nav details > summary::-webkit-details-marker { display: none;}
+
+
+.ampstart-sidebar .ampstart-sidebar-nav .firstOrder summary{outline: none;padding:10px;background-image:url('../img/close.svg');background-repeat: no-repeat; background-position: 98% 50%;background-size: 30px;}
+.ampstart-sidebar .ampstart-sidebar-nav .firstOrder[open] summary{background-image:url('../img/open.svg');}
 .ampstart-sidebar .ampstart-sidebar-nav ul{list-style: none;width:100%;padding: 0;}
+.ampstart-sidebar .ampstart-sidebar-nav .firstOrder ul .secondOrder summary{background-image:url('../img/close.svg');}
+.ampstart-sidebar .ampstart-sidebar-nav .firstOrder ul .secondOrder[open] summary{background-image:url('../img/open.svg');}
+
+
 .ampstart-sidebar .ampstart-sidebar-nav ul li p{color:#fff;}
 .ampstart-sidebar .ampstart-nav-item{margin: 0;position: relative;}
 .ampstart-sidebar .ampstart-nav-item:before{content: '';position: absolute;top: 0;left: 0;width: 1px;height: 100%;background-color: #fff;transform: scaleY(0);transform-origin: top left;transition: transform 0.3s;}
@@ -124,6 +130,9 @@ header .available:hover span:after,.available:hover span:before{transform: scale
 
 .ampstart-sidebar .ampstart-sidebar-nav ul li ul{width:100%;}
 @media (max-width: 40.06rem) {.ampstart-sidebar .ampstart-sidebar-nav ul li ul{width:auto;}}
+
+
+
 .ampstart-sidebar .ampstart-sidebar-nav ul li ul .ampstart-subnav-link{margin: 0;position: relative;padding: 5px 0;}
 .ampstart-sidebar .ampstart-sidebar-nav ul li ul .ampstart-subnav-link:before{content: '';position: absolute;top: 0;left: 0;width: 1px;height: 100%;background-color: #fff;transform: scaleY(0);transform-origin: top left;transition: transform 0.3s;}
 .ampstart-sidebar .ampstart-sidebar-nav ul li ul .ampstart-subnav-link:after{content: '';position: absolute;bottom: 0;right: 0;width: 1px;height: 100%;background-color: #fff;transform: scaleY(0);transform-origin: bottom right;transition: transform 0.3s;}

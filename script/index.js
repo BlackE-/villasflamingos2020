@@ -42,7 +42,8 @@
         }, 250);
     });
 
-    gsap.registerPlugin(ScrollTrigger);
+    //declare in header
+    // gsap.registerPlugin(ScrollTrigger);
     // ScrollTrigger.matchMedia({
     //     //mobile 640
     //     "(max-width: 40.06rem)":function(){
@@ -54,14 +55,9 @@
     //         console.log('desktop');
     //     }
     // });
-    gsap.to('#text1', {
-      scrollTrigger:{
-        trigger: ".textContainer"
-      },
-      opacity:1,
-      x:0,
-      duration:1.5
-    });
+    
+
+    gsap.to('#text1', {scrollTrigger:{trigger: ".textContainerSection"},opacity:1,x:0,duration:1.5});
     gsap.to('.habitacionesSection h2', {scrollTrigger: ".habitacionesSection",opacity:1,x:0,duration:1.5});
     gsap.to('#carouselHabitaciones', {scrollTrigger: ".habitacionesSection",opacity:1,y:0,duration:1.5});
     
