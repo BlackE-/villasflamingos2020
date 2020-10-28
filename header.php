@@ -63,7 +63,7 @@
 		      		<li class="ampstart-nav-item"><a href="habitaciones-miel"><p>Miel</p><img src="img/h2.svg"/></a></li>
 		      		<li class="ampstart-nav-item"><a href="habitaciones-suite-luna-de-miel"><p>Suite Luna de Miel</p><img src="img/h2.svg"/></a></li>
 		      		<li class="ampstart-nav-item"><a href="habitaciones-bungalow-cielo"><p>Bungalow Cielo</p><img src="img/h2.svg"/></a></li>
-		      		<li class="ampstart-nav-item"><a href="habitaciones-master-suite"><p>Master Suite Palapa</p><img src="img/h2.svg"/></a></li>
+		      		<li class="ampstart-nav-item"><a href="habitaciones-master-suite-palapa"><p>Master Suite Palapa</p><img src="img/h2.svg"/></a></li>
 		      		<li class="ampstart-nav-item"><a href="habitaciones-comparar">Comparar habitaciones</a></li>
 		      	</ul>
 		    </details>

@@ -2,7 +2,7 @@
     window.addEventListener('load', (event) => {loading.classList.add('fadeout');});
     gsap.registerPlugin(ScrollTrigger);
     gsap.to('#text1', {scrollTrigger: ".habitaciones_cuartos_texto",opacity:1,x:0,duration:1.5}); 
-    gsap.to('.carouselContainer', {scrollTrigger: ".Vista_carousel",opacity:1,x:0,duration:1.5}); 
+    gsap.to('.carouselContainer', {scrollTrigger: ".habitaciones_cuartos_texto",opacity:1,x:0,duration:1.5}); 
     let tlCarouselText = gsap.timeline({scrollTrigger: {trigger: ".carousel_text"}});
     tlCarouselText.to('.carousel_text h2',{opacity:1,x:0,duration:0.5});
     tlCarouselText.to('.carousel_text .amenidades',{opacity:1,x:0,duration:0.5},"-=0.2"); 

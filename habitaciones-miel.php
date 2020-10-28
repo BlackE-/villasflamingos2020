@@ -11,7 +11,7 @@
       <section class="habitaciones_cuartos_texto">
         <div class="container" id="text1">
           <h1><span><b>MIEL</b></span></h1>
-          <p>Esta es la única habitación en donde podrás observar el amanecer y el atardecer desde tu jacuzzi localizado convenientemente al interior de la habitación para mayor privacidad. Ubicada en segundo piso con cama King además con una terraza con vista al mar, regadera exterior y una segunda terraza con vista al manglar, aire acondicionado, frigobar, caja de seguridad, mesa de apoyo, sillas, closet, lámpara de lectura y soporte para maletas</p>
+          <p>Esta es la <b><i>única habitación</i></b> en donde podrás observar el amanecer y el atardecer desde tu <b><i>jacuzzi</i></b> localizado convenientemente al interior de la habitación para mayor privacidad. Ubicada en segundo piso con cama King además con una terraza con vista al mar, regadera exterior y una segunda terraza con vista al manglar, aire acondicionado, frigobar, caja de seguridad, mesa de apoyo, sillas, closet, lámpara de lectura y soporte para maletas</p>
         </div>
       </section>
 
@@ -101,8 +101,8 @@
               </div>
               <div class="carouselDiv">
                   <div class="imgContainer">
-                    <amp-img class="desktop" src="img/habitaciones-miel-9.webp" width="1080" height="720" layout="responsive">
-                      <amp-img fallback src="img/habitaciones-miel-9.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                    <amp-img class="desktop" src="img/habitaciones-miel-9-carousel.webp" width="1080" height="720" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-miel-9-carousel.jpg" width="1080" height="720" layout="responsive"></amp-img>
                     </amp-img>
                     <amp-img class="mobile" src="img/habitaciones-miel-9-mobile.webp" width="360" height="240" layout="responsive">
                       <amp-img fallback src="img/habitaciones-miel-9-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
@@ -111,8 +111,8 @@
               </div>
               <div class="carouselDiv">
                   <div class="imgContainer">
-                    <amp-img class="desktop" src="img/habitaciones-miel-10.webp" width="1080" height="720" layout="responsive">
-                      <amp-img fallback src="img/habitaciones-miel-10.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                    <amp-img class="desktop" src="img/habitaciones-miel-10-carousel.webp" width="1080" height="720" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-miel-10-carousel.jpg" width="1080" height="720" layout="responsive"></amp-img>
                     </amp-img>
                     <amp-img class="mobile" src="img/habitaciones-miel-10-mobile.webp" width="360" height="240" layout="responsive">
                       <amp-img fallback src="img/habitaciones-miel-10-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
@@ -121,8 +121,8 @@
               </div>
               <div class="carouselDiv">
                   <div class="imgContainer">
-                    <amp-img class="desktop" src="img/habitaciones-miel-11.webp" width="1080" height="720" layout="responsive">
-                      <amp-img fallback src="img/habitaciones-miel-11.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                    <amp-img class="desktop" src="img/habitaciones-miel-11-carousel.webp" width="1080" height="720" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-miel-11-carousel.jpg" width="1080" height="720" layout="responsive"></amp-img>
                     </amp-img>
                     <amp-img class="mobile" src="img/habitaciones-miel-11-mobile.webp" width="360" height="240" layout="responsive">
                       <amp-img fallback src="img/habitaciones-miel-11-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
@@ -136,7 +136,7 @@
             <ul class="amenidades">
               <li><p>Superficie Interior: 62m²</p></li>
               <li><p>Superficie Exterior: 19m²</p></li>
-              <li><p>Vista parcial al mar</p></li>
+              <li><p>Vista al mar</p></li>
               <li><p>Distancia al mar: 50m</p></li>
               <li><p>1 cama King Size</p></li>
               <li><p>Regadera exterior</p></li>

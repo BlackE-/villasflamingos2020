@@ -11,7 +11,7 @@
       <section class="habitaciones_cuartos_texto">
         <div class="container" id="text1">
           <h1>Suite <span><b>LUNA DE MIEL</b></span></h1>
-          <p>Podrás <span><b><i>disfrutar al máximo</i></b></span> con tu pareja en nuestras Suite Luna de Miel, las cuales están especialmente diseñadas <b><i>para celebrar con tu persona especial,</i></b> esta ubicadas en planta alta para mayor privacidad, cuentan <b><i><span>con vista al mar</span> y jacuzzi interior</i></b> donde podrás pasar horas relajándote mientras escuchas el sonido del mar y de las aves de Holbox.</p>
+          <p>Podrás <span><b><i>disfrutar al máximo</i></b></span> con tu pareja en nuestras Suite Luna de Miel, las cuales están especialmente diseñadas <b><i>para celebrar con tu persona especial,</i></b> convenientemente esta ubicadas en planta alta para mayor privacidad, cuentan <b><i><span>con vista al mar</span> y jacuzzi interior</i></b> donde podrás pasar horas relajándote mientras escuchas el sonido del mar y de las aves de Holbox.</p>
         </div>
       </section>
 
@@ -101,8 +101,8 @@
               </div>
               <div class="carouselDiv">
                   <div class="imgContainer">
-                    <amp-img class="desktop" src="img/habitaciones-suitelunademiel-9.webp" width="1080" height="720" layout="responsive">
-                      <amp-img fallback src="img/habitaciones-suitelunademiel-9.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                    <amp-img class="desktop" src="img/habitaciones-suitelunademiel-9-carousel.webp" width="1080" height="720" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-suitelunademiel-9-carousel.jpg" width="1080" height="720" layout="responsive"></amp-img>
                     </amp-img>
                     <amp-img class="mobile" src="img/habitaciones-suitelunademiel-9-mobile.webp" width="360" height="240" layout="responsive">
                       <amp-img fallback src="img/habitaciones-suitelunademiel-9-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
@@ -111,8 +111,8 @@
               </div>
               <div class="carouselDiv">
                   <div class="imgContainer">
-                    <amp-img class="desktop" src="img/habitaciones-suitelunademiel-10.webp" width="1080" height="720" layout="responsive">
-                      <amp-img fallback src="img/habitaciones-suitelunademiel-10.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                    <amp-img class="desktop" src="img/habitaciones-suitelunademiel-10-carousel.webp" width="1080" height="720" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-suitelunademiel-10-carousel.jpg" width="1080" height="720" layout="responsive"></amp-img>
                     </amp-img>
                     <amp-img class="mobile" src="img/habitaciones-suitelunademiel-10-mobile.webp" width="360" height="240" layout="responsive">
                       <amp-img fallback src="img/habitaciones-suitelunademiel-10-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>

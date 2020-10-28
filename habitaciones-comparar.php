@@ -53,7 +53,8 @@
 
       <section class="reservar_section">
         <div class="container">
-          <p><b>Todos nuestras habitaciones:</b><br>Incluyen desayuno bufete.</p>
+          <div class="noIncluyeContainer"><div class="hrContaner"><hr></div><p>No incluye</p></div>
+          <!-- <p><b>Todos nuestras habitaciones:</b><br>Incluyen desayuno bufete.</p> -->
         </div>
       </section>
       <div class="container"><hr></div>
@@ -200,8 +201,8 @@
                     <amp-img class="mobile" id="room11_mobile" alt="Villas CUARTOS" src="img/habitaciones-suitemasterpalapa-1-mobile.webp" width="360" height="240" layout="responsive" media="(max-width: 644px)">
                       <amp-img fallback alt="Villas CUARTOS" src="img/habitaciones-suitemasterpalapa-1-mobile.jpg" width="292" height="240" layout="responsive" media="(max-width: 644px)"></amp-img>
                     </amp-img>
-                    <p class="title" id="room9_title">Master <b><i>SUITE PALAPA</i></b></p>
-                    <div class="button" id="room9_Button" role="button"><a href="habitaciones-master-suite-palapa"><span>DESCUBRE MÁS</span></a></div>
+                    <p class="title" id="room11_title">Master <b><i>SUITE PALAPA</i></b></p>
+                    <div class="button" id="room11_Button" role="button"><a href="habitaciones-master-suite-palapa"><span>DESCUBRE MÁS</span></a></div>
                   </div>
                 </div>
               </div>

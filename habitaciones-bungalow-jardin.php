@@ -11,7 +11,7 @@
       <section class="habitaciones_cuartos_texto">
         <div class="container" id="text1">
           <h1>Bungalow <span><b>JARDÍN</b></span></h1>
-          <p><B><I>Rodeados de un jardín tropical</I></B> lleno de paz, ubicados en planta baja. Cuenta con su propia piscina interior con agua caliente, una ducha al exterior rodeada de naturaleza y <span><b><i>una terraza perfecta</i></b></span> para disfrutar de un buen libro.</p>
+          <p><B><I>Rodeados de un jardín tropical</I></B> lleno de paz, ubicados en planta baja. Rodeados de un jardín tropical lleno de paz, cada una de estos dos búngalos ubicados en planta baja y cuentan con su propia <b><i>piscina interior</i></b> con agua tibia, 2 camas queen, una ducha al exterior rodeada de naturaleza y una terraza perfecta para disfrutar de un buen libro. Ideales para familias.</p>
         </div>
       </section>
 
@@ -91,11 +91,31 @@
               </div>
               <div class="carouselDiv">
                   <div class="imgContainer">
-                    <amp-img class="desktop" src="img/habitaciones-bungalow-jardin-8.webp" width="1080" height="720" layout="responsive">
-                      <amp-img fallback src="img/habitaciones-bungalow-jardin-8.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                    <amp-img class="desktop" src="img/habitaciones-bungalow-jardin-8-carousel.webp" width="1080" height="720" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-bungalow-jardin-8-carousel.jpg" width="1080" height="720" layout="responsive"></amp-img>
                     </amp-img>
                     <amp-img class="mobile" src="img/habitaciones-bungalow-jardin-8-mobile.webp" width="360" height="240" layout="responsive">
                       <amp-img fallback src="img/habitaciones-bungalow-jardin-8-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
+                    </amp-img>
+                  </div>
+              </div>
+              <div class="carouselDiv">
+                  <div class="imgContainer">
+                    <amp-img class="desktop" src="img/habitaciones-bungalow-jardin-9-carousel.webp" width="1080" height="720" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-bungalow-jardin-9-carousel.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                    </amp-img>
+                    <amp-img class="mobile" src="img/habitaciones-bungalow-jardin-9-mobile.webp" width="360" height="240" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-bungalow-jardin-9-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
+                    </amp-img>
+                  </div>
+              </div>
+              <div class="carouselDiv">
+                  <div class="imgContainer">
+                    <amp-img class="desktop" src="img/habitaciones-bungalow-jardin-10-carousel.webp" width="1080" height="720" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-bungalow-jardin-10-carousel.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                    </amp-img>
+                    <amp-img class="mobile" src="img/habitaciones-bungalow-jardin-10-mobile.webp" width="360" height="240" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-bungalow-jardin-10-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
                     </amp-img>
                   </div>
               </div>

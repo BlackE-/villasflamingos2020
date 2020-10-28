@@ -39,6 +39,36 @@
                     </amp-img>
                   </div>
               </div>
+              <div class="carouselDiv">
+                  <div class="imgContainer">
+                    <amp-img class="desktop" src="img/habitaciones-vista-jardin-3.webp" width="1080" height="720" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-vista-jardin-3.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                    </amp-img>
+                    <amp-img class="mobile" src="img/habitaciones-vista-jardin-3-mobile.webp" width="360" height="240" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-vista-jardin-3-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
+                    </amp-img>
+                  </div>
+              </div>
+              <div class="carouselDiv">
+                  <div class="imgContainer">
+                    <amp-img class="desktop" src="img/habitaciones-vista-jardin-4.webp" width="1080" height="720" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-vista-jardin-4.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                    </amp-img>
+                    <amp-img class="mobile" src="img/habitaciones-vista-jardin-4-mobile.webp" width="360" height="240" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-vista-jardin-4-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
+                    </amp-img>
+                  </div>
+              </div>
+              <div class="carouselDiv">
+                  <div class="imgContainer">
+                    <amp-img class="desktop" src="img/habitaciones-vista-jardin-5.webp" width="1080" height="720" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-vista-jardin-5.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                    </amp-img>
+                    <amp-img class="mobile" src="img/habitaciones-vista-jardin-5-mobile.webp" width="360" height="240" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-vista-jardin-5-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
+                    </amp-img>
+                  </div>
+              </div>
             </amp-carousel>
           </div>
           <div class="carousel_text">
@@ -48,7 +78,7 @@
               <li><p>Superficie Exterior: 11m²</p></li>
               <li><p>Vista parcial al mar</p></li>
               <li><p>Distancia al mar: 20m</p></li>
-              <li><p>2 camas Queen Size o 1 cama King Size</p></li>
+              <li><p>1 cama King Size</p></li>
               <li><p>Terraza privada</p></li>
               <li><p>Aire acondicionado</p></li>
               <li><p>Caja fuerte</p></li>

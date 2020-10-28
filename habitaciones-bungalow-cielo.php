@@ -71,8 +71,8 @@
               </div>
               <div class="carouselDiv">
                   <div class="imgContainer">
-                    <amp-img class="desktop" src="img/habitaciones-bungalow-cielo-6.webp" width="1080" height="720" layout="responsive">
-                      <amp-img fallback src="img/habitaciones-bungalow-cielo-6.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                    <amp-img class="desktop" src="img/habitaciones-bungalow-cielo-6-carousel.webp" width="1080" height="720" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-bungalow-cielo-6-carousel.jpg" width="1080" height="720" layout="responsive"></amp-img>
                     </amp-img>
                     <amp-img class="mobile" src="img/habitaciones-bungalow-cielo-6-mobile.webp" width="360" height="240" layout="responsive">
                       <amp-img fallback src="img/habitaciones-bungalow-cielo-6-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
@@ -81,8 +81,8 @@
               </div>
               <div class="carouselDiv">
                   <div class="imgContainer">
-                    <amp-img class="desktop" src="img/habitaciones-bungalow-cielo-7.webp" width="1080" height="720" layout="responsive">
-                      <amp-img fallback src="img/habitaciones-bungalow-cielo-7.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                    <amp-img class="desktop" src="img/habitaciones-bungalow-cielo-7-carousel.webp" width="1080" height="720" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-bungalow-cielo-7-carousel.jpg" width="1080" height="720" layout="responsive"></amp-img>
                     </amp-img>
                     <amp-img class="mobile" src="img/habitaciones-bungalow-cielo-7-mobile.webp" width="360" height="240" layout="responsive">
                       <amp-img fallback src="img/habitaciones-bungalow-cielo-7-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>

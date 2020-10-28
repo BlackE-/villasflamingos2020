@@ -17,7 +17,7 @@
 .habitacion_container{display: grid;grid-gap:25px; grid-template-rows: 50px 1fr;overflow: hidden;}
 .habitacion_left{grid-template-columns:2fr 1fr;}
 .habitacion_right{grid-template-columns:1fr 2fr;}
-.habitacion_container .habitacion_select{grid-column-start: 1;grid-column-end: 3;border:0;font-family: 'Cormorant Upright', serif;outline: none;font-size: 24px;}
+.habitacion_container .habitacion_select{grid-column-start: 1;grid-column-end: 3;font-family: 'Cormorant Upright', serif;outline: none;font-size: 24px;}
 @media (max-width: 40.06rem) {
 	.habitacion_container{grid-template-rows: 50px 15vh auto;}
 	.habitacion_container .habitacion_select{grid-column-end: 2;font-size: 16px;}
@@ -27,6 +27,7 @@
 }
 
 
+/*.habitacion_img{width:100%;position: relative;transition: all 300ms ease-in;opacity: 0;display: grid;grid-gap:10px;grid-template-rows: repeat(auto-fill, 200px);}*/
 .habitacion_img{width:100%;position: relative;transition: all 300ms ease-in;opacity: 0;display: grid;grid-gap:10px;}
 .habitacion_img.loaded{opacity: 1;}
 .habitacion_img .imgBox{width:100%;}
@@ -37,8 +38,8 @@
 	.habitacion_item{height: 30vh;}
 }
 
-.habitacion_amenidades {width:100%;position: relative;height:2020px;}
-.habitacion_amenidades .habitacion_text{position:absolute;top:0;z-index:1;display: grid;grid-gap:25px;justify-content: center;align-items: center;transition:all 0.3s ease-in;}
+.habitacion_amenidades {width:100%;position: relative;height:2145px;}
+.habitacion_amenidades .habitacion_text{display: grid;grid-gap:25px;justify-content: center;align-items: center;transition:all 0.3s ease-in;}
 .habitacion_amenidades .habitacion_text .amenitades_box img{width: 100%;}
 .habitacion_amenidades .habitacion_text .amenitades_box{text-align: center;height: 100%;display: grid;align-items: center;}
 .habitacion_amenidades .habitacion_text .amenitades_box hr{width:80%;height:1px;border:0;background: #000;}
@@ -46,6 +47,7 @@
 .habitacion_amenidades .habitacion_text .amenitades_box p.number{font-size: 30px;}
 .habitacion_amenidades .habitacion_text .amenitades_box p.number i{font-size: 14px;}
 .habitacion_amenidades .habitacion_text .amenitades_box p.title{font-size: 14px;}
+.habitacion_amenidades .habitacion_text .amenitades_box p.title b{font-size: 30px;font-weight: 300;}
 .habitacion_amenidades .habitacion_text .reservarButtonContainer .button{position:relative;outline:none;background: #000;text-align:center;text-transform: uppercase;color:#fff;border:0;transition: all 0.3s ease-in;max-width: 200px;margin: 10px auto;}
 /*.habitacion_amenidades .habitacion_text .reservarButtonContainer .button a{color:#fff;font-size:16px;text-decoration:none;transition: all 0.3s ease-in;}*/
 .habitacion_amenidades .habitacion_text .reservarButtonContainer .button:before{content: '';position: absolute;top: 0;left: 0;width: 1px;height: 100%;background-color: #000;transform: scaleY(0);transform-origin: top left;transition: transform 1s;}
@@ -61,6 +63,8 @@
 
 
 .reservar_section{margin:50px auto;}
+.reservar_section .noIncluyeContainer{display: grid;grid-template-columns: 170px 90px;align-items: center;}
+.reservar_section .hrContaner hr{width:150px; height:1px;border:0;background: #000;}
 .reservar_section p{transform: translate(0, -100px);opacity: 0;font-size: 20px;}
 
 

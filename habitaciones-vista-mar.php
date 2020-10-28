@@ -19,7 +19,7 @@
         <div class="container">
           <div class="carouselContainer">
             <amp-state id="selected"><script type="application/json"> {"slide": 0} </script></amp-state>
-            <amp-carousel id="carouselHabitaciones" type="slides" width="1080" height="720" layout="responsive" controls loop autoplay delay="5000" role="region" aria-label="Tipo Habitaciones" on="slideChange:AMP.setState({selected: {slide: event.index}})">
+            <amp-carousel id="carouselHabitaciones" type="slides" width="1080" height="720" layout="responsive" controls loop autoplay delay="5000" role="region" aria-label="Tipo Habitaciones">
               <div class="carouselDiv">
                   <div class="imgContainer">
                     <amp-img class="desktop" src="img/habitaciones-vista-mar-1.webp" width="1080" height="720" layout="responsive">
@@ -120,21 +120,57 @@
                     </amp-img>
                   </div>
               </div>
-            </amp-carousel>
-            <div class="carouselButtonsContainer">
-              <div class="carouselButtons">
-                <button [class]="selected.slide == 0 ? 'active' : ''" class="carouselButton active"  on="tap:carouselHabitaciones.goToSlide(index=0)"></button>
-                <button [class]="selected.slide == 1 ? 'active' : ''" class="carouselButton" on="tap:carouselHabitaciones.goToSlide(index=1)"></button>
-                <button [class]="selected.slide == 2 ? 'active' : ''" class="carouselButton" on="tap:carouselHabitaciones.goToSlide(index=2)"></button>
-                <button [class]="selected.slide == 3 ? 'active' : ''" class="carouselButton" on="tap:carouselHabitaciones.goToSlide(index=3)"></button>
-                <button [class]="selected.slide == 4 ? 'active' : ''" class="carouselButton" on="tap:carouselHabitaciones.goToSlide(index=4)"></button>
-                <button [class]="selected.slide == 5 ? 'active' : ''" class="carouselButton" on="tap:carouselHabitaciones.goToSlide(index=5)"></button>
-                <button [class]="selected.slide == 6 ? 'active' : ''" class="carouselButton" on="tap:carouselHabitaciones.goToSlide(index=6)"></button>
-                <button [class]="selected.slide == 7 ? 'active' : ''" class="carouselButton" on="tap:carouselHabitaciones.goToSlide(index=7)"></button>
-                <button [class]="selected.slide == 8 ? 'active' : ''" class="carouselButton" on="tap:carouselHabitaciones.goToSlide(index=8)"></button>
-                <button [class]="selected.slide == 9 ? 'active' : ''" class="carouselButton" on="tap:carouselHabitaciones.goToSlide(index=9)"></button>
+               <div class="carouselDiv">
+                  <div class="imgContainer">
+                    <amp-img class="desktop" src="img/habitaciones-vista-mar-11.webp" width="1080" height="720" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-vista-mar-11.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                    </amp-img>
+                    <amp-img class="mobile" src="img/habitaciones-vista-mar-11-mobile.webp" width="360" height="240" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-vista-mar-11-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
+                    </amp-img>
+                  </div>
               </div>
-            </div>
+               <div class="carouselDiv">
+                  <div class="imgContainer">
+                    <amp-img class="desktop" src="img/habitaciones-vista-mar-12.webp" width="1080" height="720" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-vista-mar-12.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                    </amp-img>
+                    <amp-img class="mobile" src="img/habitaciones-vista-mar-12-mobile.webp" width="360" height="240" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-vista-mar-12-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
+                    </amp-img>
+                  </div>
+              </div>
+               <div class="carouselDiv">
+                  <div class="imgContainer">
+                    <amp-img class="desktop" src="img/habitaciones-vista-mar-13.webp" width="1080" height="720" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-vista-mar-13.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                    </amp-img>
+                    <amp-img class="mobile" src="img/habitaciones-vista-mar-13-mobile.webp" width="360" height="240" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-vista-mar-13-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
+                    </amp-img>
+                  </div>
+              </div>
+               <div class="carouselDiv">
+                  <div class="imgContainer">
+                    <amp-img class="desktop" src="img/habitaciones-vista-mar-14.webp" width="1080" height="720" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-vista-mar-14.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                    </amp-img>
+                    <amp-img class="mobile" src="img/habitaciones-vista-mar-14-mobile.webp" width="360" height="240" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-vista-mar-14-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
+                    </amp-img>
+                  </div>
+              </div>
+               <div class="carouselDiv">
+                  <div class="imgContainer">
+                    <amp-img class="desktop" src="img/habitaciones-vista-mar-15-carousel.webp" width="1080" height="720" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-vista-mar-15.jpg-carousel" width="1080" height="720" layout="responsive"></amp-img>
+                    </amp-img>
+                    <amp-img class="mobile" src="img/habitaciones-vista-mar-15-mobile.webp" width="360" height="240" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-vista-mar-15-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
+                    </amp-img>
+                  </div>
+              </div>
+            </amp-carousel>
           </div>
           <div class="carousel_text">
             <h2>AMENIDADES</h2>
@@ -143,7 +179,7 @@
               <li><p>Superficie Exterior: 14m²</p></li>
               <li><p>Vista al mar</p></li>
               <li><p>Distancia al mar: 20m</p></li>
-              <li><p>2 camas Queen Size o 1 cama King Size</p></li>
+              <li><p>1 cama King Size</p></li>
               <li><p>Terraza privada</p></li>
               <li><p>Aire acondicionado</p></li>
               <li><p>Caja fuerte </p></li>

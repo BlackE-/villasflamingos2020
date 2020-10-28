@@ -120,7 +120,7 @@ header .available:hover span:after,.available:hover span:before{transform: scale
 .ampstart-sidebar .ampstart-nav-item{margin: 0;position: relative;}
 .ampstart-sidebar .ampstart-nav-item:before{content: '';position: absolute;top: 0;left: 0;width: 1px;height: 100%;background-color: #fff;transform: scaleY(0);transform-origin: top left;transition: transform 0.3s;}
 .ampstart-sidebar .ampstart-nav-item:after{content: '';position: absolute;bottom: 0;right: 0;width: 1px;height: 100%;background-color: #fff;transform: scaleY(0);transform-origin: bottom right;transition: transform 0.3s;}
-.ampstart-sidebar .ampstart-nav a{padding:10px;position:relative;cursor: pointer;color: #fff;text-decoration: none;display: grid;grid-template-columns: auto 20px;align-items: center;}
+.ampstart-sidebar .ampstart-nav a{padding:10px;position:relative;cursor: pointer;color: #fff;text-decoration: none;display: grid;grid-template-columns: auto 35px;align-items: center;}
 .ampstart-sidebar .ampstart-nav a p{margin:0;}
 
 .ampstart-sidebar .ampstart-nav a:before{content: '';position: absolute;top: 0;left: 0;width: 100%;height: 1px;background-color: #fff;transform: scaleX(0);transform-origin: top left;transition: transform 0.3s;}
@@ -147,7 +147,7 @@ header .available:hover span:after,.available:hover span:before{transform: scale
 
 
 /*  header habitaciones */
-#header_habitaciones{background: linear-gradient(180deg, #fff, transparent);}
+#header_habitaciones{background: #fff;}
 #header_habitaciones .ampstart-headerbar {width:90%;max-width:1080px;color: #fff;background-color: transparent;border:0;outline:none;display: grid; grid-template-columns: repeat(3,1fr);}
 #header_habitaciones .center{width:100%;text-align: center;max-width: 100px;margin:0 auto;}
 

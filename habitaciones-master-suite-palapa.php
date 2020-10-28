@@ -11,7 +11,7 @@
       <section class="habitaciones_cuartos_texto">
         <div class="container" id="text1">
           <h1>Master <span><b>SUITE PALAPA</b></span></h1>
-          <p>Nuestra Master Suite Palapa tiene <span><b><i>la mejor vista al mar del hotel</i></b></span> además cuenta con una doble terraza desde donde también podrán <b><i>disfrutar de la laguna de Yalahau y verdes manglares.</i></b> Con su atractivo diseño arquitectónico de altos techos de Palapa, esta habitación es única en su tipo. Situada en el tercer piso, podrás pasar horas viendo el espectáculo de las olas del océano.</p>
+          <p>Si quieres realmente sorprender a tu pareja entonces la Master Suite Palapa es tu elección. Ubicada en un tercer nivel lo cual permite tener mayor privacidad. Con sus <b><i>dos terrazas</i></b> observaras el mar y el manglar también. Cuenta con <b><i>jacuzzi y regadera al aire libre</i></b>. Su atractivo diseño arquitectónico y la amplitud de la suite son únicos en todo Holbox.  Cuenta con cama King sizes, aire acondicionado, frigobar, caja de seguridad, mesa de apoyo y sillas, closet, lámpara de lectura, soporte para maletas.</p>
         </div>
       </section>
 
@@ -81,8 +81,8 @@
               </div>
               <div class="carouselDiv">
                   <div class="imgContainer">
-                    <amp-img class="desktop" src="img/habitaciones-suitemasterpalapa-7.webp" width="1080" height="720" layout="responsive">
-                      <amp-img fallback src="img/habitaciones-suitemasterpalapa-7.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                    <amp-img class="desktop" src="img/habitaciones-suitemasterpalapa-7-carousel.webp" width="1080" height="720" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-suitemasterpalapa-7-carousel.jpg" width="1080" height="720" layout="responsive"></amp-img>
                     </amp-img>
                     <amp-img class="mobile" src="img/habitaciones-suitemasterpalapa-7-mobile.webp" width="360" height="240" layout="responsive">
                       <amp-img fallback src="img/habitaciones-suitemasterpalapa-7-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>

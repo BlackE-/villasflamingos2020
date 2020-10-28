@@ -11,7 +11,7 @@
       <section class="habitaciones_cuartos_texto">
         <div class="container" id="text1">
           <h1><span><b>CACAO</b></span></h1>
-          <p>Solamente hay una habitación de esta categoría por lo cual la hace muy codiciada, está ubicada en un segundo nivel. La terraza privada con vista al mar y regadera externa es una de las más grandes en toda la propiedad.</p>
+          <p>Solamente <b><i>hay una habitación</i></b> de esta categoría por lo cual la hace muy codiciada, está ubicada en un segundo nivel. La terraza privada con <b><i>vista al mar y regadera externa</i></b> es una de las más grandes en toda la propiedad. Cuenta con una cama King sizes y en el segundo nivel de la habitación encontraras un jacuzzi para 2 personas. Cuenta con aire acondicionado, frigobar, caja de seguridad, mesa de apoyo y sillas, closet, lámpara de lectura, soporte para maletas.</p>
         </div>
       </section>
 
@@ -91,11 +91,21 @@
               </div>
               <div class="carouselDiv">
                   <div class="imgContainer">
-                    <amp-img class="desktop" src="img/habitaciones-cacao-8.webp" width="1080" height="720" layout="responsive">
-                      <amp-img fallback src="img/habitaciones-cacao-8.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                    <amp-img class="desktop" src="img/habitaciones-cacao-8-carousel.webp" width="1080" height="720" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-cacao-8-carousel.jpg" width="1080" height="720" layout="responsive"></amp-img>
                     </amp-img>
                     <amp-img class="mobile" src="img/habitaciones-cacao-8-mobile.webp" width="360" height="240" layout="responsive">
                       <amp-img fallback src="img/habitaciones-cacao-8-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
+                    </amp-img>
+                  </div>
+              </div>
+              <div class="carouselDiv">
+                  <div class="imgContainer">
+                    <amp-img class="desktop" src="img/habitaciones-cacao-9-carousel.webp" width="1080" height="720" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-cacao-9-carousel.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                    </amp-img>
+                    <amp-img class="mobile" src="img/habitaciones-cacao-9-mobile.webp" width="360" height="240" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-cacao-9-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
                     </amp-img>
                   </div>
               </div>

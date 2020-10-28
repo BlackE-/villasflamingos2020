@@ -11,7 +11,7 @@
       <section class="habitaciones_cuartos_texto">
         <div class="container" id="text1">
           <h1><span><b>COCO</b></span></h1>
-          <p>Solo hay una en su categoría, la ubicación de esta habitación es privilegiada en planta baja y a escasos pasos de la orilla del mar. Se destaca por su alberca interior con un gran ventanal panorámico con vistas al mar. Además cuenta con  una regadera exterior, terraza privada con sillas y mesita,  aire acondicionado, frigobar, caja de seguridad, mesa de apoyo y sillas, closet, lámpara de lectura y soporte para maletas. Ubicada en la planta baja con cama King sizes.</p>
+          <p>Solo <b><i> hay una habitación</i></b> en su categoría, la ubicación de esta habitación es privilegiada en planta baja y a escasos pasos de la orilla del mar. Se destaca por su <b><i>alberca interior</i></b> con un gran ventanal panorámico con vistas al mar. Además cuenta con  una regadera exterior, terraza privada con sillas y mesita,  aire acondicionado, frigobar, caja de seguridad, mesa de apoyo y sillas, closet, lámpara de lectura y soporte para maletas. Ubicada en la planta baja con cama King sizes.</p>
         </div>
       </section>
 
@@ -86,6 +86,36 @@
                     </amp-img>
                     <amp-img class="mobile" src="img/habitaciones-coco-7-mobile.webp" width="360" height="240" layout="responsive">
                       <amp-img fallback src="img/habitaciones-coco-7-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
+                    </amp-img>
+                  </div>
+              </div>
+              <div class="carouselDiv">
+                  <div class="imgContainer">
+                    <amp-img class="desktop" src="img/habitaciones-coco-8.webp" width="1080" height="720" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-coco-8.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                    </amp-img>
+                    <amp-img class="mobile" src="img/habitaciones-coco-8-mobile.webp" width="360" height="240" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-coco-8-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
+                    </amp-img>
+                  </div>
+              </div>
+              <div class="carouselDiv">
+                  <div class="imgContainer">
+                    <amp-img class="desktop" src="img/habitaciones-coco-9.webp" width="1080" height="720" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-coco-9.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                    </amp-img>
+                    <amp-img class="mobile" src="img/habitaciones-coco-9-mobile.webp" width="360" height="240" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-coco-9-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
+                    </amp-img>
+                  </div>
+              </div>
+              <div class="carouselDiv">
+                  <div class="imgContainer">
+                    <amp-img class="desktop" src="img/habitaciones-coco-10.webp" width="1080" height="720" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-coco-10.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                    </amp-img>
+                    <amp-img class="mobile" src="img/habitaciones-coco-10-mobile.webp" width="360" height="240" layout="responsive">
+                      <amp-img fallback src="img/habitaciones-coco-10-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
                     </amp-img>
                   </div>
               </div>
