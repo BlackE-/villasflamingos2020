@@ -1,0 +1,22 @@
+.desktop{height:auto;}.mobile{height:0;}
+@media (max-width: 40.06rem) {.desktop{height:0;}.mobile{height:auto;}}
+
+.ubicacion_header{height: 100vh;width: 100%;background-image: url('../img/holbox-ubicacion-desktop.jpg');background-position: 50%;background-repeat: no-repeat;background-size:cover;}
+@media (max-width: 40.06rem) {.ubicacion_header{background-image: url('../img/holbox-ubicacion-mobile.jpg');}}
+.ubicacion_texto{padding:50px 0;}
+.ubicacion_texto #text1{opacity: 0;transform: translate(-1000px,0);max-width: 400px;}
+@media (max-width: 40.06rem) {
+	.ubicacion_texto #text1{text-align: left;}
+}
+.ubicacion_texto h1{font-weight: 500;font-size: 40px;}
+.ubicacion_texto h1 b{font-weight: 800;}
+.ubicacion_texto p{font-size: 20px;}
+.ubicacion_texto p span{text-transform: uppercase;}
+
+.ubicacion_texto .title{background-color:#f2f2f2;display: inline-block;}
+.ubicacion_texto .title h2{font-weight:400;font-size: 35px;margin:0;}
+
+.mapaContainer{padding:0 0 50px 0;}
+.mapaContainer #mapaContainer{opacity: 0;transform: translate(0,200px);}
+#mapaContainer h1{font-weight: 300;font-size: 40px;}
+#mapaContainer h1 b{font-weight: 800;}
