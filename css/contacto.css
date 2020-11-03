@@ -4,13 +4,14 @@
 .contacto_header{height: 100vh;width: 100%;background-image: url('../img/contacto-desktop.jpg');background-position: 50%;background-repeat: no-repeat;background-size:cover;}
 @media (max-width: 40.06rem) {.contacto_header{background-image: url('../img/contacto-mobile.jpg');}}
 .contacto_texto{padding:50px 0;}
-.contacto_texto #text1{opacity: 0;transform: translate(-1000px,0);max-width: 450px;text-align: center;}
+.contacto_texto #text1{opacity: 0;transform: translate(-1000px,0);max-width: 360px;text-align: center;}
 @media (max-width: 40.06rem) {
 	.contacto_texto #text1{text-align: left;}
 }
 .contacto_texto h1{font-weight: 500;font-size: 40px;}
-.contacto_texto h1 b{font-weight: 800;text-transform: uppercase;}
+.contacto_texto h1 b{font-weight: 800;}
 .contacto_texto p{font-size: 20px;}
+.contacto_texto p span{text-transform: uppercase;}
 .contacto_texto .button{position:relative;outline:none;background: #000;text-align:center;text-transform: uppercase;color:#fff;border:0;transition: all 0.3s ease-in;max-width: 200px;margin: 25px auto;}
 .contacto_texto .button a{text-transform: uppercase;color:#fff;font-size:16px;text-decoration:none;transition: all 0.3s ease-in;}
 .contacto_texto .button:before{content: '';position: absolute;top: 0;left: 0;width: 1px;height: 100%;background-color: #000;transform: scaleY(0);transform-origin: top left;transition: transform 1s;}
@@ -31,18 +32,16 @@
 
 #leftContainer{opacity:0;transform:translate(-100px,0);display: grid;grid-template-columns:50px auto;grid-gap:30px;}
 #leftContainer a{color:#000;font-size:20px;text-decoration: none;}
-@media (max-width: 40.06rem) {
-	#leftContainer{grid-template-columns: 30px auto;}
-}
+#leftContainer a.phone{font-size:35px;font-weight: 800;}
+@media (max-width: 40.06rem) {#leftContainer{grid-template-columns: 30px auto;}}
 #rightContainer{opacity:0;transform:translate(100px,0);}
-
 .boxContainer h2{font-weight:400;font-size: 35px;margin:0;transform: translate(0,50px);opacity: 0;}
 .boxContainer p{font-size: 20px;margin:0;}
-
 
 #uneteAlEquipoContainer{opacity:0;transform:translate(0,100px);max-width: 360px;margin:50px auto 150px auto;}
 #uneteAlEquipoContainer h1{font-weight: 500;font-size: 40px;}
 #uneteAlEquipoContainer p{font-size: 20px;}
+#uneteAlEquipoContainer p span{text-transform: uppercase;}
 
 #uneteAlEquipoContainer .button{position:relative;outline:none;background: #000;text-align:center;text-transform: uppercase;color:#fff;border:0;transition: all 0.3s ease-in;max-width: 200px;margin: 50px 0;}
 #uneteAlEquipoContainer .button a{text-transform: uppercase;color:#fff;font-size:16px;text-decoration:none;transition: all 0.3s ease-in;}

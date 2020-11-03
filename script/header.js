@@ -10,8 +10,6 @@
         $zopim.livechat.setLanguage('es');
     });
 
-
-
     /* 		End of Zopim Live Chat script 	*/
 
     //MENU
@@ -29,4 +27,21 @@
     });
 
     gsap.registerPlugin(ScrollTrigger);
-    gsap.to('#header', {scrollTrigger:{trigger: ".textContainerSection",scrub: 1},backgroundColor:"#000",duration:0.5});
+    const headerBlack = document.getElementById('header');
+    const headerCenter = document.querySelector('header .center');
+    window.addEventListener('scroll',(event)=>{
+        if(window.innerWidth > 460){
+            headerCenter.style.width = (window.scrollY > 10) ? '100px' : '200px';
+        }
+        if (typeof(headerBlack) != 'undefined' && headerBlack != null){
+            headerBlack.style.background = (window.scrollY > 10) ? '#000' : 'linear-gradient(180deg, rgba(0,0,0,1) 0%, transparent 100%)';
+        }
+    
+    });
+    // ScrollTrigger.matchMedia({
+    //     //desktop
+    //     "(min-width: 40.06rem)":function(){
+    //         gsap.to('header .center', {scrollTrigger:{trigger: "header",scrub: 1,start: "top top", end: "+=5"},width:"100px",duration:0.5});
+    //     }
+    // });
+    

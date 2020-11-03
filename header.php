@@ -50,8 +50,8 @@
 			<ul class="list-reset m0 p0 ampstart-label">
 		      <li><div class="ampstart-nav-item"><a class="ampstart-nav-link" on="tap:header-sidebar.close" href="index">Inicio</a></div></li>
 		    </ul>
-		    <details class="firstOrder" title="close">
-		    	<summary>Habitaciones</summary>
+		    <details class="firstOrder" title="Click para ver opciones">
+		    	<summary><div>Habitaciones</div></summary>
 		    	<ul>
 		      		<li class="ampstart-nav-item"><a href="habitaciones-vista-jardin"><p>Vista Jardín</p><img src="img/h2.svg"/></a></li>
 		      		<li class="ampstart-nav-item"><a href="habitaciones-vista-mar"><p>Vista Mar</p><img src="img/h2.svg"/></a></li>
@@ -67,14 +67,14 @@
 		      		<li class="ampstart-nav-item"><a href="habitaciones-comparar">Comparar habitaciones</a></li>
 		      	</ul>
 		    </details>
-		    <details class="firstOrder" title="close">
-		    	<summary>Hotel</summary>
+		    <details class="firstOrder" title="Click para ver opciones">
+		    	<summary><div>Hotel</div></summary>
 		    	<ul>
-		    		<li class="ampstart-nav-item"><a href="hotel-restaurante">Restaurante El Mangle</a></li>
+		    		<li class="ampstart-nav-item"><a href="hotel-restaurante-el-mangle">Restaurante El Mangle</a></li>
 		      		<li class="ampstart-nav-item"><a href="hotel-traslados">Traslados</a></li>
 		      		<li >
-		      			<details class="secondOrder">
-					    	<summary>Experiencias</summary>
+		      			<details class="secondOrder" title="Click para ver opciones">
+					    	<summary><div>Experiencias</div></summary>
 					    	<ul>
 					    		<li class="ampstart-nav-item"><a href="experiencias-cenas-romanticas">Cenas Romanticas</a></li>
 					    		<li class="ampstart-nav-item"><a href="experiencias-propuesta-matrimonio">Propuesta de Matrimonio</a></li>
@@ -86,10 +86,10 @@
 					    </details>
 		      		</li>
 		      		<li >
-		      			<details class="secondOrder">
-					    	<summary>Eventos</summary>
+		      			<details class="secondOrder" title="Click para ver opciones">
+					    	<summary><div>Eventos</div></summary>
 					    	<ul>
-					    		<li class="ampstart-nav-item"><a href="eventos-bodas-cumple">Bodas / Cumpleaños</a></li>
+					    		<li class="ampstart-nav-item"><a href="eventos-bodas">Bodas</a></li>
 					    		<li class="ampstart-nav-item"><a href="eventos-sala-conferencias">Sala de Conferencias</a></li>
 					    		<li class="ampstart-nav-item"><a href="eventos-yoga">Yoga</a></li>
 					    	</ul>
@@ -100,8 +100,8 @@
 		    <ul>
 		      <li class="ampstart-nav-item"><a class="ampstart-nav-link" on="tap:header-sidebar.close" href="galeria">Galería</a></li>
 			</ul>
-		    <details class="firstOrder" title="close">
-		    	<summary>Holbox</summary>
+		    <details class="firstOrder" title="Click para ver opciones">
+		    	<summary><div>Holbox</div></summary>
 		    	<ul>
 		    		<li class="ampstart-nav-item"><a href="holbox-ubicacion">Ubicación</a></li>
 		      		<li class="ampstart-nav-item"><a href="holbox-tips">Tips</a></li>

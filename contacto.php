@@ -2,12 +2,6 @@
 
 <head>
   <?php include('header_meta.php');?>
-  <style amp-boilerplate="">body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate="">body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
-
-  <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.2.js"></script>
-  <script custom-element="amp-image-lightbox" src="https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js" async=""></script>
-  <script custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js" async=""></script>
-
   <link rel="stylesheet" type="text/css" href="css/contacto.css">
 </head>
 <body>
@@ -19,7 +13,7 @@
         <div class="container" id="text1">
           <h1><b>Contáctanos</b></h1>
           <p>Comentarios o preguntas <b><i><span>estamos siempre a la orden.</span></i></b></p>
-          <div class="button" id="contactoButton" role="button"><a href=""><span>CONTÁCTANOS</span></a></div>
+          <div class="button" id="contactoButton" role="button"><a href="mailto:info@villasflamingos.com" target="_blank"><span>CONTÁCTANOS</span></a></div>
         </div>
       </section>
       <section class="contactoContainer">
@@ -32,7 +26,7 @@
                 <div>
                   <amp-img layout="responsive" src="img/villas-icono-contacto.svg" width="40.83" height="46.53"></amp-img>
                 </div>
-                <div><a href="tel:1‑984‑875‑2167" target="_blank">1‑984‑875‑2167</a></div>
+                <div><a href="tel:1‑984‑875‑2167" target="_blank" class="phone">1‑984‑875‑2167</a></div>
                 <div>
                   <amp-img src="img/villas-icono-lugar.svg" layout="responsive" width="62.47" height="82.02"></amp-img>
                 </div>
@@ -48,8 +42,8 @@
         <div class="container">
           <div id="uneteAlEquipoContainer">
             <h1>Unete Al Equipo</h1>
-            <p>Siempre estamos buscando a nuevo talento para entrar a nuestro equipo. Si quieres vivir y trabajar en el paraíso contáctanos con tu Curriculum Vitae y una carta del porqué te gustaría ser parte de Villas Flamingos.</p>
-            <div class="button" id="uneteButton" role="button"><a href=""><span>CONTÁCTANOS</span></a></div>
+            <p><b>Siempre estamos buscando a nuevo talento</b> para entrar a nuestro equipo. Si quieres vivir y trabajar en el paraíso <b><i><span>contáctanos con tu Curriculum Vitae y una carta</span></i></b> del porqué te gustaría ser parte de Villas Flamingos.</p>
+            <div class="button" id="uneteButton" role="button"><a href="mailto:rrhh@villasflamingos.com" target="_blank"><span>CONTÁCTANOS</span></a></div>
           </div>
         </div>
       </section>

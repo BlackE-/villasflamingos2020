@@ -1,3 +1,7 @@
+<div class="idioms">
+	<a href="/eng"><div class="eng"></div></a>
+	<div class="esp active"></div>
+</div>
 <footer>
 	<div class="container">
 		<div class="leftFooter">
