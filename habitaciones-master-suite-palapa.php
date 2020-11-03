@@ -11,7 +11,7 @@
       <section class="habitaciones_cuartos_texto">
         <div class="container" id="text1">
           <h1>Master <span><b>SUITE PALAPA</b></span></h1>
-          <p>Si quieres realmente sorprender a tu pareja entonces la Master Suite Palapa es tu elección. Ubicada en un tercer nivel lo cual permite tener mayor privacidad. Con sus <b><i>dos terrazas</i></b> observaras el mar y el manglar también. Cuenta con <b><i>jacuzzi y regadera al aire libre</i></b>. Su atractivo diseño arquitectónico y la amplitud de la suite son únicos en todo Holbox.  Cuenta con cama King sizes, aire acondicionado, frigobar, caja de seguridad, mesa de apoyo y sillas, closet, lámpara de lectura, soporte para maletas.</p>
+          <p><b><i><span>Si quieres realmente sorprender a tu pareja</span></i></b> entonces la Master Suite Palapa es tu elección. Ubicada en un tercer nivel lo cual permite tener <b><i>mayor privacidad.</i></b> Con sus dos terrazasobservaras <b><i>el mar y el manglar</i></b>  también. Cuenta con jacuzzi y regadera al aire libre. <b><i>Su atractivo diseño arquitectónico</i></b> y la amplitud de la suite son únicos en todo Holbox.  Cuenta con cama king size, aire acondicionado, frigobar, caja de seguridad, mesa de apoyo y sillas, closet, lámpara de lectura, soporte para maletas.</p>
         </div>
       </section>
 

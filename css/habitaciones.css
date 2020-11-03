@@ -2,7 +2,7 @@
 .desktop{height:auto;}.mobile{height:0;}
 @media (max-width: 40.06rem) {.desktop{height:0;}.mobile{height:auto;}}
 
-.habitaciones_cuartos_texto{padding:100px 0 50px 0;}
+.habitaciones_cuartos_texto{padding:150px 0 50px 0;}
 .habitaciones_cuartos_texto #text1{opacity: 0;transform: translate(-1000px,0);text-align: center;max-width: 450px;}
 .habitaciones_cuartos_texto h1{font-weight: 500;font-size: 40px;}
 .habitaciones_cuartos_texto h1 b{font-weight: 800;text-transform: uppercase;}
@@ -10,7 +10,10 @@
 .habitaciones_cuartos_texto span{text-transform: uppercase;}
 
 .habitacionTipo_carousel .container{display: grid;grid-template-columns: 2fr 1fr;grid-gap:0px;}
-@media (max-width: 40.06rem) {	.habitacionTipo_carousel .container{grid-template-columns: 1fr;grid-gap: 20px;}}
+@media (max-width: 40.06rem) {
+	.habitaciones_cuartos_texto{padding:100px 0 50px 0;}
+	.habitacionTipo_carousel .container{grid-template-columns: 1fr;grid-gap: 20px;}
+}
 .carouselContainer{position: relative;opacity: 0;transform: translate(200px,0);}
 .carouselContainer amp-carousel .carouselDiv{width: 90%;margin:0 auto;}
 .carouselContainer amp-carousel .carouselDiv amp-img{opacity: 0;transition: all 500ms ease-in;}

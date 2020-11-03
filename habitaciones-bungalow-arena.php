@@ -10,7 +10,7 @@
       <section class="habitaciones_cuartos_texto">
         <div class="container" id="text1">
           <h1>Bungalow <span><b>ARENA</b></span></h1>
-          <p>Estos exclusivos búngalos son el <span><b><i>lugar perfecto para los amantes del mar</i></b></span> ya que a tan solo unos pasos, podrás sumergir tus pies en él. Cada una de estos 5 búngalos están ubicados en planta baja. Cuenta con su propia <b><i>piscina interior</i></b> con agua caliente una ducha al exterior rodeada de naturaleza y una <b><i>terraza perfecta para ver los atardeceres.</i></b> Ideales para familias.</p>
+          <p>Estos exclusivos búngalos son el <span><b><i>lugar perfecto para los amantes del mar</i></b></span> ya que a tan solo unos pasos, podrás sumergir tus pies en él. Cada una de estos 4 búngalos están ubicados en planta baja. Cuenta con su propia <b><i>piscina interior</i></b> con agua caliente una ducha al exterior rodeada de naturaleza y una <b><i>terraza perfecta para ver los atardeceres.</i></b> Ideales para familias.</p>
         </div>
       </section>
 
@@ -125,16 +125,6 @@
                     </amp-img>
                     <amp-img class="mobile" src="img/habitaciones-bungalow-arena-11-mobile.webp" width="360" height="240" layout="responsive">
                       <amp-img fallback src="img/habitaciones-bungalow-arena-11-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
-                    </amp-img>
-                  </div>
-              </div>
-               <div class="carouselDiv">
-                  <div class="imgContainer">
-                    <amp-img class="desktop" src="img/habitaciones-bungalow-arena-12-carousel.webp" width="1080" height="720" layout="responsive">
-                      <amp-img fallback src="img/habitaciones-bungalow-arena-12-carousel.jpg" width="1080" height="720" layout="responsive"></amp-img>
-                    </amp-img>
-                    <amp-img class="mobile" src="img/habitaciones-bungalow-arena-12-mobile.webp" width="360" height="240" layout="responsive">
-                      <amp-img fallback src="img/habitaciones-bungalow-arena-12-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
                     </amp-img>
                   </div>
               </div>

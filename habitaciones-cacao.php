@@ -11,7 +11,7 @@
       <section class="habitaciones_cuartos_texto">
         <div class="container" id="text1">
           <h1><span><b>CACAO</b></span></h1>
-          <p>Solamente <b><i>hay una habitación</i></b> de esta categoría por lo cual la hace muy codiciada, está ubicada en un segundo nivel. La terraza privada con <b><i>vista al mar y regadera externa</i></b> es una de las más grandes en toda la propiedad. Cuenta con una cama King sizes y en el segundo nivel de la habitación encontraras un jacuzzi para 2 personas. Cuenta con aire acondicionado, frigobar, caja de seguridad, mesa de apoyo y sillas, closet, lámpara de lectura, soporte para maletas.</p>
+          <p>Solamente <b><i><span>hay una habitación</span></i></b> de esta categoría por lo cual la hace muy codiciada, está ubicada en un segundo nivel. <b><i>La terraza privada con vista al mar y regadera externa</i></b> es una de las más grandes en toda la propiedad. Cuenta con una cama king size y en el segundo nivel de la habitación encontraras un <b><i>jacuzzi para 2 personas.</i></b> Cuenta con aire acondicionado, frigobar, caja de seguridad, mesa de apoyo y sillas, closet, lámpara de lectura, soporte para maletas.</p>
         </div>
       </section>
 

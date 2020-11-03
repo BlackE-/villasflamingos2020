@@ -1,5 +1,4 @@
-	let loading = document.getElementById('loading');
-    window.addEventListener('load', (event) => {loading.classList.add('fadeout');});
+	
     gsap.registerPlugin(ScrollTrigger);
     gsap.to('#text1', {scrollTrigger: ".habitaciones_cuartos_texto",opacity:1,x:0,duration:1.5});
     

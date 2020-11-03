@@ -11,7 +11,7 @@
       <section class="habitaciones_cuartos_texto">
         <div class="container" id="text1">
           <h1><span><b>COCO</b></span></h1>
-          <p>Solo <b><i> hay una habitación</i></b> en su categoría, la ubicación de esta habitación es privilegiada en planta baja y a escasos pasos de la orilla del mar. Se destaca por su <b><i>alberca interior</i></b> con un gran ventanal panorámico con vistas al mar. Además cuenta con  una regadera exterior, terraza privada con sillas y mesita,  aire acondicionado, frigobar, caja de seguridad, mesa de apoyo y sillas, closet, lámpara de lectura y soporte para maletas. Ubicada en la planta baja con cama King sizes.</p>
+          <p>Solo <b><i> <span>hay una habitación</span></i></b> en su categoría, la <b><i>ubicación de esta habitación es privilegiada</i></b> en planta baja y a <b><i>escasos pasos de la orilla del mar.</i></b> Se destaca por su <b><i>alberca interior</i></b> con un gran ventanal panorámico con vistas al mar. Además cuenta con  una <b><i>regadera exterior</i></b>, terraza privada con sillas y mesita,  aire acondicionado, frigobar, caja de seguridad, mesa de apoyo y sillas, closet, lámpara de lectura y soporte para maletas.</p>
         </div>
       </section>
 
