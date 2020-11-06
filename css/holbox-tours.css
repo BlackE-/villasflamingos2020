@@ -20,8 +20,9 @@
 @media (max-width: 40.06rem) {.boxContainer{grid-template-columns: 1fr;padding:25px 0;}}
 .boxContainer p{font-size: 20px;margin:0;}
 .boxContainer .boxTextContainer p{margin-bottom:20px;}
-.boxContainer .box{position: relative;}
-.boxContainer .box .title{font-size: 35px;}
+.boxContainer .box{}
+.boxContainer .boxTextContainer .title{font-size: 35px;}
+.boxContainer .box .copy{font-size: 16px;text-align: right}
 .boxContainer .boxText span{text-transform: uppercase;}
 .boxContainer .box .icon{position: absolute;}
 .boxContainer .button{position:relative;outline:none;background: #000;opacity:0;text-align:center;text-transform: uppercase;color:#fff;border:0;transition: all 0.3s ease-in;max-width: 200px;margin: 10px auto;}
@@ -43,10 +44,11 @@
 #tiburonBallenaBox{align-items: start;}
 #tiburonBallenaBox .box #TiburonBallena_desktop{opacity: 0;transform: translate(-200px,0);}
 #tiburonBallenaBox .box #TiburonBallena_mobile{opacity: 0;transform: translate(-200px,0);}
-#tiburonBallenaBox .box #titleTiburonBallena{position: absolute;right: 0;bottom:-25px;opacity: 0;transform: translate(0,100px);}
+#tiburonBallenaBox .boxTextContainer #titleTiburonBallena{opacity: 0;transform: translate(0,100px);}
 #tiburonBallenaBox .boxTextContainer ul li p{margin-bottom: 0px;}
 #tiburonBallenaBox .boxTextContainer p#textTiburonBallena{opacity: 0;transform: translate(100px,0px);}
 #tiburonBallenaBox .boxTextContainer p#textTiburonBallena2{opacity: 0;transform: translate(100px,0px);}
+#tiburonBallenaBox .boxTextContainer p#textTiburonBallena2 i{    font-family: auto;font-style: normal;font-weight: 500;}
 #tiburonBallenaBox .boxTextContainer p#textTiburonBallena3{opacity: 0;transform: translate(100px,0px);}
 #tiburonBallenaBox .boxTextContainer #textTiburonBallena4{opacity: 0;transform: translate(100px,0px);}
 #tiburonBallenaBox .boxTextContainer p#textTiburonBallena5{opacity: 0;transform: translate(100px,0px);}
@@ -56,14 +58,16 @@
 #tresIslasBox{text-align: left;overflow: hidden;align-items: start;}
 #tresIslasBox .box #TresIslas_desktop{opacity: 0;transform: translate(200px,0);}
 #tresIslasBox .box #TresIslas_mobile{opacity: 0;transform: translate(200px,0);}
-#tresIslasBox .box #titleTresIslas{position: absolute;left: 0px;bottom:-0.5em;width:100%;text-align:center;opacity: 0;transform: translate(0,100px);}
+#tresIslasBox .boxTextContainer #titleTresIslas{width:100%;text-align:center;opacity: 0;transform: translate(0,100px);}
 #tresIslasBox p#textTresIslas1{opacity: 0;transform: translate(-100px,0px);}
 #tresIslasBox p#textTresIslas2{opacity: 0;transform: translate(-100px,0px);}
 #tresIslasBox p#textTresIslas2{opacity: 0;transform: translate(-100px,0px);}
 #tresIslasBox p#textTresIslas3{opacity: 0;transform: translate(-100px,0px);}
+#tresIslasBox p#textTresIslas3 i{    font-family: auto;font-style: normal;font-weight: 500;}
 #tresIslasBox p#textTresIslas4{opacity: 0;transform: translate(-100px,0px);}
 #tresIslasBox p#textTresIslas5{opacity: 0;transform: translate(-100px,0px);}
 #tresIslasBox p#textTresIslas6{opacity: 0;transform: translate(-100px,0px);}
+#tresIslasBox p#textTresIslas6 i{    font-family: auto;font-style: normal;font-weight: 500;}
 #tresIslasBox p#textTresIslas7{opacity: 0;transform: translate(-100px,0px);}
 #tresIslasBox .boxTextContainer #TresIslasButton{margin:10px 0 0 0;}
 @media (max-width: 40.06rem) {
@@ -75,9 +79,10 @@
 
 #chichenItzaBox .box #chichenItza_desktop{opacity: 0;transform: translate(-200px,0);}
 #chichenItzaBox .box #chichenItza_mobile{opacity: 0;transform: translate(-200px,0);}
-#chichenItzaBox .box #titlechichenItza{position: absolute;right: 0;bottom:-25px;opacity: 0;transform: translate(0,100px);}
+#chichenItzaBox .boxTextContainer #titlechichenItza{opacity: 0;transform: translate(0,100px);}
 #chichenItzaBox .boxTextContainer p#textchichenItza1{opacity: 0;transform: translate(100px,0px);}
 #chichenItzaBox .boxTextContainer p#textchichenItza2{opacity: 0;transform: translate(100px,0px);}
+#chichenItzaBox .boxTextContainer p#textchichenItza2 i{  font-family: auto;font-style: normal;font-weight: 500;}
 #chichenItzaBox .boxTextContainer p#textchichenItza3{opacity: 0;transform: translate(100px,0px);}
 #chichenItzaBox .boxTextContainer p#textchichenItza4{opacity: 0;transform: translate(100px,0px);}
 #chichenItzaBox .boxTextContainer #ChichenItzaButton{margin:10px 0 0 0;}
@@ -85,10 +90,11 @@
 #pescaDeAlturaBox{text-align: right;overflow: hidden;}
 #pescaDeAlturaBox .box #pescaDeAltura_desktop{opacity: 0;transform: translate(200px,0);}
 #pescaDeAlturaBox .box #pescaDeAltura_mobile{opacity: 0;transform: translate(200px,0);}
-#pescaDeAlturaBox .box #titlePescaDeAltura{position: absolute;left: 0px;bottom:-0.5em;width:100%;text-align:center;opacity: 0;transform: translate(0,100px);}
+#pescaDeAlturaBox .boxTextContainer #titlePescaDeAltura{width:100%;text-align:center;opacity: 0;transform: translate(0,100px);}
 #pescaDeAlturaBox p#textPescaAltura1{opacity: 0;transform: translate(-100px,0px);}
 #pescaDeAlturaBox p#textPescaAltura2{opacity: 0;transform: translate(-100px,0px);}
 #pescaDeAlturaBox p#textPescaAltura3{opacity: 0;transform: translate(-100px,0px);}
+#pescaDeAlturaBox p#textPescaAltura3 i{font-family: auto;font-style: normal;font-weight: 500;}
 #pescaDeAlturaBox p#textPescaAltura4{opacity: 0;transform: translate(-100px,0px);}
 #pescaDeAlturaBox p#textTresIslas7{opacity: 0;transform: translate(-100px,0px);}
 #pescaDeAlturaBox .boxTextContainer #PescaAlturaButton{margin:0;float: right;    width: 200px;}
@@ -98,7 +104,7 @@
 
 #MiniPescaBox .box #MiniPesca_desktop{opacity: 0;transform: translate(-200px,0);}
 #MiniPescaBox .box #MiniPesca_mobile{opacity: 0;transform: translate(-200px,0);}
-#MiniPescaBox .box #titleMiniPesca{position: absolute;right: 0;bottom:-25px;opacity: 0;transform: translate(0,100px);}
+#MiniPescaBox .boxTextContainer #titleMiniPesca{opacity: 0;transform: translate(0,100px);}
 #MiniPescaBox .boxTextContainer p#textMiniPesca1{opacity: 0;transform: translate(100px,0px);}
 #MiniPescaBox .boxTextContainer p#textMiniPesca2{opacity: 0;transform: translate(100px,0px);}
 #MiniPescaBox .boxTextContainer #MiniPescaButton{margin:10px 0 0 0;}
@@ -107,7 +113,7 @@
 
 #KayaksBox .box #Kayaks_desktop{opacity: 0;transform: translate(-200px,0);}
 #KayaksBox .box #Kayaks_mobile{opacity: 0;transform: translate(-200px,0);}
-#KayaksBox .box #titleKayaks{position: absolute;right: 0;bottom:-25px;opacity: 0;transform: translate(0,-100px);}
+#KayaksBox .boxTextContainer #titleKayaks{opacity: 0;transform: translate(0,-100px);}
 #KayaksBox .boxTextContainer p#textKayaks{opacity: 0;transform: translate(-100px,0px);}
 #KayaksBox .boxTextContainer p#textKayaks2{opacity: 0;transform: translate(-100px,0px);}
 #KayaksBox .boxTextContainer #KayaksButton{margin:10px 0 0 0;}
@@ -116,22 +122,30 @@
 	#KayaksBox .box{grid-row-start: 1;grid-row-end: 2;}
 }
 
-
-#PaseoCaballoBox{text-align: right;overflow: hidden;}
-#PaseoCaballoBox .box #PaseoCaballo_desktop{opacity: 0;transform: translate(200px,0);}
-#PaseoCaballoBox .box #PaseoCaballo_mobile{opacity: 0;transform: translate(200px,0);}
-#PaseoCaballoBox .box #titlePaseoCaballo{position: absolute;left: 0px;bottom:-0.5em;width:100%;text-align:center;opacity: 0;transform: translate(0,100px);}
-#PaseoCaballoBox p#textPaseoCaballo{opacity: 0;transform: translate(100px,0px);}
-#PaseoCaballoBox p#textPaseoCaballo2{opacity: 0;transform: translate(100px,0px);}
-#PaseoCaballoBox .boxTextContainer #PaseoCaballoButton{margin:0;float: right;    width: 200px;}
-
-
 #CarritoGolfBox .box #CarritoGolf_desktop{opacity: 0;transform: translate(-200px,0);}
 #CarritoGolfBox .box #CarritoGolf_mobile{opacity: 0;transform: translate(-200px,0);}
-#CarritoGolfBox .box #titleCarritoGolf{position: absolute;right: 0;bottom:-25px;opacity: 0;transform: translate(0,100px);}
+#CarritoGolfBox .boxTextContainer #titleCarritoGolf{opacity: 0;transform: translate(0,100px);}
 #CarritoGolfBox .boxTextContainer p#textCarritoGolf{opacity: 0;transform: translate(-100px,0px);}
 #CarritoGolfBox .boxTextContainer p#textCarritoGolf2{opacity: 0;transform: translate(-100px,0px);}
 #CarritoGolfBox .boxTextContainer #titleCarritoGolf{margin:10px 0 0 0;}
+
+
+
+#BioBox .box #bio_desktop{opacity: 0;transform: translate(-200px,0);}
+#BioBox .box #bio_mobile{opacity: 0;transform: translate(-200px,0);}
+#BioBox .boxTextContainer #titlebio{opacity: 0;transform: translate(0,-100px);}
+#BioBox .boxTextContainer p#textbio{opacity: 0;transform: translate(-100px,0px);}
+#BioBox .boxTextContainer p#textbio2{opacity: 0;transform: translate(-100px,0px);}
+#BioBox .boxTextContainer #KbioButton{margin:10px 0 0 0;}
+
 @media (max-width: 40.06rem) {
-	#CarritoGolfBox .box{grid-row-start: 1;grid-row-end: 2;}
+	#BioBox .boxTextContainer #titlebio{font-size: 30px;}
+	#BioBox .box{grid-row-start: 1;grid-row-end: 2;}
 }
+
+#AireBox .box #Aire_desktop{opacity: 0;transform: translate(-200px,0);}
+#AireBox .box #Aire_mobile{opacity: 0;transform: translate(-200px,0);}
+#AireBox .boxTextContainer #titleAire{opacity: 0;transform: translate(0,100px);}
+#AireBox .boxTextContainer p#textAire{opacity: 0;transform: translate(-100px,0px);}
+#AireBox .boxTextContainer p#textAire2{opacity: 0;transform: translate(-100px,0px);}
+#AireBox .boxTextContainer #titleAire{margin:10px 0 0 0;}

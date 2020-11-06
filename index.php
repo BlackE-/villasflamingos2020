@@ -236,61 +236,61 @@
           <h2>Nuestros Servicios</h2>
           <div class="serviciosContainer">
             <div class="box trasladosContainer">
-              <amp-img class="image desktop" id="imageTraslados" alt="Villas traslados" src="img/home-servicios-traslados-desktop.webp" width="720" height="720" layout="responsive" media="(min-width: 645px)">
-                <amp-img fallback alt="Villas traslados" src="img/home-servicios-traslados-desktop.jpg" width="720" height="720" layout="responsive" media="(min-width: 645px)"></amp-img>
+              <amp-img class="image desktop" id="imageTraslados" alt="Villas traslados" src="img/home-traslados-desktop.webp" width="720" height="720" layout="responsive" media="(min-width: 645px)">
+                <amp-img fallback alt="Villas traslados" src="img/home-traslados-desktop.jpg" width="720" height="720" layout="responsive" media="(min-width: 645px)"></amp-img>
               </amp-img>
-              <amp-img class="image mobile" id="imageTrasladosMobile" alt="Villas traslados" src="img/home-servicios-traslados-mobile.webp" width="257" height="257" layout="responsive" media="(max-width: 644px)">
-                <amp-img fallback alt="Villas traslados" src="img/home-servicios-traslados-mobile.jpg" width="257" height="257" layout="responsive" media="(max-width: 644px)"></amp-img>
+              <amp-img class="image mobile" id="imageTrasladosMobile" alt="Villas traslados" src="img/home-traslados-mobile.webp" width="257" height="257" layout="responsive" media="(max-width: 644px)">
+                <amp-img fallback alt="Villas traslados" src="img/home-traslados-mobile.jpg" width="257" height="257" layout="responsive" media="(max-width: 644px)"></amp-img>
               </amp-img>
               <div class="iconTextcontainer">
-                <amp-img class="icon" id="iconTraslados" src="img/home-servicios-traslados-icon.png" width="46" height="40"></amp-img>
+                <amp-img class="icon" id="iconTraslados" src="img/home-traslados-icon.png" width="46" height="40"></amp-img>
                 <p id="textTraslados"><b>TRASLADOS</b></p>
               </div>
               <div class="button" id="trasladosButton" role="button"><a href="hotel-traslados"><span>DESCUBRE MÁS</span></a></div>
             </div>
             <div class="box sensacionesContainer">
-              <amp-img class="image desktop" id="imageSensaciones" alt="Villas Sensaciones" src="img/home-servicios-sensaciones-desktop.webp"  width="720" height="720"  layout="responsive" media="(min-width: 645px)">
-                <amp-img fallback alt="Villas Sensaciones" src="img/home-servicios-sensaciones-desktop.jpg"  width="720" height="720"  layout="responsive" media="(min-width: 645px)"></amp-img>
+              <amp-img class="image desktop" id="imageSensaciones" alt="Villas Sensaciones" src="img/home-holbox-desktop.webp"  width="720" height="720"  layout="responsive" media="(min-width: 645px)">
+                <amp-img fallback alt="Villas Sensaciones" src="img/home-holbox-desktop.jpg"  width="720" height="720"  layout="responsive" media="(min-width: 645px)"></amp-img>
               </amp-img>
-              <amp-img class="image mobile" id="imageSensacionesMobile" alt="Villas Sensaciones" src="img/home-servicios-sensaciones-mobile.webp" width="257" height="257" layout="responsive" media="(max-width: 644px)">
-                <amp-img fallback alt="Villas Sensaciones" src="img/home-servicios-sensaciones-mobile.jpg" width="257" height="257" layout="responsive" media="(max-width: 644px)"></amp-img>
+              <amp-img class="image mobile" id="imageSensacionesMobile" alt="Villas Sensaciones" src="img/home-holbox-mobile.webp" width="257" height="257" layout="responsive" media="(max-width: 644px)">
+                <amp-img fallback alt="Villas Sensaciones" src="img/home-holbox-mobile.jpg" width="257" height="257" layout="responsive" media="(max-width: 644px)"></amp-img>
               </amp-img>
               <div class="iconTextcontainer">
                 <p id="textSensaciones"><b>HOLBOX</b> y sus <b><i>SENSACIONES</i></b></p>
-                <amp-img class="icon" id="iconSensaciones" src="img/home-servicios-sensaciones-icon.png" width="47" height="53"></amp-img>
+                <amp-img class="icon" id="iconSensaciones" src="img/home-holbox-icon.png" width="47" height="53"></amp-img>
                 </div>
-              <div class="button" id="sensacionesButton" role="button"><a href="holbox-sensaciones"><span>DESCUBRE MÁS</span></a></div>
+              <div class="button" id="sensacionesButton" role="button"><a href="holbox-ubicacion"><span>DESCUBRE MÁS</span></a></div>
             </div>
           </div>
           <div class="serviciosContainer">
             <div class="box toursContainer">
               <div class="iconTextcontainer">
-                <amp-img class="icon" id="iconTours" src="img/home-servicios-tours-icon.png" width="40" height="40"></amp-img>
+                <amp-img class="icon" id="iconTours" src="img/home-tours-icon.png" width="40" height="40"></amp-img>
                 <p id="textTours"><b>TOURS</b></p>
               </div>
               <div class="button" id="toursButton" role="button"><a href="holbox-tours"><span>DESCUBRE MÁS</span></a></div>
-              <amp-img class="image desktop" id="imageTours" alt="Villas Tours" src="img/home-servicios-tours-desktop.webp"  width="720" height="720"  layout="responsive" media="(min-width: 645px)">
-                <amp-img fallback alt="Villas Tours" src="img/home-servicios-tours-desktop.jpg"  width="720" height="720"  layout="responsive" media="(min-width: 645px)"></amp-img>
+              <amp-img class="image desktop" id="imageTours" alt="Villas Tours" src="img/home-tours-desktop.webp"  width="720" height="720"  layout="responsive" media="(min-width: 645px)">
+                <amp-img fallback alt="Villas Tours" src="img/home-tours-desktop.jpg"  width="720" height="720"  layout="responsive" media="(min-width: 645px)"></amp-img>
               </amp-img>
-              <amp-img class="image mobile" id="imageToursMobile" alt="Villas Tours" src="img/home-servicios-tours-mobile.webp" width="255" height="255" layout="responsive" media="(max-width: 644px)">
-                <amp-img fallback alt="Villas Tours" src="img/home-servicios-tours-mobile.jpg" width="255" height="255" layout="responsive" media="(max-width: 644px)"></amp-img>
+              <amp-img class="image mobile" id="imageToursMobile" alt="Villas Tours" src="img/home-tours-mobile.webp" width="255" height="255" layout="responsive" media="(max-width: 644px)">
+                <amp-img fallback alt="Villas Tours" src="img/home-tours-mobile.jpg" width="255" height="255" layout="responsive" media="(max-width: 644px)"></amp-img>
               </amp-img>
               
             </div>
             <div class="box cenaContainer">
               <div class="iconTextcontainer">
                 <p id="textCena"><b>CENA <i>ROMÁNTICA</i></b></p>
-                <amp-img class="icon" id="iconCena" src="img/home-servicios-cenaromantica-icon.png" width="40" height="40"></amp-img>
+                <amp-img class="icon" id="iconCena" src="img/home-cenaromantica-icon.png" width="40" height="40"></amp-img>
               </div>
-              <div class="button" id="cenaButton" role="button"><a href="hotel-restaurante"><span>DESCUBRE MÁS</span></a></div>
-              <amp-img class="image desktop" id="imageCena" alt="Villas Cena Romantica" src="img/home-servicios-cenaromantica-desktop.webp"  width="720" height="541"  layout="responsive" media="(min-width: 645px)">
+              <div class="button" id="cenaButton" role="button"><a href="experiencias-cenas-romanticas"><span>DESCUBRE MÁS</span></a></div>
+              <amp-img class="image desktop" id="imageCena" alt="Villas Cena Romantica" src="img/home-cenaromantica-desktop.webp"  width="720" height="541"  layout="responsive" media="(min-width: 645px)">
                 <amp-img fallback
-                alt="Villas Cena Romantica" src="img/home-servicios-cenaromantica-desktop.jpg"  width="720" height="541"  layout="responsive" media="(min-width: 645px)"
+                alt="Villas Cena Romantica" src="img/home-cenaromantica-desktop.jpg"  width="720" height="541"  layout="responsive" media="(min-width: 645px)"
                 ></amp-img>
               </amp-img>
-              <amp-img class="image mobile" id="imageCenaMobile" alt="Villas Cena Romantica" src="img/home-servicios-cenaromantica-mobile.webp" width="257" height="243" layout="responsive" media="(max-width: 644px)">
+              <amp-img class="image mobile" id="imageCenaMobile" alt="Villas Cena Romantica" src="img/home-cenaromantica-mobile.webp" width="257" height="243" layout="responsive" media="(max-width: 644px)">
                 <amp-img fallback
-                  alt="Villas Cena Romantica" src="img/home-servicios-cenaromantica-mobile.jpg" width="257" height="243" layout="responsive" media="(max-width: 644px)"
+                  alt="Villas Cena Romantica" src="img/home-cenaromantica-mobile.jpg" width="257" height="243" layout="responsive" media="(max-width: 644px)"
                 ></amp-img>
               </amp-img>
               

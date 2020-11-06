@@ -1,0 +1,42 @@
+.desktop{height:auto;}.mobile{height:0;}
+@media (max-width: 40.06rem) {.desktop{height:0;}.mobile{height:auto;}}
+
+.galeria_texto{padding:200px 0 50px 0;}
+@media (max-width: 40.06rem) {.galeria_texto{padding:100px 0 25px 0;}}
+.galeria_texto #text1{text-align: center;max-width: 450px;}
+.galeria_texto h1{font-size: 40px;margin:0;text-transform: uppercase;position:relative;display: inline-block;}
+.galeria_texto h1:after{content:'';position: absolute;bottom: 0;right:0px;width:30px;height:2px;background: #000;}
+
+.galeria_container{padding:0 0 100px 0;}
+.filter-gallery {  width: 100%;  padding:0;min-height: 100vh;}
+.listBox .category{display: none;}
+
+.filter-gallery .list { width: 100%; padding: 0px; transition: all 0.7s ease-in-out;  margin: 0;overflow: hidden;}
+.filter-gallery .list li { width: calc(20% - 10px); float: left; padding: 5px; list-style: none; transition: all 0.7s ease;}
+.filter-gallery .list li:hover{cursor:pointer;}
+@media screen and (max-width: 1024px) {.filter-gallery .list li {width: calc(33.33% - 10px);}}
+@media (max-width: 40.06rem) {.filter-gallery .list li {width: calc(50% - 10px);}}
+.filter-gallery .list li .listBox{display: block;width: 100%;}
+.filter-gallery .list li .listBox img {width: 100%;height: 155px;object-fit: cover;}
+
+.filter-gallery .filter { list-style: none;  padding: 10px 15px;  margin: 0;text-align: center;}
+.filter-gallery .filter li {display: inline-block;}
+.filter-gallery .filter li button { cursor: pointer;  background: transparent; border-radius:0;border:1px solid #000; border:1px solid #000;   padding: 4px 15px;  color: #000; font-size: 13px;  outline: none;}
+.filter-gallery .filter li.active button { background-color: #000;color: #fff;border:1px solid;}
+
+
+
+.button{display:none;position:relative;width:100%;outline:none;background: #000;text-align:center;text-transform: uppercase;color:#fff;border:0;transition: all 0.3s ease-in;}
+.button.active{display: block;}
+.button a{text-transform: uppercase;color:#fff;font-size:16px;text-decoration:none;transition: all 0.3s ease-in;}
+.button:before{content: '';position: absolute;top: 0;left: 0;width: 1px;height: 100%;background-color: #000;transform: scaleY(0);transform-origin: top left;transition: transform 1s;}
+.button:after{content: '';position: absolute;bottom: 0;right: 0;width: 1px;height: 100%;background-color: #000;transform: scaleY(0);transform-origin: bottom right;transition: transform 1s;}
+.button:hover{cursor: pointer;background:#fff;}
+.button:hover a{color:#000;}
+.button:hover:before,
+.button:hover:after{transform: scaleY(1);}
+.button span{position: relative;display: block;padding:5px 0;}
+.button span:before{content: '';position: absolute;top: 0;left: 0;width: 100%;height: 1px;background-color: #000;transform: scaleX(0);transform-origin: top left;transition: transform 1s;}
+.button span:after{content: '';position: absolute;bottom: 0;right: 0;width: 100%;height: 1px;background-color: #000;transform: scaleX(0);transform-origin: bottom right;transition: transform 1s;}
+.button:hover span:after,
+.button:hover span:before{transform: scaleX(1);}  

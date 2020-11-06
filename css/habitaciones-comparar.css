@@ -1,7 +1,7 @@
 .desktop{height:auto;}.mobile{height:0;}
 @media (max-width: 40.06rem) {.desktop{height:0;}.mobile{height:auto;}}
 
-.habitaciones_cuartos_texto{padding:100px 0 50px 0;}
+.habitaciones_cuartos_texto{padding:150px 0 50px 0;}
 .habitaciones_cuartos_texto #text1{opacity: 0;transform: translate(-1000px,0);max-width: 450px;}
 .habitaciones_cuartos_texto h1{font-weight: 500;font-size: 40px;text-align: center;}
 .habitaciones_cuartos_texto h1 b{font-weight: 800;text-transform: uppercase;}

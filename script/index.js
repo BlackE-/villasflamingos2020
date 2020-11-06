@@ -2,6 +2,7 @@
     window.addEventListener('load', (event) => {
         setTimeout(()=>{
             loading.classList.add('fadeout');
+            setTimeout(()=>{loading.classList.add('zero');},2000);
             let tl = gsap.timeline();
             tl.from('.videoContainer',{duration:1.5,translateY:200,opacity:0}),
             tl.to('.videoContainer',{translateY:0,opacity:1});

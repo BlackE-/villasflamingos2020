@@ -1,6 +1,6 @@
 	let loading = document.getElementById('loading');
     window.addEventListener('load', (event) => {
-        loading.classList.add('fadeout');
+        loading.classList.add('fadeout');setTimeout(()=>{loading.classList.add('zero');},2000);
         let tl = gsap.timeline();
         tl.from('.holbox_tour_header',{duration:1.5,translateY:200,opacity:0}),
         tl.to('.holbox_tour_header',{translateY:0,opacity:1});
@@ -46,7 +46,6 @@
     tlChichenItza.to('#textchichenItza1', {opacity:1,x:0,duration:0.5},"-=0.2");
     tlChichenItza.to('#textchichenItza2', {opacity:1,x:0,duration:0.5},"-=0.2");
     tlChichenItza.to('#textchichenItza3', {opacity:1,x:0,duration:0.5},"-=0.2");
-    tlChichenItza.to('#textchichenItza4', {opacity:1,x:0,duration:0.5},"-=0.2");
     tlChichenItza.to('#ChichenItzaButton', {opacity:1,duration:0.5},"-=0.2");
 
 
@@ -78,16 +77,6 @@
     tlKayaks.to('#KayaksButton', {opacity:1,duration:0.5},"-=0.2");
 
 
-    let tlPaseoCaballo = gsap.timeline({scrollTrigger: {trigger: "#PaseoCaballoBox"}});
-    tlPaseoCaballo.to('#PaseoCaballo_desktop', {opacity:1,x:0,duration:0.5});
-    tlPaseoCaballo.to('#PaseoCaballo_mobile', {opacity:1,x:0,duration:0.5},"-=0.2");
-    tlPaseoCaballo.to('#titlePaseoCaballo', {opacity:1,y:0,duration:0.5},"-=0.2");
-    tlPaseoCaballo.to('#textPaseoCaballo', {opacity:1,x:0,duration:0.5},"-=0.2");
-    tlPaseoCaballo.to('#textPaseoCaballo2', {opacity:1,x:0,duration:0.5},"-=0.2");
-    tlPaseoCaballo.to('#PaseoCaballoButton', {opacity:1,duration:0.5},"-=0.2");
-
-
-
     let tlCarritoGolf = gsap.timeline({scrollTrigger: {trigger: "#CarritoGolfBox"}});
     tlCarritoGolf.to('#CarritoGolf_desktop', {opacity:1,x:0,duration:0.5});
     tlCarritoGolf.to('#CarritoGolf_mobile', {opacity:1,x:0,duration:0.5},"-=0.2");
@@ -95,3 +84,22 @@
     tlCarritoGolf.to('#textCarritoGolf', {opacity:1,x:0,duration:0.5},"-=0.2");
     tlCarritoGolf.to('#textCarritoGolf2', {opacity:1,x:0,duration:0.5},"-=0.2");
     tlCarritoGolf.to('#CarritoGolfButton', {opacity:1,duration:0.5},"-=0.2");
+
+
+    let tlBio= gsap.timeline({scrollTrigger: {trigger: "#BioBox"}});
+    tlBio.to('#Bio_desktop', {opacity:1,x:0,duration:0.5});
+    tlBio.to('#Bio_mobile', {opacity:1,x:0,duration:0.5},"-=0.2");
+    tlBio.to('#titleBio', {opacity:1,y:0,duration:0.5},"-=0.2");
+    tlBio.to('#textBio', {opacity:1,x:0,duration:0.5},"-=0.2");
+    tlBio.to('#textBio2', {opacity:1,x:0,duration:0.5},"-=0.2");
+    tlBio.to('#BioButton', {opacity:1,duration:0.5},"-=0.2");
+
+
+
+    let tlAire = gsap.timeline({scrollTrigger: {trigger: "#AireBox"}});
+    tlAire.to('#Aire_desktop', {opacity:1,x:0,duration:0.5});
+    tlAire.to('#Aire_mobile', {opacity:1,x:0,duration:0.5},"-=0.2");
+    tlAire.to('#titleAire', {opacity:1,y:0,duration:0.5},"-=0.2");
+    tlAire.to('#textAire', {opacity:1,x:0,duration:0.5},"-=0.2");
+    tlAire.to('#textAire2', {opacity:1,x:0,duration:0.5},"-=0.2");
+    tlAire.to('#AireButton', {opacity:1,duration:0.5},"-=0.2");

@@ -14,9 +14,12 @@
 
 .boxContainer .titleBox{background-color:#f2f2f2;display: inline-block;}
 .boxContainer .titleBox h2{font-weight:400;font-size: 35px;margin:0;transform: translate(0,50px);opacity: 0;}
+.boxContainer .tipoBox {display: grid;justify-content: center;align-items: center;grid-template-columns: auto 1fr; grid-gap: 10px;opacity: 0;transform: translate(0,50px);}
+.boxContainer .tipoBox p{ display: inline-block;}
+.boxContainer .tipoBox div{display: inline-block;max-width: 80px; }
 
-.hotel_traslados_container{padding:50px 0;}
-.hotel_traslados_container .container{display: grid;grid-template-columns: 1fr 1fr;justify-content: center;align-items: center;grid-gap: 50px;padding:50px 0;}
+.hotel_traslados_container{padding-bottom: 50px;}
+.hotel_traslados_container .container{display: grid;grid-template-columns: 1fr 1fr 1fr;grid-gap: 50px;padding:50px 0;}
 @media (max-width: 40.06rem) {.hotel_traslados_container .container{grid-template-columns: 1fr;padding:25px 0;}}
 .boxContainer p{font-size: 20px;}
 .boxContainer .box{position: relative;}
@@ -34,30 +37,13 @@
 .boxContainer .button:hover span:after,
 .boxContainer .button:hover span:before{transform: scaleX(1);}
 
+.boxTextContainer{padding-top: 25px;}
 
 #holboxAeropuertoCancunBox .boxTextContainer p#textholboxAeropuertoCancun{opacity: 0;transform: translate(-100px,0px);}
 #holboxAeropuertoCancunBox .boxTextContainer p#textholboxAeropuertoCancun2{opacity: 0;transform: translate(-100px,0px);}
 #holboxAeropuertoCancunBox .boxTextContainer #textholboxAeropuertoCancun3{opacity: 0;transform: translate(-100px,0px);}
-#holboxAeropuertoCancunBox .boxTextContainer p#textholboxAeropuertoCancun4{opacity: 0;transform: translate(-100px,0px);}
-#holboxAeropuertoCancunBox #holboxAeropuertoCancunButton{opacity: 0;}
-
-#holboxCancunBox .boxTextContainer p#textholboxCancun{opacity: 0;transform: translate(100px,0px);}
-#holboxCancunBox .boxTextContainer p#textholboxCancun2{opacity: 0;transform: translate(100px,0px);}
-#holboxCancunBox .boxTextContainer #textholboxCancun3{opacity: 0;transform: translate(100px,0px);}
-#holboxCancunBox .boxTextContainer p#textholboxCancun4{opacity: 0;transform: translate(100px,0px);}
-#holboxCancunBox #holboxCancunButton{opacity: 0;}
-
-#holboxPlayaCarmenBox .boxTextContainer p#textholboxPlayaCarmen{opacity: 0;transform: translate(-100px,0px);}
-#holboxPlayaCarmenBox .boxTextContainer p#textholboxPlayaCarmen2{opacity: 0;transform: translate(-100px,0px);}
-#holboxPlayaCarmenBox .boxTextContainer #textholboxPlayaCarmen3{opacity: 0;transform: translate(-100px,0px);}
-#holboxPlayaCarmenBox .boxTextContainer p#textholboxPlayaCarmen4{opacity: 0;transform: translate(-100px,0px);}
-#holboxPlayaCarmenBox #holboxPlayaCarmenButton{opacity: 0;}
-
-#holboxTulumBox .boxTextContainer p#textholboxTulum{opacity: 0;transform: translate(100px,0px);}
-#holboxTulumBox .boxTextContainer p#textholboxTulum2{opacity: 0;transform: translate(100px,0px);}
-#holboxTulumBox .boxTextContainer #textholboxTulum3{opacity: 0;transform: translate(100px,0px);}
-#holboxTulumBox .boxTextContainer p#textholboxTulum4{opacity: 0;transform: translate(100px,0px);}
-#holboxTulumBox #holboxTulumButton{opacity: 0;}
+#holboxAeropuertoCancunBox .boxTextContainer #textholboxAeropuertoCancun4{opacity: 0;transform: translate(-100px,0px);}
+#holboxAeropuertoCancunBox #holboxAeropuertoCancunButton{opacity: 0;margin: 0;}
 
 #holboxMeridaBox .boxTextContainer p#textholboxMerida{opacity: 0;transform: translate(-100px,0px);}
 #holboxMeridaBox .boxTextContainer p#textholboxMerida2{opacity: 0;transform: translate(-100px,0px);}
@@ -65,9 +51,7 @@
 #holboxMeridaBox .boxTextContainer p#textholboxMerida4{opacity: 0;transform: translate(-100px,0px);}
 #holboxMeridaBox #holboxMeridaButton{opacity: 0;}
 
-#holboxVilladolidBox .boxTextContainer p#textholboxVilladolid{opacity: 0;transform: translate(100px,0px);}
-#holboxVilladolidBox .boxTextContainer p#textholboxVilladolid2{opacity: 0;transform: translate(100px,0px);}
-#holboxVilladolidBox .boxTextContainer #textholboxVilladolid3{opacity: 0;transform: translate(100px,0px);}
-#holboxVilladolidBox .boxTextContainer p#textholboxVilladolid4{opacity: 0;transform: translate(100px,0px);}
-#holboxVilladolidBox #holboxVilladolidButton{opacity: 0;}
 
+#holboxRivieraBox .boxTextContainer p#textholboxRiviera{opacity: 0;transform: translate(-100px,0px);}
+#holboxRivieraBox .boxTextContainer p#textholboxRiviera2{opacity: 0;transform: translate(-100px,0px);}
+#holboxRivieraBox #holboxRivieraButton{opacity: 0;}

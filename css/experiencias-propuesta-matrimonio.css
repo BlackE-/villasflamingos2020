@@ -1,0 +1,46 @@
+.desktop{height:auto;}.mobile{height:0;}
+@media (max-width: 40.06rem) {.desktop{height:0;}.mobile{height:auto;}}
+
+.cenas_header{height: 100vh;width: 100%;background-image: url('../img/experiencias-propuesta-matrimonio-desktop.jpg');background-position: 50%;background-repeat: no-repeat;background-size:cover;}
+@media (max-width: 40.06rem) {.cenas_header{background-image: url('../img/experiencias-propuesta-matrimonio-mobile.jpg');}}
+.cenas_texto{padding:50px 0;}
+.cenas_texto #text1{opacity: 0;transform: translate(-1000px,0);max-width: 360px;text-align: center;}
+@media (max-width: 40.06rem) {.cenas_texto #text1{text-align: right;}}
+
+.cenas_texto h1{font-weight: 500;font-size: 40px;}
+@media (max-width: 40.06rem) {.cenas_texto h1{font-size: 32px;}}
+.cenas_texto h1 b{font-weight: 800;}
+.cenas_texto p{font-size: 20px;}
+.cenas_texto p span{text-transform: uppercase;}
+
+
+.carouselContainer{position: relative;opacity: 0;transform: translate(200px,0);max-width:960px;margin:0 auto;}
+.carouselContainer amp-carousel .carouselDiv{width: 90%;margin:0 auto;}
+.carouselContainer amp-carousel .carouselDiv amp-img{opacity: 0;transition: all 500ms ease-in;}
+@media (max-width: 40.06rem) {	.carouselContainer amp-carousel .carouselDiv{width: 85%;}}
+#carouselSala .i-amphtml-carousel-slide-item[aria-hidden="false"] amp-img{opacity: 1;transform:translate(0,0)}
+/*	ARROWS CAROUSEL*/
+.carouselContainer amp-carousel .amp-carousel-button{background-color: transparent;outline:none;margin:0;width:30px;height: 15px;}
+.carouselContainer amp-carousel .amp-carousel-button-prev {transform: scale(2) rotate(-90deg);background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 11.65 4.79'%3E%3Ctitle%3Eup%3C/title%3E%3Cg id='Capa_2' data-name='Capa 2'%3E%3Cg id='Capa_1-2' data-name='Capa 1'%3E%3Cpath d='M5.82.24a.68.68,0,0,0-.39.12L.33,3.93l.37.53L5.8.89h0L11,4.44l.37-.53L6.21.36A.68.68,0,0,0,5.82.24Z' style='fill:%;stroke:%;stroke-miterlimit:10;stroke-width:0.470551181102362px'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");}
+.carouselContainer amp-carousel .amp-carousel-button-next {transform: scale(2) rotate(90deg);background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 11.65 4.79'%3E%3Ctitle%3Eup%3C/title%3E%3Cg id='Capa_2' data-name='Capa 2'%3E%3Cg id='Capa_1-2' data-name='Capa 1'%3E%3Cpath d='M5.82.24a.68.68,0,0,0-.39.12L.33,3.93l.37.53L5.8.89h0L11,4.44l.37-.53L6.21.36A.68.68,0,0,0,5.82.24Z' style='fill:%;stroke:%;stroke-miterlimit:10;stroke-width:0.470551181102362px'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");}
+
+
+.cenas_texto_2{padding: 50px 0;}
+.cenas_texto_2 #text2{opacity: 0;transform: translate(-1000px,0);max-width: 360px;text-align: left;}
+.cenas_texto_2 h1 b{font-weight: 800;}
+.cenas_texto_2 p{font-size: 20px;}
+.cenas_texto_2 p span{text-transform: uppercase;}
+
+.button{position:relative;outline:none;background: #000;text-align:center;text-transform: uppercase;color:#fff;border:0;transition: all 0.3s ease-in;max-width: 200px;margin: 50px auto;}
+.button a{text-transform: uppercase;color:#fff;font-size:16px;text-decoration:none;transition: all 0.3s ease-in;}
+.button:before{content: '';position: absolute;top: 0;left: 0;width: 1px;height: 100%;background-color: #000;transform: scaleY(0);transform-origin: top left;transition: transform 1s;}
+.button:after{content: '';position: absolute;bottom: 0;right: 0;width: 1px;height: 100%;background-color: #000;transform: scaleY(0);transform-origin: bottom right;transition: transform 1s;}
+.button:hover{cursor: pointer;background:#fff;}
+.button:hover a{color:#000;}
+.button:hover:before,
+.button:hover:after{transform: scaleY(1);}
+.button span{position: relative;display: block;padding:5px 0;}
+.button span:before{content: '';position: absolute;top: 0;left: 0;width: 100%;height: 1px;background-color: #000;transform: scaleX(0);transform-origin: top left;transition: transform 1s;}
+.button span:after{content: '';position: absolute;bottom: 0;right: 0;width: 100%;height: 1px;background-color: #000;transform: scaleX(0);transform-origin: bottom right;transition: transform 1s;}
+.button:hover span:after,
+.button:hover span:before{transform: scaleX(1);}  

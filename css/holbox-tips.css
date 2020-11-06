@@ -1,5 +1,5 @@
-.desktop{height:auto;}.mobile{height:0;}
-@media (max-width: 40.06rem) {.desktop{height:0;}.mobile{height:auto;}}
+.desktop{display: block}.mobile{display: none;}
+@media (max-width: 40.06rem) {.desktop{display:none;}.mobile{display: block;}}
 
 .tips_header{height: 100vh;width: 100%;background-image: url('../img/holbox-tips-desktop.jpg');background-position: 50%;background-repeat: no-repeat;background-size:cover;}
 @media (max-width: 40.06rem) {.tips_header{background-image: url('../img/holbox-tips-mobile.jpg');}}
@@ -9,6 +9,8 @@
 .tips_texto h1 b{font-weight: 800;text-transform: uppercase;}
 .tips_texto p{font-size: 20px;}
 
+.tips_texto_2 #text2{opacity: 0;transform: translate(0px,100px);text-align: left;max-width: 360px;margin:0 auto 50px auto;}
+.tips_texto_2 #text2 p{font-size: 20px;}
 
 .tips_container{overflow: hidden;}
 .tips_container .container{display: grid;grid-template-columns: 1fr 1fr;grid-gap: 50px;padding:0 0 50px 0;}
