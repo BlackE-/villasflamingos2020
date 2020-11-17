@@ -19,11 +19,8 @@
           <h2>TOURS</h2>
           <div class="boxContainer" id="tiburonBallenaBox">
             <div class="box">
-              <amp-img class="desktop" id="TiburonBallena_desktop" alt="Villas Tiburon Ballena HOLBOX" src="img/holbox-tours-tiburon-ballena-desktop.webp"  width="811" height="540"  layout="responsive" media="(min-width: 645px)">
-                <amp-img fallback alt="Villas Tiburon Ballena HOLBOX" src="img/holbox-tours-tiburon-ballena-desktop.jpg"  width="811" height="540"  layout="responsive" media="(min-width: 645px)"></amp-img>
-              </amp-img>
-              <amp-img class="image mobile" id="TiburonBallena_mobile" alt="Villas Tiburon Ballena HOLBOX" src="img/holbox-tours-tiburon-ballena-mobile.webp" width="292" height="257" layout="responsive" media="(max-width: 644px)">
-                <amp-img fallback alt="Villas Tiburon Ballena HOLBOX" src="img/holbox-tours-tiburon-ballena-mobile.jpg" width="292" height="257" layout="responsive" media="(max-width: 644px)"></amp-img>
+              <amp-img  id="TiburonBallena_desktop" alt="Villas Tiburon Ballena HOLBOX" src="img/holbox-tours-tiburon-ballena-desktop.webp"  width="811" height="540"  layout="responsive">
+                <amp-img fallback alt="Villas Tiburon Ballena HOLBOX" src="img/holbox-tours-tiburon-ballena-desktop.jpg"  width="811" height="540"  layout="responsive"></amp-img>
               </amp-img>
             </div>
             <div class="boxTextContainer">
@@ -61,21 +58,16 @@
               <div class="button" id="TresIslasButton" role="button"><a href="contacto"><span>CONTÁCTANOS</span></a></div>
             </div>
             <div class="box">
-              <amp-img class="desktop" id="TresIslas_desktop" alt="Villas Tres Islas" src="img/holbox-tours-tres-islas-desktop.webp"  width="1080" height="1080"  layout="responsive" media="(min-width: 645px)">
-                <amp-img fallback alt="Villas Tres Islas" src="img/holbox-tours-tres-islas-desktop.jpg"  width="1080" height="1080"  layout="responsive" media="(min-width: 645px)"></amp-img>
-              </amp-img>
-              <amp-img class="image mobile" id="TresIslas_mobile" alt="Villas Tres Islas" src="img/holbox-tours-tres-islas-mobile.webp" width="256" height="256" layout="responsive" media="(max-width: 644px)">
-                <amp-img fallback alt="Villas Tres Islas" src="img/holbox-tours-tres-islas-mobile.jpg" width="256" height="256" layout="responsive" media="(max-width: 644px)"></amp-img>
+              <amp-img  id="TresIslas_desktop" alt="Villas Tres Islas" src="img/holbox-tours-tres-islas-desktop.webp"  width="1080" height="1080"  layout="responsive">
+                <amp-img fallback alt="Villas Tres Islas" src="img/holbox-tours-tres-islas-desktop.jpg"  width="1080" height="1080"  layout="responsive"></amp-img>
               </amp-img>
             </div>
           </div>
           <div class="boxContainer" id="chichenItzaBox">
             <div class="box">
-              <amp-img class="desktop" id="chichenItza_desktop" alt="Villas Tres Islas" src="img/holbox-tours-chichen-itza-desktop.webp"  width="771" height="513"  layout="responsive" media="(min-width: 645px)">
-                <amp-img fallback alt="Villas Tres Islas" src="img/holbox-tours-chichen-itza-desktop.jpg"  width="771" height="513"  layout="responsive" media="(min-width: 645px)"></amp-img>
-              </amp-img>
-              <amp-img class="image mobile" id="chichenItza_mobile" alt="Villas Tres Islas" src="img/holbox-tours-chichen-itza-mobile.webp" width="292" height="257" layout="responsive" media="(max-width: 644px)">
-                <amp-img fallback alt="Villas Tres Islas" src="img/holbox-tours-chichen-itza-mobile.jpg" width="292" height="257" layout="responsive" media="(max-width: 644px)"></amp-img>
+              <amp-img  id="chichenItza_desktop" alt="Villas Tres Islas" src="img/holbox-tours-chichen-itza-desktop.webp"  width="771" height="513"  layout="responsive">
+                <amp-img fallback alt="Villas Tres Islas" src="img/holbox-tours-chichen-itza-desktop.jpg"  width="771" height="513"  layout="responsive"></amp-img>
+              </amp-img> 644px)"></amp-img>
               </amp-img>
             </div>
             <div class="boxTextContainer">
@@ -96,22 +88,17 @@
               <div class="button" id="PescaAlturaButton" role="button"><a href="contacto"><span>CONTÁCTANOS</span></a></div>
             </div>
             <div class="box">
-              <amp-img class="desktop" id="pescaDeAltura_desktop" alt="Villas Pesca de Altura" src="img/holbox-tours-pesca-de-altura-desktop.webp"  width="960" height="720"  layout="responsive" media="(min-width: 645px)">
-                <amp-img fallback alt="Villas Pesca de Altura" src="img/holbox-tours-pesca-de-altura-desktop.jpg"  width="960" height="720"  layout="responsive" media="(min-width: 645px)"></amp-img>
-              </amp-img>
-              <amp-img class="image mobile" id="pescaDeAltura_mobile" alt="Villas Pesca de Altura" src="img/holbox-tours-pesca-de-altura-mobile.webp" width="257" height="257" layout="responsive" media="(max-width: 644px)">
-                <amp-img fallback alt="Villas Pesca de Altura" src="img/holbox-tours-pesca-de-altura-mobile.jpg" width="257" height="257" layout="responsive" media="(max-width: 644px)"></amp-img>
+              <amp-img  id="pescaDeAltura_desktop" alt="Villas Pesca de Altura" src="img/holbox-tours-pesca-de-altura-desktop.webp"  width="960" height="720"  layout="responsive">
+                <amp-img fallback alt="Villas Pesca de Altura" src="img/holbox-tours-pesca-de-altura-desktop.jpg"  width="960" height="720"  layout="responsive"></amp-img>
               </amp-img>
             </div>
           </div>
 
           <div class="boxContainer" id="MiniPescaBox">
             <div class="box">
-              <amp-img class="desktop" id="MiniPesca_desktop" alt="Villas Mini Pesca" src="img/holbox-tours-mini-pesca-desktop.webp"  width="771" height="513"  layout="responsive" media="(min-width: 645px)">
-                <amp-img fallback alt="Villas Mini Pesca" src="img/holbox-tours-mini-pesca-desktop.jpg"  width="771" height="513"  layout="responsive" media="(min-width: 645px)"></amp-img>
+              <amp-img  id="MiniPesca_desktop" alt="Villas Mini Pesca" src="img/holbox-tours-mini-pesca-desktop.webp"  width="771" height="513"  layout="responsive">
+                <amp-img fallback alt="Villas Mini Pesca" src="img/holbox-tours-mini-pesca-desktop.jpg"  width="771" height="513"  layout="responsive"></amp-img>
               </amp-img>
-              <amp-img class="image mobile" id="MiniPesca_mobile" alt="Villas MiniPesca" src="img/holbox-tours-mini-pesca-mobile.webp" width="292" height="257" layout="responsive" media="(max-width: 644px)">
-                <amp-img fallback alt="Villas MiniPesca" src="img/holbox-tours-mini-pesca-mobile.jpg" width="292" height="257" layout="responsive" media="(max-width: 644px)"></amp-img>
               </amp-img>
             </div>
             <div class="boxTextContainer">
@@ -130,11 +117,9 @@
               <div class="button" id="KayaksButton" role="button"><a href="contacto"><span>CONTÁCTANOS</span></a></div>
             </div>
             <div class="box">
-              <amp-img class="desktop" id="Kayaks_desktop" alt="Villas kayaks" src="img/holbox-tours-kayaks-desktop.webp"  width="1080" height="1080"  layout="responsive" media="(min-width: 645px)">
-                <amp-img fallback alt="Villas kayaks" src="img/holbox-tours-kayaks-desktop.jpg"  width="1080" height="1080"  layout="responsive" media="(min-width: 645px)"></amp-img>
+              <amp-img  id="Kayaks_desktop" alt="Villas kayaks" src="img/holbox-tours-kayaks-desktop.webp"  width="1080" height="1080"  layout="responsive">
+                <amp-img fallback alt="Villas kayaks" src="img/holbox-tours-kayaks-desktop.jpg"  width="1080" height="1080"  layout="responsive"></amp-img>
               </amp-img>
-              <amp-img class="image mobile" id="Kayaks_mobile" alt="Villas kayaks" src="img/holbox-tours-kayaks-mobile.webp" width="292" height="257" layout="responsive" media="(max-width: 644px)">
-                <amp-img fallback alt="Villas kayaks" src="img/holbox-tours-kayaks-mobile.jpg" width="292" height="257" layout="responsive" media="(max-width: 644px)"></amp-img>
               </amp-img>
               
             </div>
@@ -142,11 +127,9 @@
 
           <div class="boxContainer" id="CarritoGolfBox">
             <div class="box">
-              <amp-img class="desktop" id="CarritoGolf_desktop" alt="Villas Pesca de Altura" src="img/holbox-tours-carrito-golf-desktop.webp"  width="771" height="513"  layout="responsive" media="(min-width: 645px)">
-                <amp-img fallback alt="Villas Pesca de Altura" src="img/holbox-tours-carrito-golf-desktop.jpg"  width="771" height="513"  layout="responsive" media="(min-width: 645px)"></amp-img>
+              <amp-img  id="CarritoGolf_desktop" alt="Villas Pesca de Altura" src="img/holbox-tours-carrito-golf-desktop.webp"  width="771" height="513"  layout="responsive">
+                <amp-img fallback alt="Villas Pesca de Altura" src="img/holbox-tours-carrito-golf-desktop.jpg"  width="771" height="513"  layout="responsive"></amp-img>
               </amp-img>
-              <amp-img class="image mobile" id="CarritoGolf_mobile" alt="Villas Pesca de Altura" src="img/holbox-tours-carrito-golf-mobile.webp" width="292" height="257" layout="responsive" media="(max-width: 644px)">
-                <amp-img fallback alt="Villas Pesca de Altura" src="img/holbox-tours-carrito-golf-mobile.jpg" width="292" height="257" layout="responsive" media="(max-width: 644px)"></amp-img>
               </amp-img>
             </div>
             <div class="boxTextContainer">
@@ -166,11 +149,9 @@
               <div class="button" id="BioButton" role="button"><a href="contacto"><span>CONTÁCTANOS</span></a></div>
             </div>
             <div class="box">
-              <amp-img class="desktop" id="Bio_desktop" alt="Villas kayaks" src="img/holbox-tours-bioliminiscencia.webp"  width="1080" height="720"  layout="responsive" media="(min-width: 645px)">
-                <amp-img fallback alt="Villas kayaks" src="img/holbox-tours-bioliminiscencia.jpg"  width="1080" height="720"  layout="responsive" media="(min-width: 645px)"></amp-img>
+              <amp-img  id="Bio_desktop" alt="Villas kayaks" src="img/holbox-tours-bioliminiscencia.webp"  width="1080" height="720"  layout="responsive">
+                <amp-img fallback alt="Villas kayaks" src="img/holbox-tours-bioliminiscencia.jpg"  width="1080" height="720"  layout="responsive"></amp-img>
               </amp-img>
-              <amp-img class="image mobile" id="Bio_mobile" alt="Villas kayaks" src="img/holbox-tours-bioliminiscencia-mobile.webp" width="360" height="240" layout="responsive" media="(max-width: 644px)">
-                <amp-img fallback alt="Villas kayaks" src="img/holbox-tours-bioliminiscencia-mobile.jpg" width="360" height="240" layout="responsive" media="(max-width: 644px)"></amp-img>
               </amp-img>
               <p class="copy">Foto proporcionada por HolboXtreme </p>
               
@@ -179,11 +160,9 @@
 
           <div class="boxContainer" id="AireBox">
             <div class="box">
-              <amp-img class="desktop" id="Aire_desktop" alt="Villas Pesca de Altura" src="img/holbox-tours-sobre-el-aire-1.webp"  width="1080" height="720"  layout="responsive" media="(min-width: 645px)">
-                <amp-img fallback alt="Villas Pesca de Altura" src="img/holbox-tours-sobre-el-aire-1.jpg"  width="1080" height="720"  layout="responsive" media="(min-width: 645px)"></amp-img>
+              <amp-img  id="Aire_desktop" alt="Villas Pesca de Altura" src="img/holbox-tours-sobre-el-aire-1.webp"  width="1080" height="720"  layout="responsive">
+                <amp-img fallback alt="Villas Pesca de Altura" src="img/holbox-tours-sobre-el-aire-1.jpg"  width="1080" height="720"  layout="responsive"></amp-img>
               </amp-img>
-              <amp-img class="image mobile" id="Aire_mobile" alt="Villas Pesca de Altura" src="img/holbox-tours-sobre-el-aire-1-mobile.webp" width="360" height="240" layout="responsive" media="(max-width: 644px)">
-                <amp-img fallback alt="Villas Pesca de Altura" src="img/holbox-tours-sobre-el-aire-1-mobile.jpg" width="360" height="240" layout="responsive" media="(max-width: 644px)"></amp-img>
               </amp-img>
               <p class="copy">Foto proporcionada por XOMEX</p>
             </div>

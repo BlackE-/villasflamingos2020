@@ -14,7 +14,6 @@
 
     let tlTiburonBallena = gsap.timeline({scrollTrigger: {trigger: "#tiburonBallenaBox"}});
     tlTiburonBallena.to('#TiburonBallena_desktop', {opacity:1,x:0,duration:0.5});
-    tlTiburonBallena.to('#TiburonBallena_mobile', {opacity:1,x:0,duration:0.5});
     tlTiburonBallena.to('#titleTiburonBallena', {opacity:1,y:0,duration:0.5},"-=0.2");
     tlTiburonBallena.to('#textTiburonBallena',{opacity:1,x:0,duration:0.5},"-=0.2");
     tlTiburonBallena.to('#textTiburonBallena2',{opacity:1,x:0,duration:0.5},"-=0.2");
@@ -27,7 +26,6 @@
 
     let tlTresIslas = gsap.timeline({scrollTrigger: {trigger: "#tresIslasBox"}});
     tlTresIslas.to('#TresIslas_desktop', {opacity:1,x:0,duration:0.5});
-    tlTresIslas.to('#TresIslas_mobile', {opacity:1,x:0,duration:0.5},"-=0.2");
     tlTresIslas.to('#titleTresIslas', {opacity:1,y:0,duration:0.5},"-=0.2");
     tlTresIslas.to('#textTresIslas1', {opacity:1,x:0,duration:0.5},"-=0.2");
     tlTresIslas.to('#textTresIslas2', {opacity:1,x:0,duration:0.5},"-=0.2");
@@ -41,7 +39,6 @@
 
     let tlChichenItza= gsap.timeline({scrollTrigger: {trigger: "#chichenItzaBox"}});
     tlChichenItza.to('#chichenItza_desktop', {opacity:1,x:0,duration:0.5});
-    tlChichenItza.to('#chichenItza_mobile', {opacity:1,x:0,duration:0.5},"-=0.2");
     tlChichenItza.to('#titlechichenItza', {opacity:1,y:0,duration:0.5},"-=0.2");
     tlChichenItza.to('#textchichenItza1', {opacity:1,x:0,duration:0.5},"-=0.2");
     tlChichenItza.to('#textchichenItza2', {opacity:1,x:0,duration:0.5},"-=0.2");
@@ -51,7 +48,6 @@
 
     let tlPescaAltura = gsap.timeline({scrollTrigger: {trigger: "#pescaDeAlturaBox"}});
     tlPescaAltura.to('#pescaDeAltura_desktop', {opacity:1,x:0,duration:0.5});
-    tlPescaAltura.to('#pescaDeAltura_mobile', {opacity:1,x:0,duration:0.5},"-=0.2");
     tlPescaAltura.to('#titlePescaDeAltura', {opacity:1,y:0,duration:0.5},"-=0.2");
     tlPescaAltura.to('#textPescaAltura1', {opacity:1,x:0,duration:0.5},"-=0.2");
     tlPescaAltura.to('#textPescaAltura2', {opacity:1,x:0,duration:0.5},"-=0.2");
@@ -62,7 +58,6 @@
 
     let tlMiniPesca = gsap.timeline({scrollTrigger: {trigger: "#MiniPescaBox"}});
     tlMiniPesca.to('#MiniPesca_desktop', {opacity:1,x:0,duration:0.5});
-    tlMiniPesca.to('#MiniPesca_mobile', {opacity:1,x:0,duration:0.5},"-=0.2");
     tlMiniPesca.to('#titleMiniPesca', {opacity:1,y:0,duration:0.5},"-=0.2");
     tlMiniPesca.to('#textMiniPesca1', {opacity:1,x:0,duration:0.5},"-=0.2");
     tlMiniPesca.to('#textMiniPesca2', {opacity:1,x:0,duration:0.5},"-=0.2");
@@ -70,7 +65,6 @@
 
     let tlKayaks= gsap.timeline({scrollTrigger: {trigger: "#KayaksBox"}});
     tlKayaks.to('#Kayaks_desktop', {opacity:1,x:0,duration:0.5});
-    tlKayaks.to('#Kayaks_mobile', {opacity:1,x:0,duration:0.5},"-=0.2");
     tlKayaks.to('#titleKayaks', {opacity:1,y:0,duration:0.5},"-=0.2");
     tlKayaks.to('#textKayaks', {opacity:1,x:0,duration:0.5},"-=0.2");
     tlKayaks.to('#textKayaks2', {opacity:1,x:0,duration:0.5},"-=0.2");
@@ -79,7 +73,6 @@
 
     let tlCarritoGolf = gsap.timeline({scrollTrigger: {trigger: "#CarritoGolfBox"}});
     tlCarritoGolf.to('#CarritoGolf_desktop', {opacity:1,x:0,duration:0.5});
-    tlCarritoGolf.to('#CarritoGolf_mobile', {opacity:1,x:0,duration:0.5},"-=0.2");
     tlCarritoGolf.to('#titleCarritoGolf', {opacity:1,y:0,duration:0.5},"-=0.2");
     tlCarritoGolf.to('#textCarritoGolf', {opacity:1,x:0,duration:0.5},"-=0.2");
     tlCarritoGolf.to('#textCarritoGolf2', {opacity:1,x:0,duration:0.5},"-=0.2");
@@ -88,7 +81,6 @@
 
     let tlBio= gsap.timeline({scrollTrigger: {trigger: "#BioBox"}});
     tlBio.to('#Bio_desktop', {opacity:1,x:0,duration:0.5});
-    tlBio.to('#Bio_mobile', {opacity:1,x:0,duration:0.5},"-=0.2");
     tlBio.to('#titleBio', {opacity:1,y:0,duration:0.5},"-=0.2");
     tlBio.to('#textBio', {opacity:1,x:0,duration:0.5},"-=0.2");
     tlBio.to('#textBio2', {opacity:1,x:0,duration:0.5},"-=0.2");
@@ -98,7 +90,6 @@
 
     let tlAire = gsap.timeline({scrollTrigger: {trigger: "#AireBox"}});
     tlAire.to('#Aire_desktop', {opacity:1,x:0,duration:0.5});
-    tlAire.to('#Aire_mobile', {opacity:1,x:0,duration:0.5},"-=0.2");
     tlAire.to('#titleAire', {opacity:1,y:0,duration:0.5},"-=0.2");
     tlAire.to('#textAire', {opacity:1,x:0,duration:0.5},"-=0.2");
     tlAire.to('#textAire2', {opacity:1,x:0,duration:0.5},"-=0.2");

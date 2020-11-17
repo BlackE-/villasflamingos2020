@@ -1,17 +1,13 @@
-<div class="idioms">
-	<a href="/eng"><div class="eng"></div></a>
-	<div class="esp active"></div>
-</div>
 <footer>
 	<div class="container">
 		<div class="leftFooter">
-			<amp-img src="img/logo_footer.png" width="113" height="99"></amp-img>
+			<a href="https://www.villasflamingos.com/"><amp-img src="img/logo_footer.png" width="113" height="99"></amp-img></a>
 			<ul class="social">
-				<li><a href="" target="_blank"><amp-img src="img/footer-whatsapp.svg" width="21" height="21" layout="responsive"></a></li>
-				<li><a href="" target="_blank"><amp-img src="img/footer-fb.svg" width="21" height="21" layout="responsive"></a></li>
-				<li><a href="" target="_blank"><amp-img src="img/footer-ig.svg" width="21" height="21" layout="responsive"></a></li>
-				<li><a href="" target="_blank"><amp-img src="img/footer-tw.svg" width="21" height="21" layout="responsive"></a></li>
-				<li><a href="" target="_blank"><amp-img src="img/footer-flicker.svg" width="21" height="21" layout="responsive"></a></li>
+				<li><a href="https://wa.me/5219841250102" target="_blank"><amp-img src="img/footer-whatsapp.svg" width="21" height="21" layout="responsive"></a></li>
+				<li><a href="https://www.facebook.com/VillasFlamingosHolbox" target="_blank"><amp-img src="img/footer-fb.svg" width="21" height="21" layout="responsive"></a></li>
+				<li><a href="https://www.instagram.com/flamingosholbox/" target="_blank"><amp-img src="img/footer-ig.svg" width="21" height="21" layout="responsive"></a></li>
+				<li><a href="https://twitter.com/flamingosholbox" target="_blank"><amp-img src="img/footer-tw.svg" width="21" height="21" layout="responsive"></a></li>
+				<li><a href="https://www.flickr.com/photos/villasflamingosholbox/" target="_blank"><amp-img src="img/footer-flicker.svg" width="21" height="21" layout="responsive"></a></li>
 			</ul>
 			<div>
 				<a class="phoneLink" href="tel:1-984-875-2167" target="_blank">1-984-875-2167</a>

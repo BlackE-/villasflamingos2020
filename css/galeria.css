@@ -11,13 +11,17 @@
 .filter-gallery {  width: 100%;  padding:0;min-height: 100vh;}
 .listBox .category{display: none;}
 
+.i-amphtml-image-viewer{background-color: #fff;}
+.i-amphtml-lbg, .i-amphtml-lbg-gallery, .i-amphtml-lbg-mask{background: #fff !important;}
+
+
 .filter-gallery .list { width: 100%; padding: 0px; transition: all 0.7s ease-in-out;  margin: 0;overflow: hidden;}
 .filter-gallery .list li { width: calc(20% - 10px); float: left; padding: 5px; list-style: none; transition: all 0.7s ease;}
 .filter-gallery .list li:hover{cursor:pointer;}
 @media screen and (max-width: 1024px) {.filter-gallery .list li {width: calc(33.33% - 10px);}}
 @media (max-width: 40.06rem) {.filter-gallery .list li {width: calc(50% - 10px);}}
 .filter-gallery .list li .listBox{display: block;width: 100%;}
-.filter-gallery .list li .listBox img {width: 100%;height: 155px;object-fit: cover;}
+.filter-gallery .list li .listBox img {width: 100%;height: 155px;object-fit: cover;height:100%;}
 
 .filter-gallery .filter { list-style: none;  padding: 10px 15px;  margin: 0;text-align: center;}
 .filter-gallery .filter li {display: inline-block;}

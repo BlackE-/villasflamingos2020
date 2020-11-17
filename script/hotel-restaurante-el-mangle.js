@@ -19,7 +19,6 @@
 
     let tlBarPedales = gsap.timeline({scrollTrigger: {trigger: "#BarPedalesBox"}});
     tlBarPedales.to('#BarPedales_desktop', {opacity:1,x:0,duration:0.5});
-    tlBarPedales.to('#BarPedales_mobile', {opacity:1,x:0,duration:0.5});
     tlBarPedales.to('#titleBarPedales', {opacity:1,y:0,duration:0.5},"-=0.2");
     tlBarPedales.to('#textBarPedales',{opacity:1,x:0,duration:0.5},"-=0.2");
 

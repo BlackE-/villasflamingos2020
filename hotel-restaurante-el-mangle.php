@@ -2,6 +2,7 @@
 <head>
   <?php include('header_meta.php');?>
   <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.2.js"></script>
+  <script async custom-element="amp-lightbox-gallery" src="https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js"></script>
   <link rel="stylesheet" type="text/css" href="css/hotel-restaurante-el-mangle.css">
 </head>
 <body>
@@ -21,17 +22,12 @@
       <section class="carousel">
         <div class="container">
           <div class="carouselContainer">
-           <amp-carousel id="carouselSala" type="slides" width="1080" height="720" layout="responsive" controls loop autoplay delay="5000" role="region" aria-label="Tipo Habitaciones">
+           <amp-carousel lightbox id="carouselSala" type="slides" width="1080" height="720" layout="responsive" controls loop autoplay delay="5000" role="region" aria-label="Tipo Habitaciones">
               <?php
                 for($i=1;$i<15;$i++){
                   echo '<div class="carouselDiv">
                           <div class="imgContainer">
-                            <amp-img class="desktop" src="img/hotel-restaurante-el-mangle-'.$i.'.webp" width="1080" height="720" layout="responsive">
-                              <amp-img fallback src="img/hotel-restaurante-el-mangle-'.$i.'.jpg" width="1080" height="720" layout="responsive"></amp-img>
-                            </amp-img>
-                            <amp-img class="mobile" src="img/hotel-restaurante-el-mangle-'.$i.'-mobile.webp" width="360" height="240" layout="responsive">
-                                <amp-img fallback src="img/hotel-restaurante-el-mangle-'.$i.'-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
-                              </amp-img>
+                            <amp-img src="img/hotel-restaurante-el-mangle-'.$i.'.jpg" width="1080" height="720" layout="responsive"></amp-img>
                           </div>
                       </div>';
                 }
@@ -39,15 +35,17 @@
             </amp-carousel>
           </div>
           <div class="hotel_restaurante_texto_2" id="text2">
-            <p>Somos los únicos en mezclar lo vanguardista y la comida típica de la isla. No te pierdas nuestros eventos exclusivos especialmente diseñados por nuestro chef Santiago que te guiarán por una <b><span>experiencia gastronómica inolvidable.</span></b><br><br>Restaurante abierto al <b><i><span>público</span></i></b>, para reservaciones comunicarse con el hotel.<br></p>
+            <p>Somos los únicos en mezclar lo vanguardista y la comida típica de la isla. No te pierdas nuestros eventos exclusivos especialmente diseñados por nuestro Chef Santiago Cutz Pool que te guiarán por una <b><span>experiencia gastronómica inolvidable.</span></b><br><br>Restaurante abierto al <b><i><span>público</span></i></b>, para reservaciones comunicarse con el hotel.<br></p>
             <p><b><i><span>Horarios:</span></i></b><br>Desayuno 7 am a 11:30 am<br>Comida 12pm a 6 pm<br>Cena 7 pm a 10:30 pm</p>
           </div>
       </section>
 
       <section class="menuContainer">
         <div class="container" id="imgMenu">
-          <amp-img class="desktop" layout="responsive" width="1920" height="1080" src="img/hotel-restaurante-el-mangle-menu-desktop.jpg"/></amp-img>
-          <amp-img class="mobile" layout="responsive" width="360" height="640" src="img/hotel-restaurante-el-mangle-menu-mobile.jpg"/></amp-img>
+          <a href="/menu">
+            <amp-img class="desktop" layout="responsive" width="1920" height="1080" src="img/hotel-restaurante-el-mangle-menu-desktop.jpg"/></amp-img>
+            <amp-img class="mobile" layout="responsive" width="360" height="640" src="img/hotel-restaurante-el-mangle-menu-mobile.jpg"/></amp-img>
+          </a>
           <div class="button" id="" role="button"><a href="/menu"><span>VER MENÚ</span></a></div>
           <hr>
         </div>
@@ -56,11 +54,8 @@
         <div class="container">
           <div class="boxContainer" id="BarPedalesBox">
             <div class="box">
-              <amp-img class="desktop" id="BarPedales_desktop" alt="Bar Pedales" src="img/hotel-restaurante-el-mangle-bar-los-pedales-1.webp"  width="1080" height="720"  layout="responsive" media="(min-width: 645px)">
-                <amp-img fallback alt="Bar Pedales" src="img/hotel-restaurante-el-mangle-bar-los-pedales-1.jpg"  width="1080" height="720"  layout="responsive" media="(min-width: 645px)"></amp-img>
-              </amp-img>
-              <amp-img class="image mobile" id="BarPedales_mobile" alt="Bar Pedales" src="img/hotel-restaurante-el-mangle-bar-los-pedales-1-mobile.webp" width="360" height="240" layout="responsive" media="(max-width: 644px)">
-                <amp-img fallback alt="Bar Pedales" src="img/hotel-restaurante-el-mangle-bar-los-pedales-1-mobile.jpg" width="360" height="240" layout="responsive" media="(max-width: 644px)"></amp-img>
+              <amp-img  id="BarPedales_desktop" alt="Bar Pedales" src="img/hotel-restaurante-el-mangle-bar-los-pedales-1.webp"  width="1080" height="720"  layout="responsive">
+                <amp-img fallback alt="Bar Pedales" src="img/hotel-restaurante-el-mangle-bar-los-pedales-1.jpg"  width="1080" height="720"  layout="responsive"></amp-img>
               </amp-img>
             </div>
             <div class="boxTextContainer">
@@ -72,17 +67,12 @@
           <div class="boxContainer" id="BarPedalesBox2">
             <div class="box">
               <div class="carouselContainer" id="BarPedales_carousel">
-               <amp-carousel id="carouselBar" type="slides" width="1080" height="720" layout="responsive" controls loop autoplay delay="5000" role="region" aria-label="Tipo Habitaciones">
+               <amp-carousel lightbox id="carouselBar" type="slides" width="1080" height="720" layout="responsive" controls loop autoplay delay="5000" role="region" aria-label="Tipo Habitaciones">
                   <?php
                     for($i=2;$i<8;$i++){
                       echo '<div class="carouselDiv">
                               <div class="imgContainer">
-                                <amp-img class="desktop" src="img/hotel-restaurante-el-mangle-bar-los-pedales-'.$i.'.webp" width="1080" height="720" layout="responsive">
-                                  <amp-img fallback src="img/hotel-restaurante-el-mangle-bar-los-pedales-'.$i.'.jpg" width="1080" height="720" layout="responsive"></amp-img>
-                                </amp-img>
-                                <amp-img class="mobile" src="img/hotel-restaurante-el-mangle-bar-los-pedales-'.$i.'-mobile.webp" width="360" height="240" layout="responsive">
-                                    <amp-img fallback src="img/hotel-restaurante-el-mangle-bar-los-pedales-'.$i.'-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
-                                  </amp-img>
+                                <amp-img src="img/hotel-restaurante-el-mangle-bar-los-pedales-'.$i.'.jpg" width="1080" height="720" layout="responsive"></amp-img>
                               </div>
                           </div>';
                     }

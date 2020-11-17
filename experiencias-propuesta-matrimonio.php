@@ -2,6 +2,7 @@
 <head>
   <?php include('header_meta.php');?>
   <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.2.js"></script>
+  <script async custom-element="amp-lightbox-gallery" src="https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js"></script>
   <link rel="stylesheet" type="text/css" href="css/experiencias-propuesta-matrimonio.css">
 </head>
 <body>
@@ -12,23 +13,18 @@
       <section class="cenas_texto">
         <div class="container" id="text1">
           <h1>Propuesta de <b>MATRIMONIO</b></h1>
-          <p>LA TRANQUILIDAD DE NUESTRA TERRAZA inspira a muchos... Villas Flamingos abre sus puertas para que puedan lograr una armonía perfecta. <br> Contamos con paquetes especiales para grupos que deseen realizar sus retiros en nuestras instalaciones.  </p>
+          <p>Sabemos que este <b><span>día es muy importante para ti</span></b>, no te preocupes nosotros nos encargaremos de que este momento sea <b><i>inolvidable tal y como lo planeaste.</i></b> </p>
         </div>
       </section>
       <section class="carousel">
         <div class="container">
           <div class="carouselContainer">
-           <amp-carousel id="carouselSala" type="slides" width="1080" height="720" layout="responsive" controls loop autoplay delay="5000" role="region" aria-label="Tipo Habitaciones">
+           <amp-carousel lightbox id="carouselSala" type="slides" width="1080" height="720" layout="responsive" controls loop autoplay delay="5000" role="region" aria-label="Tipo Habitaciones">
               <?php
                 for($i=1;$i<4;$i++){
                   echo '<div class="carouselDiv">
                           <div class="imgContainer">
-                            <amp-img class="desktop" src="img/experiencias-propuesta-matrimonio-'.$i.'.webp" width="1080" height="720" layout="responsive">
-                              <amp-img fallback src="img/experiencias-propuesta-matrimonio-'.$i.'.jpg" width="1080" height="720" layout="responsive"></amp-img>
-                            </amp-img>
-                            <amp-img class="mobile" src="img/experiencias-propuesta-matrimonio-'.$i.'-mobile.webp" width="360" height="240" layout="responsive">
-                                <amp-img fallback src="img/experiencias-propuesta-matrimonio-'.$i.'-mobile.jpg" width="360" height="240" layout="responsive"></amp-img>
-                              </amp-img>
+                            <amp-img src="img/experiencias-propuesta-matrimonio-'.$i.'.jpg" width="1080" height="720" layout="responsive"></amp-img>
                           </div>
                       </div>';
                 }

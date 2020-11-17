@@ -16,12 +16,17 @@
 .carouselContainer{position: relative;opacity: 0;transform: translate(200px,0);max-width:960px;margin:0 auto;}
 .carouselContainer amp-carousel .carouselDiv{width: 90%;margin:0 auto;}
 .carouselContainer amp-carousel .carouselDiv amp-img{opacity: 0;transition: all 500ms ease-in;}
-@media (max-width: 40.06rem) {	.carouselContainer amp-carousel .carouselDiv{width: 85%;}}
+@media (max-width: 40.06rem) {	.carouselContainer amp-carousel .carouselDiv{width: 99%;}}
 #carouselSala .i-amphtml-carousel-slide-item[aria-hidden="false"] amp-img{opacity: 1;transform:translate(0,0)}
 /*	ARROWS CAROUSEL*/
-.carouselContainer amp-carousel .amp-carousel-button{background-color: transparent;outline:none;margin:0;width:30px;height: 15px;}
+.carouselContainer amp-carousel .amp-carousel-button{border:0;background-color: transparent;outline:none;margin:0;width:30px;height: 15px;}
 .carouselContainer amp-carousel .amp-carousel-button-prev {transform: scale(2) rotate(-90deg);background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 11.65 4.79'%3E%3Ctitle%3Eup%3C/title%3E%3Cg id='Capa_2' data-name='Capa 2'%3E%3Cg id='Capa_1-2' data-name='Capa 1'%3E%3Cpath d='M5.82.24a.68.68,0,0,0-.39.12L.33,3.93l.37.53L5.8.89h0L11,4.44l.37-.53L6.21.36A.68.68,0,0,0,5.82.24Z' style='fill:%;stroke:%;stroke-miterlimit:10;stroke-width:0.470551181102362px'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");}
 .carouselContainer amp-carousel .amp-carousel-button-next {transform: scale(2) rotate(90deg);background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 11.65 4.79'%3E%3Ctitle%3Eup%3C/title%3E%3Cg id='Capa_2' data-name='Capa 2'%3E%3Cg id='Capa_1-2' data-name='Capa 1'%3E%3Cpath d='M5.82.24a.68.68,0,0,0-.39.12L.33,3.93l.37.53L5.8.89h0L11,4.44l.37-.53L6.21.36A.68.68,0,0,0,5.82.24Z' style='fill:%;stroke:%;stroke-miterlimit:10;stroke-width:0.470551181102362px'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");}
+.i-amphtml-image-viewer{background-color: #fff;}
+.i-amphtml-lbg, .i-amphtml-lbg-gallery, .i-amphtml-lbg-mask{background: #fff !important;}
+
+
+
 
 .button{position:relative;outline:none;background: #000;text-align:center;text-transform: uppercase;color:#fff;border:0;transition: all 0.3s ease-in;max-width: 200px;margin: 50px auto;}
 .button a{text-transform: uppercase;color:#fff;font-size:16px;text-decoration:none;transition: all 0.3s ease-in;}

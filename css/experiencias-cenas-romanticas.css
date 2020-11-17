@@ -14,28 +14,57 @@
 .cenas_texto p span{text-transform: uppercase;}
 
 
-.carouselContainer{position: relative;opacity: 0;transform: translate(200px,0);max-width:960px;margin:0 auto;}
+
+.gridContainer h2{position: relative;display: inline-block;}
+.gridContainer h2:after{content:'';width:50%;height:1px;background:#000;position: absolute;bottom:0;left:0;}
+
+
+
+/*PRIMER GRID*/
+#gridContainer{display: grid;grid-template-columns: 1fr 1fr;align-items: center;}
+@media (max-width: 40.06rem) {#gridContainer{grid-template-columns: 1fr;}}
+
+.carouselContainer{opacity: 0;transform: translate(-200px,0);}
 .carouselContainer amp-carousel .carouselDiv{width: 90%;margin:0 auto;}
 .carouselContainer amp-carousel .carouselDiv amp-img{opacity: 0;transition: all 500ms ease-in;}
-@media (max-width: 40.06rem) {	.carouselContainer amp-carousel .carouselDiv{width: 85%;}}
+@media (max-width: 40.06rem) {	.carouselContainer amp-carousel .carouselDiv{width: 99%;}}
 #carouselSala .i-amphtml-carousel-slide-item[aria-hidden="false"] amp-img{opacity: 1;transform:translate(0,0)}
 /*	ARROWS CAROUSEL*/
-.carouselContainer amp-carousel .amp-carousel-button{background-color: transparent;outline:none;margin:0;width:30px;height: 15px;}
+.carouselContainer amp-carousel .amp-carousel-button{border:0;background-color: transparent;outline:none;margin:0;width:30px;height: 15px;}
 .carouselContainer amp-carousel .amp-carousel-button-prev {transform: scale(2) rotate(-90deg);background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 11.65 4.79'%3E%3Ctitle%3Eup%3C/title%3E%3Cg id='Capa_2' data-name='Capa 2'%3E%3Cg id='Capa_1-2' data-name='Capa 1'%3E%3Cpath d='M5.82.24a.68.68,0,0,0-.39.12L.33,3.93l.37.53L5.8.89h0L11,4.44l.37-.53L6.21.36A.68.68,0,0,0,5.82.24Z' style='fill:%;stroke:%;stroke-miterlimit:10;stroke-width:0.470551181102362px'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");}
 .carouselContainer amp-carousel .amp-carousel-button-next {transform: scale(2) rotate(90deg);background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 11.65 4.79'%3E%3Ctitle%3Eup%3C/title%3E%3Cg id='Capa_2' data-name='Capa 2'%3E%3Cg id='Capa_1-2' data-name='Capa 1'%3E%3Cpath d='M5.82.24a.68.68,0,0,0-.39.12L.33,3.93l.37.53L5.8.89h0L11,4.44l.37-.53L6.21.36A.68.68,0,0,0,5.82.24Z' style='fill:%;stroke:%;stroke-miterlimit:10;stroke-width:0.470551181102362px'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");}
+@media (max-width: 40.06rem) {	.carouselContainer amp-carousel .amp-carousel-button{background-color: rgba(255,255,255,0.5);}}
+.i-amphtml-image-viewer{background-color: #fff;}
+.i-amphtml-lbg, .i-amphtml-lbg-gallery, .i-amphtml-lbg-mask{background: #fff !important;}
 
 
-.cenas_texto_2{padding: 50px 0;}
-.cenas_texto_2 #text2{opacity: 0;transform: translate(-1000px,0);max-width: 360px;text-align: left;}
-.cenas_texto_2 h2{position: relative;display: inline-block;}
-.cenas_texto_2 h2:after{content:'';width:50%;height:1px;background:#000;position: absolute;bottom:0;left:0;}
-.cenas_texto_2 h1{font-weight: 500;font-size: 40px;text-transform: uppercase;}
-@media (max-width: 40.06rem) {.cenas_texto h1{font-size: 32px;}}
-.cenas_texto_2 h1 b{font-weight: 800;}
-.cenas_texto_2 p{font-size: 20px;}
-.cenas_texto_2 p span{text-transform: uppercase;}
-.cenas_texto_2 .note{font-style:italic;text-align: center;}
-@media (max-width: 40.06rem) {.cenas_texto_2 h1{font-size: 30px;}}
+#gridContainer{padding: 50px 0;}
+#gridContainer #text2{opacity: 0;transform: translate(0,-200px);max-width: 360px;text-align: left;}
+#gridContainer h1{font-weight: 500;font-size: 40px;text-transform: uppercase;}
+@media (max-width: 40.06rem) {#gridContainer h1{font-size: 32px;}}
+#gridContainer h1 b{font-weight: 800;}
+#gridContainer p{font-size: 20px;}
+#gridContainer p span{text-transform: uppercase;}
+@media (max-width: 40.06rem) {#gridContainer h1{font-size: 30px;}}
+
+
+
+
+/*segundo GRID*/
+#gridContainer2{display: grid;grid-template-columns: 1fr 1fr;align-items: center;padding: 50px 0;}
+@media (max-width: 40.06rem) {#gridContainer2{grid-template-columns: 1fr;padding: 0;}}
+#gridContainer2 #text3{opacity: 0;transform: translate(-1000px,0);max-width: 360px;text-align: left;}
+#gridContainer2 h1{font-weight: 500;font-size: 40px;text-transform: uppercase;}
+@media (max-width: 40.06rem) {#gridContainer2 h1{font-size: 32px;}}
+#gridContainer2 h1 b{font-weight: 800;}
+#gridContainer2 p{font-size: 20px;}
+#gridContainer2 p span{text-transform: uppercase;}
+@media (max-width: 40.06rem) {
+	#gridContainer2 #text3{grid-row-start: 2;grid-row-end: 3;}
+	#gridContainer2 h1{font-size: 30px;}
+}
+
+#gridContainer2 .imgContainer{opacity: 0;transform: translate(200px,0);}
 
 .button{position:relative;outline:none;background: #000;text-align:center;text-transform: uppercase;color:#fff;border:0;transition: all 0.3s ease-in;max-width: 200px;margin: 50px auto;}
 .button a{text-transform: uppercase;color:#fff;font-size:16px;text-decoration:none;transition: all 0.3s ease-in;}
@@ -50,3 +79,5 @@
 .button span:after{content: '';position: absolute;bottom: 0;right: 0;width: 100%;height: 1px;background-color: #000;transform: scaleX(0);transform-origin: bottom right;transition: transform 1s;}
 .button:hover span:after,
 .button:hover span:before{transform: scaleX(1);}  
+
+.note{font-style:italic;text-align: center;}

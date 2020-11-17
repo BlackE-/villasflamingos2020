@@ -43,6 +43,8 @@
 #holboxAeropuertoCancunBox .boxTextContainer p#textholboxAeropuertoCancun2{opacity: 0;transform: translate(-100px,0px);}
 #holboxAeropuertoCancunBox .boxTextContainer #textholboxAeropuertoCancun3{opacity: 0;transform: translate(-100px,0px);}
 #holboxAeropuertoCancunBox .boxTextContainer #textholboxAeropuertoCancun4{opacity: 0;transform: translate(-100px,0px);}
+#holboxAeropuertoCancunBox .boxTextContainer #textholboxAeropuertoCancun5{opacity: 0;transform: translate(-100px,0px);}
+#holboxAeropuertoCancunBox .boxTextContainer #textholboxAeropuertoCancun6{opacity: 0;transform: translate(-100px,0px);}
 #holboxAeropuertoCancunBox #holboxAeropuertoCancunButton{opacity: 0;margin: 0;}
 
 #holboxMeridaBox .boxTextContainer p#textholboxMerida{opacity: 0;transform: translate(-100px,0px);}
@@ -54,4 +56,8 @@
 
 #holboxRivieraBox .boxTextContainer p#textholboxRiviera{opacity: 0;transform: translate(-100px,0px);}
 #holboxRivieraBox .boxTextContainer p#textholboxRiviera2{opacity: 0;transform: translate(-100px,0px);}
+#holboxRivieraBox .boxTextContainer #textholboxRiviera3{opacity: 0;transform: translate(-100px,0px);}
+#holboxRivieraBox .boxTextContainer #textholboxRiviera4{opacity: 0;transform: translate(-100px,0px);}
+#holboxRivieraBox .boxTextContainer #textholboxRiviera5{opacity: 0;transform: translate(-100px,0px);}
+#holboxRivieraBox .boxTextContainer #textholboxRiviera6{opacity: 0;transform: translate(-100px,0px);}
 #holboxRivieraBox #holboxRivieraButton{opacity: 0;}

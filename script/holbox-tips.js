@@ -6,11 +6,10 @@
         tl.to('.tips_header',{translateY:0,opacity:1});
     });
 
-
-    gsap.registerPlugin(ScrollTrigger);
-    gsap.to('#text1', {scrollTrigger: ".tips_texto",opacity:1,x:0,duration:1.5});
-    gsap.to('#text2', {scrollTrigger: ".tips_texto_2",opacity:1,y:0,duration:1.5});
     gsap.to('#pro_tip h2', {scrollTrigger: ".tips_texto_2",opacity:1,y:0,duration:1.5});
+    gsap.to('#text1', {scrollTrigger: ".tips_texto",opacity:1,x:0,duration:1.0});
+    gsap.to('#text2', {scrollTrigger: ".tips_texto_2",opacity:1,y:0,duration:1.0});
+    
 
 
 
@@ -18,7 +17,6 @@
     tlQueHacer.to('#quehacer_title h2', {opacity:1,y:0,duration:1.5});
 
     tlQueHacer.to('#quehacer_1', {opacity:1,x:0,duration:0.5},"-=0.2");
-    tlQueHacer.to('#quehacer_2',{opacity:1,x:0,duration:0.5},"-=0.2");
     tlQueHacer.to('#quehacer_3',{opacity:1,x:0,duration:0.5},"-=0.2");
     tlQueHacer.to('#quehacer_4',{opacity:1,x:0,duration:0.5},"-=0.2");
     tlQueHacer.to('#quehacer_5',{opacity:1,x:0,duration:0.5},"-=0.2");

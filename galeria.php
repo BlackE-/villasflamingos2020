@@ -35,13 +35,21 @@
                       echo '<p class="category">habitaciones</p>';
                       echo '<div class="button"><a href="habitaciones-vista-mar"><span>VISTA MAR</span></a></div>';
                     break;
-                    case 32:  case 43: case 48:
+                    case 32:   
                      echo '<p class="category">habitaciones</p>';
                       echo '<div class="button"><a href="habitaciones-vista-jardin"><span>VISTA JARDÍN</span></a></div>';
                     break;
-                    case 9:  case 16: case 23: 
+                    case 16: 
+                      echo '<p class="category">habitaciones</p>';
+                      echo '<div class="button"><a href="habitaciones-bungalow-arena"><span>BUNGALOW ARENA</span></a></div>';
+                    break;
+                    case 9: case 23: 
                       echo '<p class="category">habitaciones</p>';
                       echo '<div class="button"><a href="habitaciones-bungalow-cielo"><span>BUNGALOW CIELO</span></a></div>';
+                    break;
+                    case 43: case 48:
+                      echo '<p class="category">habitaciones</p>';
+                      echo '<div class="button"><a href="habitaciones-bungalow-jardin"><span>BUNGALOW JARDÍN</span></a></div>';
                     break;
                     case 22:  case 29:
                       echo '<p class="category">habitaciones</p>';

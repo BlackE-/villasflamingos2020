@@ -67,41 +67,19 @@
 
     const setImages = (data,container) =>{
         let roomNum = 1;
+        let xLoop = 1;
         switch(data.room){
-            case "cacao":
-                if(window.innerWidth < 400){/*add only one img*/document.getElementById(container).innerHTML = `<div class="imgBox"><amp-img alt="${data.room}" src="img/habitaciones-${data.room}-1-mobile.jpg"  width="360" height="240"  layout="responsive"></amp-img></div>`;}
-                else{
-                    stringData = ``;
-                    roomNum++;//empieza en 2
-                    for(let x = 2;x<=data.num;x++){stringData += `<div class="imgBox"><amp-img class='active' alt="${data.room}" src="img/habitaciones-${data.room}-${x}.jpg"  width="1080" height="720"  layout="responsive"></amp-img></div>`;roomNum++;}
-                    console.log(data.num2);
-                    if(data.num2 != '0'){
-                        let stringData2 = ``;
-                        for(let x = 1;x<=data.num2;x++){stringData2 += `<div class="imgBox vertical"><amp-img class='active' alt="${data.room}" src="img/habitaciones-${data.room}-${roomNum}.jpg"  width="720" height="1080"  layout="responsive"></amp-img></div>`;roomNum++;}
-                        stringData += stringData2;   
-                    }
-                    document.getElementById(container).innerHTML = stringData;
-                }
-            break;
-            default:
-                if(window.innerWidth < 400){/*add only one img*/document.getElementById(container).innerHTML = `<div class="imgBox"><amp-img alt="${data.room}" src="img/habitaciones-${data.room}-1-mobile.jpg"  width="360" height="240"  layout="responsive"></amp-img></div>`;}
-                else{
-                    stringData = ``;
-                    for(let x = 1;x<=data.num;x++){stringData += `<div class="imgBox"><amp-img class='active' alt="${data.room}" src="img/habitaciones-${data.room}-${x}.jpg"  width="1080" height="720"  layout="responsive"></amp-img></div>`;roomNum++;}
-                    if(data.num2 != '0'){
-                        let stringData2 = ``;
-                        for(let x = 1;x<=data.num2;x++){stringData2 += `<div class="imgBox vertical"><amp-img class='active' alt="${data.room}" src="img/habitaciones-${data.room}-${roomNum}.jpg"  width="720" height="1080"  layout="responsive"></amp-img></div>`;roomNum++;}
-                        stringData += stringData2;
-                    }
-                    document.getElementById(container).innerHTML = stringData;
-                    
-                }
-                
-        
-
+            case "cacao":xLoop = 2;break;
         }
-        
-
+        stringData = ``;
+        roomNum = xLoop;
+        for(let x = xLoop;x<=data.num;x++){stringData += `<div class="imgBox"><amp-img class='active' alt="${data.room}" src="img/habitaciones-${data.room}-${x}.jpg"  width="1080" height="720"  layout="responsive"></amp-img></div>`;roomNum++;}
+        if(data.num2 != '0'){
+            let stringData2 = ``;
+            for(let x = 1;x<=data.num2;x++){stringData2 += `<div class="imgBox vertical"><amp-img class='active' alt="${data.room}" src="img/habitaciones-${data.room}-${roomNum}.jpg"  width="720" height="1080"  layout="responsive"></amp-img></div>`;roomNum++;}
+            stringData += stringData2;   
+        }
+        document.getElementById(container).innerHTML = stringData;
     }
 
     request('suitemasterpalapa','left');
@@ -117,67 +95,56 @@
 
     let tlroom1 = gsap.timeline({scrollTrigger: {trigger: "#room1"}});
     tlroom1.to('#room1_desktop', {opacity:1,x:0,duration:0.5});
-    tlroom1.to('#room1_mobile', {opacity:1,x:0,duration:0.5},"-=0.2");
     tlroom1.to('#room1_title', {opacity:1,y:0,duration:0.5},"-=0.2");
     tlroom1.to('#room1_Button', {opacity:1,duration:0.5},"-=0.2"); 
 
     let tltlroom2 = gsap.timeline({scrollTrigger: {trigger: "#room2"}});
     tltlroom2.to('#room2_desktop', {opacity:1,x:0,duration:0.5});
-    tltlroom2.to('#room2_mobile', {opacity:1,x:0,duration:0.5},"-=0.2");
     tltlroom2.to('#room2_title', {opacity:1,y:0,duration:0.5},"-=0.2");
     tltlroom2.to('#room2_Button', {opacity:1,duration:0.5},"-=0.2");
 
     let tlroom3 = gsap.timeline({scrollTrigger: {trigger: "#room3"}});
     tlroom3.to('#room3_desktop', {opacity:1,x:0,duration:0.5});
-    tlroom3.to('#room3_mobile', {opacity:1,x:0,duration:0.5},"-=0.2");
     tlroom3.to('#room3_title', {opacity:1,y:0,duration:0.5},"-=0.2");
     tlroom3.to('#room3_Button', {opacity:1,duration:0.5},"-=0.2");
 
     let tlroom4 = gsap.timeline({scrollTrigger: {trigger: "#room4"}});
     tlroom4.to('#room4_desktop', {opacity:1,x:0,duration:0.5});
-    tlroom4.to('#room4_mobile', {opacity:1,x:0,duration:0.5},"-=0.2");
     tlroom4.to('#room4_title', {opacity:1,y:0,duration:0.5},"-=0.2");
     tlroom4.to('#room4_Button', {opacity:1,duration:0.5},"-=0.2");
 
     let tlroom5 = gsap.timeline({scrollTrigger: {trigger: "#room5"}});
     tlroom5.to('#room5_desktop', {opacity:1,x:0,duration:0.5});
-    tlroom5.to('#room5_mobile', {opacity:1,x:0,duration:0.5},"-=0.2");
     tlroom5.to('#room5_title', {opacity:1,y:0,duration:0.5},"-=0.2");
     tlroom5.to('#room5_Button', {opacity:1,duration:0.5},"-=0.2");
 
     let tlroom6 = gsap.timeline({scrollTrigger: {trigger: "#room6"}});
     tlroom6.to('#room6_desktop', {opacity:1,x:0,duration:0.5});
-    tlroom6.to('#room6_mobile', {opacity:1,x:0,duration:0.5},"-=0.2");
     tlroom6.to('#room6_title', {opacity:1,y:0,duration:0.5},"-=0.2");
     tlroom6.to('#room6_Button', {opacity:1,duration:0.5},"-=0.2");
 
     let tlroom7 = gsap.timeline({scrollTrigger: {trigger: "#room7"}});
     tlroom7.to('#room7_desktop', {opacity:1,x:0,duration:0.5});
-    tlroom7.to('#room7_mobile', {opacity:1,x:0,duration:0.5},"-=0.2");
     tlroom7.to('#room7_title', {opacity:1,y:0,duration:0.5},"-=0.2");
     tlroom7.to('#room7_Button', {opacity:1,duration:0.5},"-=0.2");
 
     let tlsuiteLunaDeMiel = gsap.timeline({scrollTrigger: {trigger: "#room8"}});
     tlsuiteLunaDeMiel.to('#room8_desktop', {opacity:1,x:0,duration:0.5});
-    tlsuiteLunaDeMiel.to('#room8_mobile', {opacity:1,x:0,duration:0.5},"-=0.2");
     tlsuiteLunaDeMiel.to('#room8_title', {opacity:1,y:0,duration:0.5},"-=0.2");
     tlsuiteLunaDeMiel.to('#room8_Button', {opacity:1,duration:0.5},"-=0.2");
 
     let tlroom9 = gsap.timeline({scrollTrigger: {trigger: "#room9"}});
     tlroom9.to('#room9_desktop', {opacity:1,x:0,duration:0.5});
-    tlroom9.to('#room9_mobile', {opacity:1,x:0,duration:0.5},"-=0.2");
     tlroom9.to('#room9_title', {opacity:1,y:0,duration:0.5},"-=0.2");
     tlroom9.to('#room9_Button', {opacity:1,duration:0.5},"-=0.2");
 
     let tlroom10 = gsap.timeline({scrollTrigger: {trigger: "#room10"}});
     tlroom10.to('#room10_desktop', {opacity:1,x:0,duration:0.5});
-    tlroom10.to('#room10_mobile', {opacity:1,x:0,duration:0.5},"-=0.2");
     tlroom10.to('#room10_title', {opacity:1,y:0,duration:0.5},"-=0.2");
     tlroom10.to('#room10_Button', {opacity:1,duration:0.5},"-=0.2");
 
 
     let tlroom11 = gsap.timeline({scrollTrigger: {trigger: "#room11"}});
     tlroom11.to('#room11_desktop', {opacity:1,x:0,duration:0.5});
-    tlroom11.to('#room11_mobile', {opacity:1,x:0,duration:0.5},"-=0.2");
     tlroom11.to('#room11_title', {opacity:1,y:0,duration:0.5},"-=0.2");
     tlroom11.to('#room11_Button', {opacity:1,duration:0.5},"-=0.2");

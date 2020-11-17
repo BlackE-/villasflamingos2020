@@ -18,9 +18,10 @@
     tlHotelAeropuertoCancun.to('#textholboxAeropuertoCancun', {opacity:1,x:0,duration:0.5},"-=0.2");
     tlHotelAeropuertoCancun.to('#holboxAeropuertoCancunTipo2', {opacity:1,y:0,duration:0.5},"-=0.2");
     tlHotelAeropuertoCancun.to('#textholboxAeropuertoCancun2',{opacity:1,x:0,duration:0.5},"-=0.2");
-    tlHotelAeropuertoCancun.to('#holboxAeropuertoCancunTipo3', {opacity:1,y:0,duration:0.5},"-=0.2");
     tlHotelAeropuertoCancun.to('#textholboxAeropuertoCancun3',{opacity:1,x:0,duration:0.5},"-=0.2");
     tlHotelAeropuertoCancun.to('#textholboxAeropuertoCancun4',{opacity:1,x:0,duration:0.5},"-=0.2");
+    tlHotelAeropuertoCancun.to('#textholboxAeropuertoCancun5',{opacity:1,x:0,duration:0.5},"-=0.2");
+    tlHotelAeropuertoCancun.to('#textholboxAeropuertoCancun6',{opacity:1,x:0,duration:0.5},"-=0.2");
     tlHotelAeropuertoCancun.to('#holboxAeropuertoCancunButton',{opacity:1,duration:0.5},"-=0.2");
 
 
@@ -38,4 +39,8 @@
     tlholboxRiviera.to('#holboxRivieratitle h2', {opacity:1,y:0,duration:1.5});
     tlholboxRiviera.to('#textholboxRiviera', {opacity:1,x:0,duration:0.5},"-=0.2");
     tlholboxRiviera.to('#textholboxRiviera2',{opacity:1,x:0,duration:0.5},"-=0.2");
+    tlholboxRiviera.to('#textholboxRiviera3',{opacity:1,x:0,duration:0.5},"-=0.2");
+    tlholboxRiviera.to('#textholboxRiviera4',{opacity:1,x:0,duration:0.5},"-=0.2");
+    tlholboxRiviera.to('#textholboxRiviera5',{opacity:1,x:0,duration:0.5},"-=0.2");
+    tlholboxRiviera.to('#textholboxRiviera6',{opacity:1,x:0,duration:0.5},"-=0.2");
     tlholboxRiviera.to('#holboxRivieraButton',{opacity:1,duration:0.5},"-=0.2");
