@@ -142,9 +142,3 @@
     tlroom10.to('#room10_desktop', {opacity:1,x:0,duration:0.5});
     tlroom10.to('#room10_title', {opacity:1,y:0,duration:0.5},"-=0.2");
     tlroom10.to('#room10_Button', {opacity:1,duration:0.5},"-=0.2");
-
-
-    let tlroom11 = gsap.timeline({scrollTrigger: {trigger: "#room11"}});
-    tlroom11.to('#room11_desktop', {opacity:1,x:0,duration:0.5});
-    tlroom11.to('#room11_title', {opacity:1,y:0,duration:0.5},"-=0.2");
-    tlroom11.to('#room11_Button', {opacity:1,duration:0.5},"-=0.2");

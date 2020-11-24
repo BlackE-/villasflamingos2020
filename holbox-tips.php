@@ -53,7 +53,7 @@
                 <li id="quetraer_7"><p>Para poder realmente disfrutar de las isla mínimo una estancia de 3 días dos noches.</p></li>
                 <li id="quetraer_8"><p>Es un poco más caro reservar la transportación en el hotel que rentar un coche sin embargo es mucho más cómodo, fácil, rápido y tranquilo que rentar un coche</p></li>
                 <li id="quetraer_9"><p>Si vienen en coche, pueden tomar la autopista a Mérida donde encontrarán el desvió a Holbox.</p></li>
-                <li id="quetraer_9"><p>Descargar películas en tu dispositivo ya que la señal de la isla no es muy favorable..</p></li>
+                <li id="quetraer_9"><p>Descargar películas en tu dispositivo ya que la señal de la isla no es muy favorable.</p></li>
               </ul>
           </div>
       </section>

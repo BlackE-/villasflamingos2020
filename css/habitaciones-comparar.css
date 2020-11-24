@@ -169,12 +169,3 @@
 	#room10 .box p{text-align:right;padding-right: 5px;}
 	#room10 .box .button{width: 200px;float: right;}
 }
-
-#room11{text-align: left;overflow: hidden;grid-column-start: 1;grid-column-end: 3;margin:0 auto;}
-#room11 .box amp-img{opacity: 0;transform: translate(-200px,0);}
-#room11 .box p{opacity: 0;transform: translate(0,100px);}
-@media (max-width: 40.06rem) {
-	#room11{margin:0;}
-	#room11 .box p{text-align:right;padding-right: 5px;}
-	#room11 .box .button{width: 200px;float: right;}
-}

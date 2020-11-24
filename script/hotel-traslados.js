@@ -22,6 +22,7 @@
     tlHotelAeropuertoCancun.to('#textholboxAeropuertoCancun4',{opacity:1,x:0,duration:0.5},"-=0.2");
     tlHotelAeropuertoCancun.to('#textholboxAeropuertoCancun5',{opacity:1,x:0,duration:0.5},"-=0.2");
     tlHotelAeropuertoCancun.to('#textholboxAeropuertoCancun6',{opacity:1,x:0,duration:0.5},"-=0.2");
+    tlHotelAeropuertoCancun.to('#textholboxAeropuertoCancun7',{opacity:1,x:0,duration:0.5},"-=0.2");
     tlHotelAeropuertoCancun.to('#holboxAeropuertoCancunButton',{opacity:1,duration:0.5},"-=0.2");
 
 

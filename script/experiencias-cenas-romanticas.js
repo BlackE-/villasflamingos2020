@@ -7,7 +7,7 @@
     });
 
     gsap.to('#text1', {scrollTrigger: ".cenas_texto",opacity:1,x:0,duration:1.5}); 
-    gsap.to('.carouselContainer', {scrollTrigger: ".gridContainer",opacity:1,x:0,duration:1.5}); 
+    gsap.to('#carouselPlaya', {scrollTrigger: ".gridContainer",opacity:1,x:0,duration:1.5}); 
     gsap.to('#text2', {scrollTrigger: ".gridContainer",opacity:1,y:0,duration:1.5});
-    gsap.to('#gridContainer2 .imgContainer', {scrollTrigger: ".gridContainer2",opacity:1,x:0,duration:1.5});
+    gsap.to('#carouselPalapa', {scrollTrigger: ".gridContainer2",opacity:1,x:0,duration:1.5}); 
     gsap.to('#text3', {scrollTrigger: ".gridContainer2",opacity:1,x:0,duration:1.5});

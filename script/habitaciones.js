@@ -56,11 +56,6 @@
     tlroom9.to('#room9_title', {opacity:1,y:0,duration:0.5},"-=0.2");
     tlroom9.to('#room9_Button', {opacity:1,duration:0.5},"-=0.2");
 
-    let tlroom10 = gsap.timeline({scrollTrigger: {trigger: "#room10"}});
-    tlroom10.to('#room10_desktop', {opacity:1,x:0,duration:0.5});
-    tlroom10.to('#room10_title', {opacity:1,y:0,duration:0.5},"-=0.2");
-    tlroom10.to('#room10_Button', {opacity:1,duration:0.5},"-=0.2");
-
     let tlComparar = gsap.timeline({scrollTrigger: {trigger: "#compararContainer"}});
     tlComparar.to('.habitacionescompararContainer h1', {opacity:1,y:0,duration:0.5});
     tlComparar.to('.habitacionescompararContainer .button', {opacity:1,duration:0.5},"-=0.2");

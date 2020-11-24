@@ -11,9 +11,9 @@
       </section>
       <section class="contacto_texto">
         <div class="container" id="text1">
-          <h1><b>Contáctanos</b></h1>
-          <p>Comentarios o preguntas <b><i><span>estamos siempre a la orden.</span></i></b></p>
-          <div class="button" id="contactoButton" role="button"><a href="mailto:info@villasflamingos.com" target="_blank"><span>CONTÁCTANOS</span></a></div>
+          <h1><b>Contact us</b></h1>
+          <p><b><i><span>We always welcome</span></i></b> any comments or questions.</p>
+          <div class="button" id="contactoButton" role="button"><a href="mailto:info@villasflamingos.com" target="_blank"><span>CONTACT US</span></a></div>
         </div>
       </section>
       <section class="contactoContainer">
@@ -41,9 +41,9 @@
       <section class="unirseContainer">
         <div class="container">
           <div id="uneteAlEquipoContainer">
-            <h1>Unete Al Equipo</h1>
-            <p><b>Siempre estamos buscando a nuevo talento</b> para entrar a nuestro equipo. Si quieres vivir y trabajar en el paraíso <b><i><span>contáctanos con tu Curriculum Vitae y una carta</span></i></b> del porqué te gustaría ser parte de Villas Flamingos.</p>
-            <div class="button" id="uneteButton" role="button"><a href="mailto:rrhh@villasflamingos.com" target="_blank"><span>CONTÁCTANOS</span></a></div>
+            <h1>Join the team</h1>
+            <p><b>We are always looking for new talent</b> to join our team. If you want to live and work in paradise, <b><i><span>CONTACT US WITH YOUR CURRICULUM VITAE AND A LETTER</span></i></b> explaining why you would like to be part of the team at Villas Flamingos.</p>
+            <div class="button" id="uneteButton" role="button"><a href="mailto:rrhh@villasflamingos.com" target="_blank"><span>CONTACT US</span></a></div>
           </div>
         </div>
       </section>

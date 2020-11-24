@@ -67,7 +67,7 @@
             <div class="box">
               <amp-img  id="chichenItza_desktop" alt="Villas Tres Islas" src="img/holbox-tours-chichen-itza-desktop.webp"  width="771" height="513"  layout="responsive">
                 <amp-img fallback alt="Villas Tres Islas" src="img/holbox-tours-chichen-itza-desktop.jpg"  width="771" height="513"  layout="responsive"></amp-img>
-              </amp-img> 644px)"></amp-img>
+              </amp-img> 
               </amp-img>
             </div>
             <div class="boxTextContainer">
@@ -75,7 +75,7 @@
               <p class="boxText" id="textchichenItza1">Es un honor y orgullo de todos los mexicanos, tener en nuestro país <b><i>una de las Siete Maravillas Modernas del Mundo.</i></b> Te invitamos a un lugar milenario, un tour todo incluido donde <b><i>un guía te mostrará a detalle este lugar increíble,</i></b> incluye una deliciosa comida a la entrada a <span><b><i>Chichen Itzá.</i></b></span></p>
               <p class="boxText" id="textchichenItza2">Duración: <br><b>Aproximadamente <i>12</i> horas</b></p>
               <p class="boxText" id="textchichenItza3">¿Quieres más información?</p>
-              <div class="button" id="ChichenItzaButton" role="button"><a href="#"><span>CONTÁCTANOS</span></a></div>
+              <div class="button" id="ChichenItzaButton" role="button"><a href="contacto"><span>CONTÁCTANOS</span></a></div>
             </div>
           </div>
           <div class="boxContainer" id="pescaDeAlturaBox">
@@ -136,7 +136,7 @@
               <p class="title" id="titleCarritoGolf">Carrito <b><i>DE GOLF</i></b></p>
               <p class="boxText" id="textCarritoGolf">La aventura de hacer algo diferentes. <span><b><i>descubre la isla de punta a punta</i></b></span> en un carrito de golf. Podrás llegar a Punta Coco, justo enfrente a Isla Pájaros. <b><i>Algo que no debes perderte.</i></b></p>
               <p class="boxText" id="textCarritoGolf2">¿Quieres más información?</p>
-              <div class="button" id="CarritoGolfButton" role="button"><a href="#"><span>CONTÁCTANOS</span></a></div>
+              <div class="button" id="CarritoGolfButton" role="button"><a href="contacto"><span>CONTÁCTANOS</span></a></div>
             </div>
           </div>
 
@@ -144,7 +144,7 @@
           <div class="boxContainer" id="BioBox">
             <div class="boxTextContainer">
               <p class="title" id="titleBio">Tour <b>BIOLUMINISCENCIA</b></p>
-              <p class="boxText" id="textBio">Tour consta de remar en Kayak aproximadamente 30 min a 1 kilómetro y medio de distancia de la playa del hotel en donde nos adentraremos a la oscuridad completa y llegaremos a un banco de arena donde nos rodeará un domo lleno de estrellas posteriormente interactuaremos con el maravilloso efecto de la bioluminiscencia. </p>
+              <p class="boxText" id="textBio">Tour consta de remar en Kayak aproximadamente 30 min a 1 kilómetro y medio de distancia de la playa del hotel en donde nos adentraremos a la oscuridad completa y llegaremos a un banco de arena donde nos <b><i>rodeará un domo lleno de estrellas posteriormente interactuaremos con el maravilloso efecto de la bioluminiscencia.</i></b> </p>
               <p class="boxText" id="textBio2">Duración: 2 horas aprox.</p>
               <div class="button" id="BioButton" role="button"><a href="contacto"><span>CONTÁCTANOS</span></a></div>
             </div>
@@ -168,7 +168,7 @@
             </div>
             <div class="boxTextContainer">
               <p class="title" id="titleAire">Tour <b>SOBRE EL AIRE</b></p>
-              <p class="boxText" id="textAire">Disfruta de esta emocionante experiencia que te hará sorprender con los increíbles paisajes de isla Holbox, Isla Contoy, Isla Mujeres, la zona hotelera de Cancún y la laguna Nichupte con una duración aproximada de 80 min.</p>
+              <p class="boxText" id="textAire">Disfruta de esta emocionante experiencia que <b><i>te hará sorprender con los increíbles paisajes</i></b> de isla Holbox, Isla Contoy, Isla Mujeres, la zona hotelera de Cancún y la laguna Nichupte con una duración aproximada de 80 min.</p>
               <p class="boxText" id="textAire2">¿Quieres más información?</p>
               <div class="button" id="AireButton" role="button"><a href="contacto"><span>CONTÁCTANOS</span></a></div>
             </div>

@@ -12,7 +12,7 @@
       <section class="habitaciones_cuartos_texto">
         <div class="container" id="text1">
           <h1>Bungalow <span><b>CIELO</b></span></h1>
-          <p>En estos exclusivos búngalos de dos niveles te garantizamos <SPAN><B><I>la mejor vista al mar</I></B></SPAN> de todo Holbox. Los búngalos Cielo <B><I>son el reflejo del espíritu de Villas Flamingos.</I></B> Son 4 y están ubicados en planta alta, ideales para recibir la brisa del mar. Cuenta con su propio <b><i>jacuzzi interior,</i></b> rodeado por hamacas tejidas a mano por pescadores locales, <b><i>una ducha al exterior</i></b> ideal para disfrutar de un buen baño mientras ves las estrellas.</p>
+          <p>En estos exclusivos búngalos de dos niveles te garantizamos <SPAN><B><I>la mejor vista al mar</I></B></SPAN> de todo Holbox. Los búngalos Cielo son el reflejo del espíritu de Villas Flamingos. Son 4 y están ubicados en planta alta, <b><i>ideales para recibir la brisa del mar</i></b>. Cuenta con su propio <b><i>jacuzzi interior,</i></b> rodeado por hamacas tejidas a mano por pescadores locales, <b><i>una ducha al exterior</i></b> ideal para disfrutar de un buen baño mientras ves las estrellas.</p>
         </div>
       </section>
 
@@ -76,19 +76,18 @@
             <div class="controls">
             <h2>AMENIDADES</h2>
             <ul class="amenidades">
-              <li><p>Superficie Interior: 62m²</p></li>
-              <li><p>Superficie Exterior: 19m²</p></li>
               <li><p>Vista al mar</p></li>
-              <li><p>Distancia al mar: 6m</p></li>
+              <li><p>Distancia al mar: 20m</p></li>
+              <li><p>Superficie: 62m²</p></li>
               <li><p>1 cama King Size</p></li>
-              <li><p>Regadera exterior</p></li>
               <li><p>Terraza privada</p></li>
+              <li><p>Regadera exterior</p></li>
               <li><p>Jacuzzi privado</p></li>
-              <li><p>Hamacas</p></li>
               <li><p>Aire acondicionado</p></li>
               <li><p>Caja fuerte </p></li>
+              <li><p>Hamacas</p></li>
+              <li><p>Frigobar</p></li>
               <li><p>Detector de humo</p></li>
-              <li><p>Ventilador  </p></li>
              </ul>
           </div>
         </div>
@@ -107,79 +106,79 @@
               <div class="boxContainer" >
                 <div class="boxGrid" id="room1">
                   <div class="box">
-                    <amp-img  id="room1_desktop" alt="Villas CUARTOS" src="img/habitaciones-vista-jardin-1.webp"  width="1080" height="720"  layout="responsive" >
-                      <amp-img fallback alt="Villas CUARTOS" src="img/habitaciones-vista-jardin-1.jpg"  width="1080" height="720"  layout="responsive" ></amp-img>
+                    <amp-img  id="room1_desktop" alt="Villas CUARTOS" src="img/habitaciones-vista-mar-1.webp"  width="1080" height="720"  layout="responsive" >
+                      <amp-img fallback alt="Villas CUARTOS" src="img/habitaciones-vista-mar-1.jpg"  width="1080" height="720"  layout="responsive" ></amp-img>
                     </amp-img>
-                    <p class="title" id="room1_title">Vista <b><i>JARDÍN</i></b></p>
-                    <div class="button" id="room1_Button" role="button"><a href="habitaciones-vista-jardin"><span>DESCUBRE MÁS</span></a></div>
+                    <p class="title" id="room1_title">Vista <b><i>MAR</i></b></p>
+                    <div class="button" id="room1_Button" role="button"><a href="habitaciones-vista-mar"><span>DESCUBRE MÁS</span></a></div>
                   </div>
                 </div>
                 <div class="boxGrid" id="room2">
                     <div class="box">
-                      <amp-img  id="room2_desktop" alt="Villas CUARTOS" src="img/habitaciones-vista-mar-1.webp"  width="1080" height="720"  layout="responsive" >
-                        <amp-img fallback alt="Villas CUARTOS" src="img/habitaciones-vista-mar-1.jpg"  width="1080" height="720"  layout="responsive" ></amp-img>
+                      <amp-img  id="room2_desktop" alt="Villas CUARTOS" src="img/habitaciones-bungalow-jardin-1.webp"  width="1080" height="720"  layout="responsive" >
+                        <amp-img fallback alt="Villas CUARTOS" src="img/habitaciones-bungalow-jardin-1.jpg"  width="1080" height="720"  layout="responsive" ></amp-img>
                       </amp-img>
-                      <p class="title" id="room2_title">Vista <b><i>MAR</i></b></p>
-                      <div class="button" id="room2_Button" role="button"><a href="habitaciones-vista-mar"><span>DESCUBRE MÁS</span></a></div>
+                      <p class="title" id="room2_title">Bungalow <b><i>JARDÍN</i></b></p>
+                      <div class="button" id="room2_Button" role="button"><a href="habitaciones-bungalow-jardin"><span>DESCUBRE MÁS</span></a></div>
                     </div>
                 </div>
               </div>
               <div class="boxContainer" >
                 <div class="boxGrid" id="room3">
-                  <div class="box">
-                    <amp-img  id="room3_desktop" alt="Villas CUARTOS" src="img/habitaciones-bungalow-jardin-1.webp"  width="1080" height="720"  layout="responsive" >
-                      <amp-img fallback alt="Villas CUARTOS" src="img/habitaciones-bungalow-jardin-1.jpg"  width="1080" height="720"  layout="responsive" ></amp-img>
+                 <div class="box">
+                    <amp-img  id="room3_desktop" alt="Villas CUARTOS" src="img/habitaciones-bungalow-arena-1.webp"  width="1080" height="720"  layout="responsive" >
+                      <amp-img fallback alt="Villas CUARTOS" src="img/habitaciones-bungalow-arena-1.jpg"  width="1080" height="720"  layout="responsive" ></amp-img>
                     </amp-img>
-                    <p class="title" id="room3_title">Bungalow <b><i>JARDÍN</i></b></p>
-                    <div class="button" id="room3_Button" role="button"><a href="habitaciones-bungalow-jardin"><span>DESCUBRE MÁS</span></a></div>
+                    <p class="title" id="room3_title">Bungalow <b><i>ARENA</i></b></p>
+                    <div class="button" id="room3_Button" role="button"><a href="habitaciones-bungalow-arena"><span>DESCUBRE MÁS</span></a></div>
                   </div>
                 </div>
                 <div class="boxGrid" id="room4">
-                    <div class="box">
-                      <amp-img  id="room4_desktop" alt="Villas CUARTOS" src="img/habitaciones-bungalow-arena-1.webp"  width="1080" height="720"  layout="responsive" >
-                        <amp-img fallback alt="Villas CUARTOS" src="img/habitaciones-bungalow-arena-1.jpg"  width="1080" height="720"  layout="responsive" ></amp-img>
+                     <div class="box">
+                      <amp-img  id="room4_desktop" alt="Villas CUARTOS" src="img/habitaciones-bungalow-mangle-1.webp"  width="1080" height="720"  layout="responsive" >
+                        <amp-img fallback alt="Villas CUARTOS" src="img/habitaciones-bungalow-mangle-1.jpg"  width="1080" height="720"  layout="responsive" ></amp-img>
                       </amp-img>
-                      <p class="title" id="room4_title">Bungalow <b><i>ARENA</i></b></p>
-                      <div class="button" id="room4_Button" role="button"><a href="habitaciones-bungalow-arena"><span>DESCUBRE MÁS</span></a></div>
+                      <p class="title" id="room4_title">Bungalow <b><i>MANGLE</i></b></p>
+                      <div class="button" id="room4_Button" role="button"><a href="habitaciones-bungalow-mangle"><span>DESCUBRE MÁS</span></a></div>
                     </div>
                 </div>
               </div>
               <div class="boxContainer" >
                 <div class="boxGrid" id="room5">
                   <div class="box">
-                    <amp-img  id="room5_desktop" alt="Villas CUARTOS" src="img/habitaciones-bungalow-mangle-1.webp"  width="1080" height="720"  layout="responsive" >
-                      <amp-img fallback alt="Villas CUARTOS" src="img/habitaciones-bungalow-mangle-1.jpg"  width="1080" height="720"  layout="responsive" ></amp-img>
+                    <amp-img  id="room5_desktop" alt="Villas CUARTOS" src="img/habitaciones-cacao-1.webp"  width="1080" height="720"  layout="responsive" >
+                      <amp-img fallback alt="Villas CUARTOS" src="img/habitaciones-cacao-1.jpg"  width="1080" height="720"  layout="responsive" ></amp-img>
                     </amp-img>
-                    <p class="title" id="room5_title">Bungalow <b><i>MANGLE</i></b></p>
-                    <div class="button" id="room5_Button" role="button"><a href="habitaciones-bungalow-mangle"><span>DESCUBRE MÁS</span></a></div>
+                    <p class="title" id="room5_title"><b><i>CACAO</i></b></p>
+                    <div class="button" id="room5_Button" role="button"><a href="habitaciones-cacao"><span>DESCUBRE MÁS</span></a></div>
                   </div>
                 </div>
                 <div class="boxGrid" id="room6">
                     <div class="box">
-                      <amp-img  id="room6_desktop" alt="Villas CUARTOS" src="img/habitaciones-cacao-1.webp"  width="1080" height="720"  layout="responsive" >
-                        <amp-img fallback alt="Villas CUARTOS" src="img/habitaciones-cacao-1.jpg"  width="1080" height="720"  layout="responsive" ></amp-img>
+                      <amp-img  id="room6_desktop" alt="Villas CUARTOS" src="img/habitaciones-coco-1.webp"  width="1080" height="720"  layout="responsive" >
+                        <amp-img fallback alt="Villas CUARTOS" src="img/habitaciones-coco-1.jpg"  width="1080" height="720"  layout="responsive" ></amp-img>
                       </amp-img>
-                      <p class="title" id="room6_title"><b><i>CACAO</i></b></p>
-                      <div class="button" id="room6_Button" role="button"><a href="habitaciones-cacao"><span>DESCUBRE MÁS</span></a></div>
+                      <p class="title" id="room6_title"><b><i>COCO</i></b></p>
+                      <div class="button" id="room6_Button" role="button"><a href="habitaciones-coco"><span>DESCUBRE MÁS</span></a></div>
                     </div>
                 </div>
               </div>
               <div class="boxContainer" >
                 <div class="boxGrid" id="room7">
                   <div class="box">
-                    <amp-img  id="room7_desktop" alt="Villas CUARTOS" src="img/habitaciones-coco-1.webp"  width="1080" height="720"  layout="responsive" >
-                      <amp-img fallback alt="Villas CUARTOS" src="img/habitaciones-coco-1.jpg"  width="1080" height="720"  layout="responsive" ></amp-img>
+                    <amp-img  id="room7_desktop" alt="Villas CUARTOS" src="img/habitaciones-miel-1.webp"  width="1080" height="720"  layout="responsive" >
+                      <amp-img fallback alt="Villas CUARTOS" src="img/habitaciones-miel-1.jpg"  width="1080" height="720"  layout="responsive" ></amp-img>
                     </amp-img>
-                    <p class="title" id="room7_title"><b><i>COCO</i></b></p>
-                    <div class="button" id="room7_Button" role="button"><a href="habitaciones-coco"><span>DESCUBRE MÁS</span></a></div>
+                    <p class="title" id="room7_title"><b><i> MIEL</i></b></p>
+                    <div class="button" id="room7_Button" role="button"><a href="habitaciones-miel"><span>DESCUBRE MÁS</span></a></div>
                   </div>
                 </div>
                 <div class="boxGrid" id="room8">
                     <div class="box">
-                      <amp-img  id="room8_desktop" alt="Villas CUARTOS" src="img/habitaciones-miel-1.webp"  width="1080" height="720"  layout="responsive" >
-                        <amp-img fallback alt="Villas CUARTOS" src="img/habitaciones-miel-1.jpg"  width="1080" height="720"  layout="responsive" ></amp-img>
+                      <amp-img  id="room8_desktop" alt="Villas CUARTOS" src="img/habitaciones-suitelunademiel-1.webp"  width="1080" height="720"  layout="responsive" >
+                        <amp-img fallback alt="Villas CUARTOS" src="img/habitaciones-suitelunademiel-1.jpg"  width="1080" height="720"  layout="responsive" ></amp-img>
                       </amp-img>
-                      <p class="title" id="room8_title"><b><i>MIEL</i></b></p>
+                      <p class="title" id="room8_title">Suite <b><i>LUNA DE MIEL</i></b></p>
                       <div class="button" id="room8_Button" role="button"><a href="habitaciones-suite-luna-de-miel"><span>DESCUBRE MÁS</span></a></div>
                     </div>
                 </div>
@@ -187,21 +186,12 @@
               <div class="boxContainer" >
                 <div class="boxGrid" id="room9">
                   <div class="box">
-                    <amp-img  id="room9_desktop" alt="Villas CUARTOS" src="img/habitaciones-suitelunademiel-1.webp"  width="1080" height="720"  layout="responsive" >
-                      <amp-img fallback alt="Villas CUARTOS" src="img/habitaciones-suitelunademiel-1.jpg"  width="1080" height="720"  layout="responsive" ></amp-img>
+                    <amp-img  id="room9_desktop" alt="Villas CUARTOS" src="img/habitaciones-suitemasterpalapa-1.webp"  width="1080" height="720"  layout="responsive" >
+                      <amp-img fallback alt="Villas CUARTOS" src="img/habitaciones-suitemasterpalapa-1.jpg"  width="1080" height="720"  layout="responsive" ></amp-img>
                     </amp-img>
-                    <p class="title" id="room9_title">Suite <b><i>LUNA DE MIEL</i></b></p>
-                    <div class="button" id="room9_Button" role="button"><a href="habitaciones-suite-luna-de-miel"><span>DESCUBRE MÁS</span></a></div>
+                    <p class="title" id="room9_title">Master <b><i>SUITE PALAPA</i></b></p>
+                    <div class="button" id="room9_Button" role="button"><a href="habitaciones-master-suite-palapa"><span>DESCUBRE MÁS</span></a></div>
                   </div>
-                </div>
-                <div class="boxGrid" id="room10">
-                    <div class="box">
-                      <amp-img  id="room10_desktop" alt="Villas CUARTOS" src="img/habitaciones-suitemasterpalapa-1.webp"  width="1080" height="720"  layout="responsive" >
-                        <amp-img fallback alt="Villas CUARTOS" src="img/habitaciones-suitemasterpalapa-1.jpg"  width="1080" height="720"  layout="responsive" ></amp-img>
-                      </amp-img>
-                      <p class="title" id="room10_title">Master <b><i>SUITE PALAPA</i></b></p>
-                      <div class="button" id="room10_Button" role="button"><a href="habitaciones-master-suite-palapa"><span>DESCUBRE MÁS</span></a></div>
-                    </div>
                 </div>
               </div>
             </div>

@@ -19,8 +19,13 @@
       <section class="gridContainer">
         <div class="container"><h2>CENAS</h2></div>
         <div class="container" id="gridContainer">
-          <div class="carouselContainer">
-           <amp-carousel lightbox id="carouselSala" type="slides" width="1080" height="720" layout="responsive" controls loop autoplay delay="5000" role="region" aria-label="Tipo Habitaciones">
+          <div class="carouselContainer" id="carouselPlaya">
+           <amp-carousel lightbox id="carouselPlayaAmp" type="slides" width="1080" height="720" layout="responsive" controls loop autoplay delay="5000" role="region" aria-label="Tipo Habitaciones">
+              <div class="carouselDiv">
+                  <div class="imgContainer">
+                    <amp-img src="img/galeria-49.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                  </div>
+              </div>
               <?php
                 for($i=1;$i<4;$i++){
                   echo '<div class="carouselDiv">
@@ -50,10 +55,19 @@
               <li><p>Una botella de vino de la casa</p></li>
             </ul>
           </div>
-          <div class="imgContainer">
-            <amp-img id="laPalapita" alt="cenas romantica La Palapita" src="img/experiencias-cenas-romanticas-4.webp" width="1080" height="720" layout="responsive">
-              <amp-img fallback src="img/experiencias-cenas-romanticas-4.jpg" width="1080" height="720" layout="responsive"></amp-img>
-            </amp-img>
+          <div class="carouselContainer" id="carouselPalapa">
+           <amp-carousel lightbox id="carouselPalapaAmp" type="slides" width="1080" height="720" layout="responsive" controls loop autoplay delay="5000" role="region" aria-label="Cena Palapa">
+              <div class="carouselDiv">
+                <div class="imgContainer">
+                  <amp-img src="img/experiencias-cenas-romanticas-5.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                </div>
+              </div>
+              <div class="carouselDiv">
+                <div class="imgContainer">
+                  <amp-img src="img/experiencias-cenas-romanticas-4.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                </div>
+              </div>
+            </amp-carousel>
           </div>
         </div>
         <div class="button" id="" role="button"><a href=""><span>RESERVAR</span></a></div>

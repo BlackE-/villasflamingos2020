@@ -12,152 +12,140 @@
   <div class="indexContainer">
       <section class="videoSection">
           <div class="videoContainer">
-            <video muted="" loop="" playsinline="" id="vid" poster="../img/villas_wide-poster.jpg">
+            <video muted="" loop="" playsinline="" id="vid" poster="/img/villas_wide-poster.jpg">
               <source id="hvid" type="video/mp4">
             </video>
           </div>
       </section>
       <section class="textContainerSection">
         <div class="container" id="text1">
-          <p>Existe un <b class="upper">lugar donde la naturaleza se manifiesta</b> como si nos invitara a olvidarnos de todo, donde podemos acercarnos más a nosotros mismos y el medio ambiente. Esto es Hotel Villas Flamingos, un lugar único que se encuentra <b><i>ubicado en la reserva natural de Yum-Balam</i></b> en la isla de Holbox.</p>
-          <p><b>¿Qué esperas para visitarnos?</b><br>Aquí descubrirás que la playa, el mar y el aire de Holbox, es algo mágico que guardarás para siempre.</p>
-          <p><b><i>Hotel Villas Flamingos</i></b> te invita a entregarte al placer y la relajación, a parar el tiempo y disfrutar al máximo.</p>
+          <p>There is a <b class="upper">PLACE WHERE NATURE REVEALS ITSELF</b>, as if inviting us to forget about everything, where we can come closer to ourselves and nature. That place is Hotel Villas Flamingos, a unique place <b><i>located within the natural reserve Yum-Balam</i></b> on Holbox island.</p>
+          <p><b>WHAT ARE YOU WAITING TO COME VISIT?</b><br>Here you will discover that the beach, sea and air of Holbox are magical treasures you will cherish forever.</p>
+          <p><b><i>Hotel Villas Flamingos</i></b> invites you to surrender to pleasure and relaxation, to stop time and enjoy.</p>
         </div>
       </section>
       <section class="habitacionesSection">
         <div class="container">
-          <h2>Habitaciones</h2>
+          <h2>Rooms</h2>
             <amp-carousel id="carouselHabitaciones" type="slides" width="1280" height="550" layout="responsive" controls loop autoplay delay="5000" role="region" aria-label="Tipo Habitaciones">
-              <div class="carouselDiv vista-jardin">
-                  <div class="imgContainer">
-                    <amp-img src="../img/habitaciones-vista-jardin-1.webp" width="1080" height="720" layout="responsive">
-                      <amp-img fallback src="../img/habitaciones-vista-jardin-1.jpg" width="1080" height="720" layout="responsive"></amp-img>
-                    </amp-img>
-                  </div>
-                  <div class="dataContainer">
-                    <h3>Vista <b>Jardín</b></h3>
-                    <p>Ubicadas en nuestro jardín tropical lleno de paz, nuestra habitación <b><i>Vista Jardín</i></b> ofrece el mejor precio del hotel.</p>
-                    <div class="reservaHabitaciones" on="tap:reservar" role="button"><span>RESERVAR ahora</span></div>
-                  </div>
-              </div>
               <div class="carouselDiv vistaMar">
                   <div class="imgContainer">
-                    <amp-img src="../img/habitaciones-vista-mar-1.webp" width="1080" height="720" layout="responsive">
-                      <amp-img fallback src="../img/habitaciones-vista-mar-1.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                    <amp-img src="/img/habitaciones-vista-mar-1.webp" width="1080" height="720" layout="responsive">
+                      <amp-img fallback src="/img/habitaciones-vista-mar-1.jpg" width="1080" height="720" layout="responsive"></amp-img>
                     </amp-img>
                   </div>
                   <div class="dataContainer">
                     <h3>Vista <b>Mar</b></h3>
-                    <p>Dotadas de terrazas con una vista al maravilloso mar que te ofrece Holbox, <b><i>Vista Mar</i></b>, por su atractivo precio hace de esta habitación una de las populares, pues su vista al mar, cama king y la ubicación en planta baja o segundo nivel, ofrecen una experiencia inolvidable. </p>
-                    <div class="reservaHabitaciones" on="tap:reservar" role="button"><span>RESERVAR ahora</span></div>
+                    <p>Each <b><i>Vista Mar</i></b> has a terrace with a wonderful sea view for an unforgettable Holbox experience. Due to its attractive price this room is one of the popular ones. With a king size bed and located on the ground floor or second level. </p>
+                    <div class="reservaHabitaciones" on="tap:reservar" role="button"><span>BOOK NOW</span></div>
                   </div>
               </div>
               <div class="carouselDiv bungalowsJardin">
                   <div class="imgContainer">
-                    <amp-img src="../img/habitaciones-bungalow-jardin-1.webp" width="1080" height="720" layout="responsive">
-                      <amp-img fallback src="../img/habitaciones-bungalow-jardin-1.jpg" width="1080" height="720" layout="responsive"></amp-img>
+                    <amp-img src="/img/habitaciones-bungalow-jardin-1.webp" width="1080" height="720" layout="responsive">
+                      <amp-img fallback src="/img/habitaciones-bungalow-jardin-1.jpg" width="1080" height="720" layout="responsive"></amp-img>
                     </amp-img>
                   </div>
                   <div class="dataContainer">
                     <h3>Bungalow <b>Jardín</b></h3>
-                    <p>Rodeados de un jardín tropical lleno de paz, cada una de estos dos <b><i>búngalos jardín</i></b> ubicados en planta baja y cuentan con su propia piscina interior con agua tibia, 2 camas queen, una ducha al exterior rodeada de naturaleza y una terraza perfecta para disfrutar de un buen libro. Ideales para familias.</p>
-                    <div class="reservaHabitaciones" on="tap:reservar" role="button"><span>RESERVAR ahora</span></div>
+                    <p>Surrounded by a tropical garden full of peace, each of the two <b><i>Bungalow Jardín</i></b> are located on the ground floor. Both have their own heated indoor pool, 2 queen size beds, an outdoor shower surrounded by nature and a perfect terrace to enjoy a good book. Ideal for families.</p>
+                    <div class="reservaHabitaciones" on="tap:reservar" role="button"><span>BOOK NOW</span></div>
                   </div>
               </div>
               <div class="carouselDiv bungalowsArena">
                   <div class="imgContainer">
-                    <amp-img src="../img/habitaciones-bungalow-arena-1.webp" width="1080" height="720" layout="responsive" alt="Bungalow Arena">
-                      <amp-img fallback src="../img/habitaciones-bungalow-arena-1.jpg" width="1080" height="720" layout="responsive" alt="Bungalow Arena"></amp-img>
+                    <amp-img src="/img/habitaciones-bungalow-arena-1.webp" width="1080" height="720" layout="responsive" alt="Bungalow Arena">
+                      <amp-img fallback src="/img/habitaciones-bungalow-arena-1.jpg" width="1080" height="720" layout="responsive" alt="Bungalow Arena"></amp-img>
                     </amp-img>
                   </div>
                   <div class="dataContainer">
                     <h3>Bungalow <b>Arena</b></h3>
-                    <p>Estos exclusivos búngalos son el lugar perfecto para los amantes del mar ya que a tan solo unos pasos, podrás sumergir tus pies en él. <b><i>Bungalow Arena</i></b> cada una de estos 4 búngalos están ubicados en planta baja. Cuenta con su propia piscina interior con agua tibia, 2 camas queen, una ducha al exterior rodeada de naturaleza y una terraza perfecta para ver los atardeceres. Ideales para familias.</p>
-                    <div class="reservaHabitaciones" on="tap:reservar" role="button"><span>RESERVAR ahora</span></div>
+                    <p>These exclusive bungalows are the perfect hideout for sea enthusiasts, within a few steps from your room your feet will be caressed by the waves. Each of the 4 <b><i>Bungalow Arena</i></b> are located on the ground floor, equipped with a private heated indoor pool, 2 queen size beds, outdoor shower surrounded by nature and a deck for sunset watching. Ideal for families.</p>
+                    <div class="reservaHabitaciones" on="tap:reservar" role="button"><span>BOOK NOW</span></div>
                   </div>
               </div>
               <div class="carouselDiv bungalowsMangle">
                   <div class="imgContainer">
-                    <amp-img src="../img/habitaciones-bungalow-mangle-1.webp" width="1080" height="720" layout="responsive" alt="Bungalow mangle">
-                      <amp-img fallback src="../img/habitaciones-bungalow-mangle-1.jpg" width="1080" height="720" layout="responsive" alt="Bungalow mangle"></amp-img>
+                    <amp-img src="/img/habitaciones-bungalow-mangle-1.webp" width="1080" height="720" layout="responsive" alt="Bungalow mangle">
+                      <amp-img fallback src="/img/habitaciones-bungalow-mangle-1.jpg" width="1080" height="720" layout="responsive" alt="Bungalow mangle"></amp-img>
                     </amp-img>
                   </div>
                   <div class="dataContainer">
                     <h3>Bungalow <b>Mangle</b></h3>
-                    <p>En estos exclusivos búngalos de dos niveles disfrutarás la brisa del mar y la vista al manglar. Los <b><i>Búngalo mangle</i></b> son el reflejo del espíritu de Villas Flamingos. Cada uno de estos 2 búngalos están ubicados en planta alta. Cuenta con su propio jacuzzi interior, rodeado por hamacas tejidas a mano por pescadores locales una ducha al exterior ideal para disfrutar de un buen baño mientras ves las estrellas.</p>
-                    <div class="reservaHabitaciones" on="tap:reservar" role="button"><span>RESERVAR ahora</span></div>
+                    <p>In these two-story bungalows you will enjoy the sea mist as well as views from the mangrove. Both of our <b><i>Bungalow Mangle</i></b> reflect the true spirit of Villas Flamingos. Each of the 2 bungalows are located on the second floor, equipped with private jacuzzi, hand woven hammocks crafted by local fishermen, and an outdoor shower to bathe as you enjoy the stars.</p>
+                    <div class="reservaHabitaciones" on="tap:reservar" role="button"><span>BOOK NOW</span></div>
                   </div>
               </div>
               <div class="carouselDiv Cacao">
                   <div class="imgContainer">
-                    <amp-img src="../img/habitaciones-cacao-1.webp" width="1080" height="720" layout="responsive" alt="Cacao">
-                      <amp-img fallback src="../img/habitaciones-cacao-1.jpg" width="1080" height="720" layout="responsive" alt="Cacao"></amp-img>
+                    <amp-img src="/img/habitaciones-cacao-1.webp" width="1080" height="720" layout="responsive" alt="Cacao">
+                      <amp-img fallback src="/img/habitaciones-cacao-1.jpg" width="1080" height="720" layout="responsive" alt="Cacao"></amp-img>
                     </amp-img>
                   </div>
                   <div class="dataContainer">
                     <h3><b>Cacao</b></h3>
-                    <p>Solamente hay una habitación de esta categoría por lo cual la hace muy codiciada, <b><i>Cacao</i></b> está ubicada en un segundo nivel. La terraza privada con vista al mar y regadera externa es una de las más grandes en toda la propiedad. Cuenta con una cama King sizes y en el segundo nivel de la habitación encontraras un jacuzzi para 2 personas. Cuenta con aire acondicionado, frigobar, caja de seguridad, mesa de apoyo y sillas, closet, lámpara de lectura, soporte para maletas.</p>
-                    <div class="reservaHabitaciones" on="tap:reservar" role="button"><span>RESERVAR ahora</span></div>
+                    <p>We only have one <b><i>Cacao</i></b> room, thus this two-story room located on a second floor is always in high demand. The oceanfront private deck with an outdoor shower is one of the largest in the property. It has one king size bed and on the second level of the room you will find a Jacuzzi for 2. It has air conditioning, minibar, safe, support table and chairs, closet, reading lamp, luggage rack.</p>
+                    <div class="reservaHabitaciones" on="tap:reservar" role="button"><span>BOOK NOW</span></div>
                   </div>
               </div>
               <div class="carouselDiv Coco">
                   <div class="imgContainer">
-                    <amp-img src="../img/habitaciones-coco-1.webp" width="1080" height="720" layout="responsive" alt="Cacao">
-                      <amp-img fallback src="../img/habitaciones-coco-1.jpg" width="1080" height="720" layout="responsive" alt="Cacao"></amp-img>
+                    <amp-img src="/img/habitaciones-coco-1.webp" width="1080" height="720" layout="responsive" alt="Cacao">
+                      <amp-img fallback src="/img/habitaciones-coco-1.jpg" width="1080" height="720" layout="responsive" alt="Cacao"></amp-img>
                     </amp-img>
                   </div>
                   <div class="dataContainer">
                     <h3><b>Coco</b></h3>
-                    <p>Solo hay una en su categoría, <b><i>Coco</i></b> la ubicación de esta habitación es privilegiada en planta baja y a escasos pasos de la orilla del mar. Se destaca por su alberca interior con un gran ventanal panorámico con vistas al mar. Además cuenta con  una regadera exterior, terraza privada con sillas y mesita,  aire acondicionado, frigobar, caja de seguridad, mesa de apoyo y sillas, closet, lámpara de lectura y soporte para maletas. Ubicada en la planta baja con cama King sizes.</p>
-                    <div class="reservaHabitaciones" on="tap:reservar" role="button"><span>RESERVAR ahora</span></div>
+                    <p>There is only one <b><i>Coco</i></b> room, with a privileged location on the ground floor, within a few steps from the seashore. It stands out for its indoor pool with a large panoramic window overlooking the sea. It also has a King size bed, an outdoor shower, private terrace with chairs and table, air conditioning, minibar, safe, support table and chairs, closet, reading lamp and luggage rack.</p>
+                    <div class="reservaHabitaciones" on="tap:reservar" role="button"><span>BOOK NOW</span></div>
                   </div>
               </div>
               <div class="carouselDiv Miel">
                   <div class="imgContainer">
-                    <amp-img src="../img/habitaciones-miel-1.webp" width="1080" height="720" layout="responsive" alt="miel">
-                      <amp-img fallback src="../img/habitaciones-miel-1.jpg" width="1080" height="720" layout="responsive" alt="miel"></amp-img>
+                    <amp-img src="/img/habitaciones-miel-1.webp" width="1080" height="720" layout="responsive" alt="miel">
+                      <amp-img fallback src="/img/habitaciones-miel-1.jpg" width="1080" height="720" layout="responsive" alt="miel"></amp-img>
                     </amp-img>
                   </div>
                   <div class="dataContainer">
                     <h3><b>Miel</b></h3>
-                    <p>Esta es la única habitación en donde podrás observar el amanecer y el atardecer desde tu jacuzzi localizado convenientemente al interior de la habitación para mayor privacidad. <b><i>Miel</i></b> ubicada en segundo piso con cama King además con una terraza con vista al mar, regadera exterior y una segunda terraza con vista al manglar, aire acondicionado, frigobar, caja de seguridad, mesa de apoyo, sillas, closet, lámpara de lectura y soporte para maletas</p>
-                    <div class="reservaHabitaciones" on="tap:reservar" role="button"><span>RESERVAR ahora</span></div>
+                    <p>This is the only room where you can watch sunrise and sunset from your private jacuzzi inside the room. <b><i>Miel</i></b> is located on the second floor with a King size bed, a terrace with ocean views, an outdoor shower,a second terrace with views of the mangrove, air conditioning, minibar, safe, support table, chairs, closet, reading lamp and luggage rack.</p>
+                    <div class="reservaHabitaciones" on="tap:reservar" role="button"><span>BOOK NOW</span></div>
                   </div>
               </div>
               <div class="carouselDiv SuiteLunaDeMiel">
                   <div class="imgContainer">
-                    <amp-img src="../img/habitaciones-suitelunademiel-1.webp" width="1080" height="720" layout="responsive" alt="suitelunademiel">
-                      <amp-img fallback src="../img/habitaciones-suitelunademiel-1.jpg" width="1080" height="720" layout="responsive" alt="suitelunademiel"></amp-img>
+                    <amp-img src="/img/habitaciones-suitelunademiel-1.webp" width="1080" height="720" layout="responsive" alt="suitelunademiel">
+                      <amp-img fallback src="/img/habitaciones-suitelunademiel-1.jpg" width="1080" height="720" layout="responsive" alt="suitelunademiel"></amp-img>
                     </amp-img>
                   </div>
                   <div class="dataContainer">
                     <h3>Suite Luna <b>de Miel</b></h3>
-                    <p>Podrás disfrutar al máximo con tu pareja en nuestras <b><i>Suite Luna de Miel</i></b>, las cuales están especialmente diseñadas para celebrar con tu persona especial, convenientemente esta ubicadas en planta alta para mayor privacidad, cuentan con vista al mar y jacuzzi interior donde podrás pasar horas relajándote mientras escuchas el sonido del mar y de las aves de Holbox.</p>
-                    <div class="reservaHabitaciones" on="tap:reservar" role="button"><span>RESERVAR ahora</span></div>
+                    <p>Enjoy the most with your partner in our <b><i>Honeymoon Suite</i></b>, specially designed to celebrate with your significant other. Conveniently located onthe top floor for more privacy, they have an ocean view and an indoor Jacuzzi where you can spend hours relaxing while you listen to the sea and the birds of Holbox.</p>
+                    <div class="reservaHabitaciones" on="tap:reservar" role="button"><span>BOOK NOW</span></div>
                   </div>
               </div>
               <div class="carouselDiv BungalowCielo">
                   <div class="imgContainer">
-                    <amp-img src="../img/habitaciones-bungalow-cielo-1.webp" width="1080" height="720" layout="responsive" alt="bungalow-cielo">
-                      <amp-img fallback src="../img/habitaciones-bungalow-cielo-1.jpg" width="1080" height="720" layout="responsive" alt="bungalow-cielo"></amp-img>
+                    <amp-img src="/img/habitaciones-bungalow-cielo-1.webp" width="1080" height="720" layout="responsive" alt="bungalow-cielo">
+                      <amp-img fallback src="/img/habitaciones-bungalow-cielo-1.jpg" width="1080" height="720" layout="responsive" alt="bungalow-cielo"></amp-img>
                     </amp-img>
                   </div>
                   <div class="dataContainer">
                     <h3>Bungalow <b>Cielo</b></h3>
-                    <p>En estos exclusivos búngalos de dos niveles te garantizamos la mejor vista al mar de todo Holbox. Los <b><i>búngalos Cielo</i></b> son el reflejo del espíritu de Villas Flamingos. Son 4 y están ubicados en planta alta, ideales para recibir la brisa del mar. Cuenta con su propio jacuzzi interior, rodeado por hamacas tejidas a mano por pescadores locales, una ducha al exterior ideal para disfrutar de un buen baño mientras ves las estrellas.</p>
-                    <div class="reservaHabitaciones" on="tap:reservar" role="button"><span>RESERVAR ahora</span></div>
+                    <p>In these exclusive two-story bungalows we guarantee you will have the best ocean view in all of Holbox. The <b><i>Cielo bungalows</i></b> reflect the spirit of Villas Flamingos. There are 4 and they are located on the top floor, ideal for receiving the sea breeze. With their own indoor Jacuzzi, surrounded by hammocks hand-woven by local fishermen, and an outdoor shower ideal to enjoy a good bath while watching the stars.</p>
+                    <div class="reservaHabitaciones" on="tap:reservar" role="button"><span>BOOK NOW</span></div>
                   </div>
               </div>
               <div class="carouselDiv SuiteMasterPalapa">
                   <div class="imgContainer">
-                    <amp-img src="../img/habitaciones-suitemasterpalapa-1.webp" width="1080" height="720" layout="responsive" alt="suitemasterpalapa">
-                      <amp-img fallback src="../img/habitaciones-suitemasterpalapa-1.jpg" width="1080" height="720" layout="responsive" alt="SuiteMasterPalapa"></amp-img>
+                    <amp-img src="/img/habitaciones-suitemasterpalapa-1.webp" width="1080" height="720" layout="responsive" alt="suitemasterpalapa">
+                      <amp-img fallback src="/img/habitaciones-suitemasterpalapa-1.jpg" width="1080" height="720" layout="responsive" alt="SuiteMasterPalapa"></amp-img>
                     </amp-img>
                   </div>
                   <div class="dataContainer">
                     <h3>Suite Master <b>Palapa</b></h3>
-                    <p>Si quieres realmente sorprender a tu pareja entonces la <b><i>Master Suite Palapa</i></b> es tu elección. Ubicada en un tercer nivel lo cual permite tener mayor privacidad. Con sus dos terrazas observaras el mar y el manglar también. Cuenta con jacuzzi y regadera al aire libre. Su atractivo diseño arquitectónico y la amplitud de la suite son únicos en todo Holbox.  Cuenta con cama King sizes, aire acondicionado, frigobar, caja de seguridad, mesa de apoyo y sillas, closet, lámpara de lectura, soporte para maletas.</p>
-                    <div class="reservaHabitaciones" on="tap:reservar" role="button"><span>RESERVAR ahora</span></div>
+                    <p>If you really want to surprise your partner then the <b><i>Master Suite Palapa</i></b> is your choice. Located on a third level for greater privacy, its two terraces will give you views of the sea as well as the mangrove. It has a jacuzzi and outdoor shower. With attractive architectural design, this spacious suite is unique in all of Holbox. It has a King size bed, air conditioning, minibar, safe, support table and chairs, closet, reading lamp, luggage rack.</p>
+                    <div class="reservaHabitaciones" on="tap:reservar" role="button"><span>BOOK NOW</span></div>
                   </div>
               </div>
             </amp-carousel>
@@ -166,13 +154,13 @@
       </section>
       <section class="tripAdvisorSection">
         <div class="container" id="tripAdvisorContainer">
-          <amp-img src="../img/tripadvisor_logo.png" width="149" height="23"></amp-img>
-          <h3>NUESTROS HUÉSPEDES</h3>
+          <amp-img src="/img/tripadvisor_logo.png" width="149" height="23"></amp-img>
+          <h3>OUR GUEST</h3>
           <div class="amp-carousel-container">
             <amp-state id="selected"><script type="application/json"> {"slide": 0} </script></amp-state>
             <amp-carousel type="slides" id="reviewsCarousel" width="360" height="100" layout="responsive" aria-label="Carousel reviews Trip Advisor" on="slideChange:AMP.setState({selected: {slide: event.index}})">
               <?php
-                  $strJsonFileContents = file_get_contents("script/reviews.json");
+                  $strJsonFileContents = file_get_contents("../script/reviews-en.json");
                     $array = json_decode($strJsonFileContents, true);
                   if(is_array($array)){
                       $count = 0;
@@ -199,49 +187,50 @@
       </section>
       <section class="serviciosSection">
         <div class="container">
-          <h2>Nuestros Servicios</h2>
+          <h2>Our Services</h2>
           <div class="serviciosContainer">
             <div class="box trasladosContainer">
-             <a href="hotel-traslados"><amp-img class="image" id="imageTraslados" alt="Villas traslados" src="../img/home-traslados-desktop.webp" width="720" height="720" layout="responsive">
-                <amp-img fallback alt="Villas traslados" src="../img/home-traslados-desktop.jpg" width="720" height="720" layout="responsive"></amp-img>
+             <a href="hotel-traslados"><amp-img class="image" id="imageTraslados" alt="Villas traslados" src="/img/home-traslados-desktop.webp" width="720" height="720" layout="responsive">
+                <amp-img fallback alt="Villas traslados" src="/img/home-traslados-desktop.jpg" width="720" height="720" layout="responsive"></amp-img>
               </amp-img></a>
               <div class="iconTextcontainer">
-                <amp-img class="icon" id="iconTraslados" src="../img/home-traslados-icon.png" width="46" height="40"></amp-img>
-                <p id="textTraslados"><b>TRASLADOS</b></p>
+                <amp-img class="icon" id="iconTraslados" src="/img/home-traslados-icon.png" width="46" height="40"></amp-img>
+                <p id="textTraslados"><b>TRANSFERS</b></p>
               </div>
-              <div class="button" id="trasladosButton" role="button"><a href="hotel-traslados"><span>DESCUBRE MÁS</span></a></div>
+              <div class="button" id="trasladosButton" role="button"><a href="hotel-transfers"><span>Find out more</span></a></div>
             </div>
             <div class="box sensacionesContainer">
-              <a href="holbox-ubicacion"><amp-img class="image" id="imageSensaciones" alt="Villas Sensaciones" src="../img/home-holbox-desktop.webp"  width="720" height="720"  layout="responsive" >
-                <amp-img fallback alt="Villas Sensaciones" src="../img/home-holbox-desktop.jpg"  width="720" height="720"  layout="responsive"></amp-img>
+              <a href="holbox-ubicacion"><amp-img class="image" id="imageSensaciones" alt="Villas Sensaciones" src="/img/home-holbox-desktop.webp"  width="720" height="720"  layout="responsive" >
+                <amp-img fallback alt="Villas Sensaciones" src="/img/home-holbox-desktop.jpg"  width="720" height="720"  layout="responsive"></amp-img>
               </amp-img></a>
               <div class="iconTextcontainer">
-                <p id="textSensaciones"><b>HOLBOX</b> y sus <b><i>SENSACIONES</i></b></p>
-                <amp-img class="icon" id="iconSensaciones" src="../img/home-holbox-icon.png" width="47" height="53"></amp-img>
+                <p id="textSensaciones"><b>HOLBOX</b> and it’s <b><i>emmotions</i></b></p>
+                <amp-img class="icon" id="iconSensaciones" src="/img/home-holbox-icon.png" width="47" height="53"></amp-img>
+                <span id="textSensaciones2">Author: @Emileyc</span>
                 </div>
-              <div class="button" id="sensacionesButton" role="button"><a href="holbox-ubicacion"><span>DESCUBRE MÁS</span></a></div>
+              <div class="button" id="sensacionesButton" role="button"><a href="holbox-ubicacion"><span>Find out more</span></a></div>
             </div>
           </div>
           <div class="serviciosContainer">
             <div class="box toursContainer">
               <div class="iconTextcontainer">
-                <amp-img class="icon" id="iconTours" src="../img/home-tours-icon.png" width="40" height="40"></amp-img>
+                <amp-img class="icon" id="iconTours" src="/img/home-tours-icon.png" width="40" height="40"></amp-img>
                 <p id="textTours"><b>TOURS</b></p>
               </div>
-              <div class="button" id="toursButton" role="button"><a href="holbox-tours"><span>DESCUBRE MÁS</span></a></div>
-              <a href="holbox-tours"><amp-img class="image" id="imageTours" alt="Villas Tours" src="../img/home-tours-desktop.webp"  width="720" height="720"  layout="responsive">
-                <amp-img fallback alt="Villas Tours" src="../img/home-tours-desktop.jpg"  width="720" height="720"  layout="responsive"></amp-img>
+              <div class="button" id="toursButton" role="button"><a href="holbox-tours"><span>Find out more</span></a></div>
+              <a href="holbox-tours"><amp-img class="image" id="imageTours" alt="Villas Tours" src="/img/home-tours-desktop.webp"  width="720" height="720"  layout="responsive">
+                <amp-img fallback alt="Villas Tours" src="/img/home-tours-desktop.jpg"  width="720" height="720"  layout="responsive"></amp-img>
               </amp-img>
               </a>
             </div>
             <div class="box cenaContainer">
               <div class="iconTextcontainer">
-                <p id="textCena"><b>CENA <i>ROMÁNTICA</i></b></p>
-                <amp-img class="icon" id="iconCena" src="../img/home-cenaromantica-icon.png" width="40" height="40"></amp-img>
+                <p id="textCena"><b>Romantic <i>dinner</i></b></p>
+                <amp-img class="icon" id="iconCena" src="/img/home-cenaromantica-icon.png" width="40" height="40"></amp-img>
               </div>
-              <div class="button" id="cenaButton" role="button"><a href="experiencias-cenas-romanticas"><span>DESCUBRE MÁS</span></a></div>
-              <a href="experiencias-cenas-romanticas"><amp-img class="image" id="imageCena" alt="Villas Cena Romantica" src="../img/home-cenaromantica-desktop.webp"  width="720" height="541"  layout="responsive">
-                <amp-img fallback alt="Villas Cena Romantica" src="../img/home-cenaromantica-desktop.jpg"  width="720" height="541"  layout="responsive"></amp-img>
+              <div class="button" id="cenaButton" role="button"><a href="experiencias-cenas-romanticas"><span>Find out more</span></a></div>
+              <a href="experiencias-cenas-romanticas"><amp-img class="image" id="imageCena" alt="Villas Cena Romantica" src="/img/home-cenaromantica-desktop.webp"  width="720" height="541"  layout="responsive">
+                <amp-img fallback alt="Villas Cena Romantica" src="/img/home-cenaromantica-desktop.jpg"  width="720" height="541"  layout="responsive"></amp-img>
               </amp-img>
               </a>
             </div>
@@ -250,30 +239,30 @@
       </section>
       <section class="ultimoRinconSection">
         <div class="container">
-          <h2>El Útimo <br><b><i>RINCON DEL CARIBE</i></b></h2>
+          <h2>The last nook in  <br><b><i>the Caribbean</i></b></h2>
           <div class=" mosaico">
             <div>
-              <amp-img class="rinconImg" id="rincon_1_desktop" layout="responsive" src="../img/home-gallery-1-desktop.webp" width="500" height="723">
-                <amp-img fallback src="../img/home-gallery-1-desktop.jpg" width="500" height="723"></amp-img>
+              <amp-img class="rinconImg" id="rincon_1_desktop" layout="responsive" src="/img/home-gallery-1-desktop.webp" width="500" height="723">
+                <amp-img fallback src="/img/home-gallery-1-desktop.jpg" width="500" height="723"></amp-img>
               </amp-img>
-              <amp-img class="rinconImg" id="rincon_3_desktop" layout="responsive" src="../img/home-gallery-3-desktop.webp" width="720" height="509">
-                <amp-img fallback layout="responsive" src="../img/home-gallery-3-desktop.jpg" width="720" height="509"></amp-img>
-              </amp-img>
-            </div>
-            <div>
-              <amp-img class="rinconImg" id="rincon_2_desktop" layout="responsive" src="../img/home-gallery-2-desktop.webp" width="720" height="688">
-                <amp-img fallback layout="responsive" src="../img/home-gallery-2-desktop.jpg" width="720" height="688"></amp-img>
-              </amp-img>
-              <amp-img class="rinconImg" id="rincon_4_desktop" layout="responsive" src="../img/home-gallery-4-desktop.webp" width="500" height="500">
-                <amp-img fallback layout="responsive" src="../img/home-gallery-4-desktop.jpg" width="500" height="500"></amp-img>
+              <amp-img class="rinconImg" id="rincon_3_desktop" layout="responsive" src="/img/home-gallery-3-desktop.webp" width="720" height="509">
+                <amp-img fallback layout="responsive" src="/img/home-gallery-3-desktop.jpg" width="720" height="509"></amp-img>
               </amp-img>
             </div>
             <div>
-              <amp-img class="rinconImg" id="rincon_5_desktop" layout="responsive" src="../img/home-gallery-5-desktop.webp" width="500" height="621">
-                <amp-img fallback layout="responsive" src="../img/home-gallery-5-desktop.jpg" width="500" height="621"></amp-img>
+              <amp-img class="rinconImg" id="rincon_2_desktop" layout="responsive" src="/img/home-gallery-2-desktop.webp" width="720" height="688">
+                <amp-img fallback layout="responsive" src="/img/home-gallery-2-desktop.jpg" width="720" height="688"></amp-img>
               </amp-img>
-              <amp-img class="rinconImg" id="rincon_6_desktop" layout="responsive" src="../img/home-gallery-6-desktop.webp" width="720" height="711">
-                <amp-img fallback layout="responsive" src="../img/home-gallery-6-desktop.jpg" width="720" height="711"></amp-img>
+              <amp-img class="rinconImg" id="rincon_4_desktop" layout="responsive" src="/img/home-gallery-4-desktop.webp" width="500" height="500">
+                <amp-img fallback layout="responsive" src="/img/home-gallery-4-desktop.jpg" width="500" height="500"></amp-img>
+              </amp-img>
+            </div>
+            <div>
+              <amp-img class="rinconImg" id="rincon_5_desktop" layout="responsive" src="/img/home-gallery-5-desktop.webp" width="500" height="621">
+                <amp-img fallback layout="responsive" src="/img/home-gallery-5-desktop.jpg" width="500" height="621"></amp-img>
+              </amp-img>
+              <amp-img class="rinconImg" id="rincon_6_desktop" layout="responsive" src="/img/home-gallery-6-desktop.webp" width="720" height="711">
+                <amp-img fallback layout="responsive" src="/img/home-gallery-6-desktop.jpg" width="720" height="711"></amp-img>
               </amp-img>
             </div>
           </div>
@@ -281,6 +270,6 @@
       </section>
   </div>
   <?php include('footer.php')?>
-    <script type="text/javascript" src="../script/index.js"></script>
+    <script type="text/javascript" src="/script/index.js"></script>
 </body>
 </html>

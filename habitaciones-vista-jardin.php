@@ -68,7 +68,7 @@
 
       <section class="reservar_section">
         <div class="container">
-          <p>Capacidad máxima: 4 personas<br>PB|1 Niveles  |  Todos nuestros cuartos incluyen desayuno bufete.</p>
+          <p>Capacidad máxima: 2 personas<br>PB|1 Niveles  |  Todos nuestros cuartos incluyen desayuno bufete.</p>
           <div class="button" id="reservar" role="button"><a href="#"><span>RESERVAR</span></a></div>
         </div>
       </section>

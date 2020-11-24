@@ -12,7 +12,11 @@
   <header id="header">
   	<div class="container ampstart-headerbar">
   		<div class="leftContainer">
-  			<div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger">☰</div>
+  			<div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger">
+  				<div></div>
+  				<div></div>
+  				<div></div>
+  			</div>
 	  		<div class="whatsappContainer">
 	  			<a href="https://wa.me/5219841250102" target="_blank">
 	  				<amp-img src="/img/villas-icono-whatsapp-white.svg" layout="responsive" width="70" height="70"></amp-img>
@@ -26,7 +30,7 @@
   		</div>
 	    <div class="center">
 	    	<a href="index">
-	    	<amp-img layout="responsive" width="67" height="45" src="../img/villasflamingos-logo.svg"></amp-img></amp-layout></a>
+	    	<amp-img layout="responsive" width="67" height="45" src="/img/villasflamingos-logo.svg"></amp-img></amp-layout></a>
 	    </div>
 	    <div class="rightContainer">
 			<div class="buttonContainer">
@@ -70,45 +74,44 @@
 		</div>
 		<nav class="ampstart-sidebar-nav ampstart-nav">
 			<ul class="list-reset m0 p0 ampstart-label">
-		      <li><div class="ampstart-nav-item"><a class="ampstart-nav-link" on="tap:header-sidebar.close" href="index">Inicio</a></div></li>
+		      <li><div class="ampstart-nav-item"><a class="ampstart-nav-link" on="tap:header-sidebar.close" href="index">Home</a></div></li>
 		    </ul>
-		    <details class="firstOrder" title="Click para ver opciones">
+		    <details class="firstOrder" title="Click for options">
 		    	<summary><div>Rooms</div></summary>
 		    	<ul>
-		      		<li class="ampstart-nav-item"><a href="rooms-vista-jardin"><p>Vista Jardín</p><img src="../img/h2.svg"/></a></li>
-		      		<li class="ampstart-nav-item"><a href="rooms-vista-mar"><p>Vista Mar</p><img src="../img/h2.svg"/></a></li>
-		      		<li class="ampstart-nav-item"><a href="rooms-bungalow-jardin"><p>Bungalow Jardín</p><img src="../img/h4.svg"/></a></li>
-		      		<li class="ampstart-nav-item"><a href="rooms-bungalow-arena"><p>Bungalow Arena</p><img src="../img/h4.svg"/></a></li>
-		      		<li class="ampstart-nav-item"><a href="rooms-bungalow-mangle"><p>Bungalow Mangle</p><img src="../img/h2.svg"/></a></li>
-		      		<li class="ampstart-nav-item"><a href="rooms-cacao"><p>Cacao</p><img src="../img/h2.svg"/></a></li>
-		      		<li class="ampstart-nav-item"><a href="rooms-coco"><p>Coco</p><img src="../img/h2.svg"/></a></li>
-		      		<li class="ampstart-nav-item"><a href="rooms-miel"><p>Miel</p><img src="../img/h2.svg"/></a></li>
-		      		<li class="ampstart-nav-item"><a href="rooms-suite-luna-de-miel"><p>Suite Luna de Miel</p><img src="../img/h2.svg"/></a></li>
-		      		<li class="ampstart-nav-item"><a href="rooms-bungalow-cielo"><p>Bungalow Cielo</p><img src="../img/h2.svg"/></a></li>
-		      		<li class="ampstart-nav-item"><a href="rooms-master-suite-palapa"><p>Master Suite Palapa</p><img src="../img/h2.svg"/></a></li>
-		      		<li class="ampstart-nav-item"><a href="rooms-comparar">Compare rooms</a></li>
+		      		<li class="ampstart-nav-item"><a href="rooms-vista-mar"><p>Vista Mar</p><img src="/img/h2.svg"/></a></li>
+		      		<li class="ampstart-nav-item"><a href="rooms-bungalow-jardin"><p>Bungalow Jardín</p><img src="/img/h4.svg"/></a></li>
+		      		<li class="ampstart-nav-item"><a href="rooms-bungalow-arena"><p>Bungalow Arena</p><img src="/img/h4.svg"/></a></li>
+		      		<li class="ampstart-nav-item"><a href="rooms-bungalow-mangle"><p>Bungalow Mangle</p><img src="/img/h2.svg"/></a></li>
+		      		<li class="ampstart-nav-item"><a href="rooms-cacao"><p>Cacao</p><img src="/img/h2.svg"/></a></li>
+		      		<li class="ampstart-nav-item"><a href="rooms-coco"><p>Coco</p><img src="/img/h2.svg"/></a></li>
+		      		<li class="ampstart-nav-item"><a href="rooms-miel"><p>Miel</p><img src="/img/h2.svg"/></a></li>
+		      		<li class="ampstart-nav-item"><a href="rooms-honeymoon-suite"><p>Honeymoon Suite</p><img src="/img/h2.svg"/></a></li>
+		      		<li class="ampstart-nav-item"><a href="rooms-bungalow-cielo"><p>Bungalow Cielo</p><img src="/img/h2.svg"/></a></li>
+		      		<li class="ampstart-nav-item"><a href="rooms-master-suite-palapa"><p>Master Suite Palapa</p><img src="/img/h2.svg"/></a></li>
+		      		<li class="ampstart-nav-item"><a href="rooms-compare">Compare rooms</a></li>
 		      	</ul>
 		    </details>
-		    <details class="firstOrder" title="Click para ver opciones">
+		    <details class="firstOrder" title="Click for options">
 		    	<summary><div>Hotel</div></summary>
 		    	<ul>
 		    		<li class="ampstart-nav-item"><a href="hotel-restaurant-el-mangle">Restaurant El Mangle</a></li>
-		      		<li class="ampstart-nav-item"><a href="hotel-traslados">Traslados</a></li>
+		      		<li class="ampstart-nav-item"><a href="hotel-transfers">Transfers</a></li>
 		      		<li >
-		      			<details class="secondOrder" title="Click para ver opciones">
+		      			<details class="secondOrder" title="Click for options">
 					    	<summary><div>Experiences</div></summary>
 					    	<ul>
-					    		<li class="ampstart-nav-item"><a href="experiencias-cenas-romanticas">Cenas Románticas</a></li>
-					    		<li class="ampstart-nav-item"><a href="experiencias-propuesta-matrimonio">Propuesta de Matrimonio</a></li>
-					    		<li class="ampstart-nav-item"><a href="experiencias-busqueda-tesoro">Búsqueda de Tesoro</a></li>
-					    		<li class="ampstart-nav-item"><a href="experiencias-sorpresa-en-habitacion">Sorpresa en tu habitación</a></li>
-					    		<li class="ampstart-nav-item"><a href="experiencias-masajes">Masajes</a></li>
-					    		<li class="ampstart-nav-item"><a href="experiencias-paddleboard-bicicletas">Paddle Board y Bicicletas</a></li>
+					    		<li class="ampstart-nav-item"><a href="experiences-romantic-dinners">Romantic dinners</a></li>
+					    		<li class="ampstart-nav-item"><a href="experiences-marriage-proposals">Marriage proposals</a></li>
+					    		<li class="ampstart-nav-item"><a href="experiences-scavenger-hunt">Scavenger hunt</a></li>
+					    		<li class="ampstart-nav-item"><a href="experiences-surprise-in-your-room">Surprise in your room</a></li>
+					    		<li class="ampstart-nav-item"><a href="experiences-massages">Massages</a></li>
+					    		<li class="ampstart-nav-item"><a href="experiences-paddleboard-bicycles">Paddle Board and bicycles</a></li>
 					    	</ul>
 					    </details>
 		      		</li>
 		      		<li >
-		      			<details class="secondOrder" title="Click para ver opciones">
+		      			<details class="secondOrder" title="Click for options">
 					    	<summary><div>Events</div></summary>
 					    	<ul>
 					    		<li class="ampstart-nav-item"><a href="events-weddings">Weddings</a></li>
@@ -122,10 +125,10 @@
 		    <ul>
 		      <li class="ampstart-nav-item"><a class="ampstart-nav-link" on="tap:header-sidebar.close" href="gallery">Gallery</a></li>
 			</ul>
-		    <details class="firstOrder" title="Click para ver opciones">
+		    <details class="firstOrder" title="Click for options">
 		    	<summary><div>Holbox</div></summary>
 		    	<ul>
-		    		<li class="ampstart-nav-item"><a href="holbox-ubicacion">Ubicación</a></li>
+		    		<li class="ampstart-nav-item"><a href="holbox-location">Location</a></li>
 		      		<li class="ampstart-nav-item"><a href="holbox-tips">Tips</a></li>
 		      		<li class="ampstart-nav-item"><a href="holbox-tours">Tours</a></li>
 		      	</ul>

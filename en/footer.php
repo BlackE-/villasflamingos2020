@@ -31,7 +31,6 @@
 		<div class="certificates">
 			<a href="https://preverisk.com/es/certificado/villas_flamingo_holbox" target="_blank"><amp-img width="100" height="140" src="/img/Covid19-certificacion-Preverisk.png"></amp-img></a>
 			<a href="https://www.hotelesboutique.com/" target="_blank"><amp-img width="98" height="73" src="/img/Excellence-Badge_2013_en.png"></amp-img></a>
-			<a href="https://www.tripadvisor.co.uk/Hotel_Review-g616319-d1027543-Reviews-Villas_Flamingos-Holbox_Island_Yucatan_Peninsula.html" target="_blank"><amp-img width="140" height="64" src="/img/logo_mbh.png"></amp-img></a>
 			<a href="https://preverisk.com/certificados/es/villas-flamingos-holbox/" target="_blank"><amp-img width="138" height="39" src="/img/verified.png"></amp-img></a>
 		</div>
 		<p class="footerText">VILLAS FLAMINGOS <span><?php echo date("Y")?></span> <a href="" target="_blank">Aviso de privacidad</a></p>

@@ -29,18 +29,6 @@
         <div class="container">
           <h2>Habitaciones</h2>
             <amp-carousel id="carouselHabitaciones" type="slides" width="1280" height="550" layout="responsive" controls loop autoplay delay="5000" role="region" aria-label="Tipo Habitaciones">
-              <div class="carouselDiv vista-jardin">
-                  <div class="imgContainer">
-                    <amp-img src="img/habitaciones-vista-jardin-1.webp" width="1080" height="720" layout="responsive">
-                      <amp-img fallback src="img/habitaciones-vista-jardin-1.jpg" width="1080" height="720" layout="responsive"></amp-img>
-                    </amp-img>
-                  </div>
-                  <div class="dataContainer">
-                    <h3>Vista <b>Jardín</b></h3>
-                    <p>Ubicadas en nuestro jardín tropical lleno de paz, nuestra habitación <b><i>Vista Jardín</i></b> ofrece el mejor precio del hotel.</p>
-                    <div class="reservaHabitaciones" on="tap:reservar" role="button"><span>RESERVAR ahora</span></div>
-                  </div>
-              </div>
               <div class="carouselDiv vistaMar">
                   <div class="imgContainer">
                     <amp-img src="img/habitaciones-vista-mar-1.webp" width="1080" height="720" layout="responsive">
@@ -61,7 +49,7 @@
                   </div>
                   <div class="dataContainer">
                     <h3>Bungalow <b>Jardín</b></h3>
-                    <p>Rodeados de un jardín tropical lleno de paz, cada una de estos dos <b><i>búngalos jardín</i></b> ubicados en planta baja y cuentan con su propia piscina interior con agua tibia, 2 camas queen, una ducha al exterior rodeada de naturaleza y una terraza perfecta para disfrutar de un buen libro. Ideales para familias.</p>
+                    <p>Rodeados de un jardín tropical lleno de paz, cada uno de estos dos <b><i>búngalos jardín</i></b> ubicados en planta baja cuentan con su propia piscina interior con agua tibia, 2 camas queen, una ducha al exterior rodeada de naturaleza y una terraza perfecta para disfrutar de un buen libro. Ideales para familias.</p>
                     <div class="reservaHabitaciones" on="tap:reservar" role="button"><span>RESERVAR ahora</span></div>
                   </div>
               </div>
@@ -157,7 +145,7 @@
                   </div>
                   <div class="dataContainer">
                     <h3>Suite Master <b>Palapa</b></h3>
-                    <p>Si quieres realmente sorprender a tu pareja entonces la <b><i>Master Suite Palapa</i></b> es tu elección. Ubicada en un tercer nivel lo cual permite tener mayor privacidad. Con sus dos terrazas observaras el mar y el manglar también. Cuenta con jacuzzi y regadera al aire libre. Su atractivo diseño arquitectónico y la amplitud de la suite son únicos en todo Holbox.  Cuenta con cama King sizes, aire acondicionado, frigobar, caja de seguridad, mesa de apoyo y sillas, closet, lámpara de lectura, soporte para maletas.</p>
+                    <p>Si quieres realmente sorprender a tu pareja entonces la <b><i>Master Suite Palapa</i></b> es tu elección. Ubicada en un tercer nivel lo cual permite tener mayor privacidad. Con sus dos terrazas observaras el mar y el manglar. Cuenta con jacuzzi y regadera al aire libre. Su atractivo diseño arquitectónico y la amplitud de la suite son únicos en todo Holbox.  Cuenta con cama King size, aire acondicionado, frigobar, caja de seguridad, mesa de apoyo y sillas, closet, lámpara de lectura, soporte para maletas.</p>
                     <div class="reservaHabitaciones" on="tap:reservar" role="button"><span>RESERVAR ahora</span></div>
                   </div>
               </div>

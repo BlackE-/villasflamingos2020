@@ -12,7 +12,12 @@
   <header id="header">
   	<div class="container ampstart-headerbar">
   		<div class="leftContainer">
-  			<div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger">☰</div>
+  			<!-- <div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger">☰</div> -->
+  			<div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger">
+  				<div></div>
+  				<div></div>
+  				<div></div>
+  			</div>
 	  		<div class="whatsappContainer">
 	  			<a href="https://wa.me/5219841250102" target="_blank">
 	  				<amp-img src="img/villas-icono-whatsapp-white.svg" layout="responsive" width="70" height="70"></amp-img>
@@ -75,7 +80,7 @@
 		    <details class="firstOrder" title="Click para ver opciones">
 		    	<summary><div>Habitaciones</div></summary>
 		    	<ul>
-		      		<li class="ampstart-nav-item"><a href="habitaciones-vista-jardin"><p>Vista Jardín</p><img src="img/h2.svg"/></a></li>
+		      		<!--<li class="ampstart-nav-item"><a href="habitaciones-vista-jardin"><p>Vista Jardín</p><img src="img/h2.svg"/></a></li>-->
 		      		<li class="ampstart-nav-item"><a href="habitaciones-vista-mar"><p>Vista Mar</p><img src="img/h2.svg"/></a></li>
 		      		<li class="ampstart-nav-item"><a href="habitaciones-bungalow-jardin"><p>Bungalow Jardín</p><img src="img/h4.svg"/></a></li>
 		      		<li class="ampstart-nav-item"><a href="habitaciones-bungalow-arena"><p>Bungalow Arena</p><img src="img/h4.svg"/></a></li>
