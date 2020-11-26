@@ -3,19 +3,42 @@
   <?php include('header_meta.php');?>
   <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
   <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.2.js"></script>
-  <link rel="stylesheet" type="text/css" href="../css/index.css">
-  <style amp-custom="">
-  </style>
+  <link rel="stylesheet" type="text/css" href="/css/index.css">
 </head>
 <body>
   <?php include('header.php')?>
   <div class="indexContainer">
-      <section class="videoSection">
-          <div class="videoContainer">
-            <video muted="" loop="" playsinline="" id="vid" poster="/img/villas_wide-poster.jpg">
-              <source id="hvid" type="video/mp4">
-            </video>
-          </div>
+      <section class="carouselHeader">
+        <amp-carousel class="desktop" id="carouselHeader" type="slides" width="1920" height="1080" layout="responsive" role="region" controls loop autoplay delay="5000" role="region" aria-label="Header">
+            <amp-img layout="responsive" role="button" width="1920" height="1080" src="/img/galeria-2.jpg" alt="Galeria2"></amp-img>
+            <amp-img layout="responsive" role="button" width="1920" height="1080"     src="/img/galeria-6.jpg" alt="Galeria6"></amp-img>
+            <amp-img layout="responsive" role="button" width="1920" height="1080"     src="/img/galeria-8.jpg" alt="Galeria2"></amp-img>
+            <amp-img layout="responsive" role="button" width="1920" height="1080"     src="/img/galeria-16.jpg" alt="Galeria2"></amp-img>
+            <amp-img layout="responsive" role="button" width="1920" height="1080"     src="/img/galeria-24.jpg" alt="Galeria2"></amp-img>
+            <amp-img layout="responsive" role="button" width="1920" height="1080"     src="/img/galeria-20.jpg" alt="Galeria2"></amp-img>
+            <amp-img layout="responsive" role="button" width="1920" height="1080"     src="/img/galeria-27.jpg" alt="Galeria2"></amp-img>
+            <amp-img layout="responsive" role="button" width="1920" height="1080"     src="/img/galeria-1.jpg" alt="Galeria2"></amp-img>
+            <amp-img layout="responsive" role="button" width="1920" height="1080"     src="/img/galeria-46.jpg" alt="Galeria2"></amp-img>
+            <amp-img layout="responsive" role="button" width="1920" height="1080"     src="/img/galeria-54.jpg" alt="Galeria2"></amp-img>
+            <amp-img layout="responsive" role="button" width="1920" height="1080"     src="/img/galeria-57.jpg" alt="Galeria2"></amp-img>
+            <amp-img layout="responsive" role="button" width="1920" height="1080"     src="/img/galeria-58.jpg" alt="Galeria2"></amp-img>
+            <amp-img layout="responsive" role="button" width="1920" height="1080"     src="/img/galeria-26.jpg" alt="Galeria2"></amp-img>
+        </amp-carousel>
+        <amp-carousel class="mobile" id="carouselHeaderMobile" type="slides" width="360" height="640" layout="responsive" role="region" controls loop autoplay delay="5000" role="region" aria-label="Header">
+            <amp-img layout="responsive" role="button" width="360" height="640" src="/img/home-mobile-1.jpg" alt="Galeria2"></amp-img>
+            <amp-img layout="responsive" role="button" width="360" height="640" src="/img/home-mobile-2.jpg" alt="Galeria6"></amp-img>
+            <amp-img layout="responsive" role="button" width="360" height="640" src="/img/home-mobile-3.jpg" alt="Galeria2"></amp-img>
+            <amp-img layout="responsive" role="button" width="360" height="640" src="/img/home-mobile-4.jpg" alt="Galeria2"></amp-img>
+            <amp-img layout="responsive" role="button" width="360" height="640" src="/img/home-mobile-5.jpg" alt="Galeria2"></amp-img>
+            <amp-img layout="responsive" role="button" width="360" height="640" src="/img/home-mobile-6.jpg" alt="Galeria2"></amp-img>
+            <amp-img layout="responsive" role="button" width="360" height="640" src="/img/home-mobile-7.jpg" alt="Galeria2"></amp-img>
+            <amp-img layout="responsive" role="button" width="360" height="640" src="/img/home-mobile-8.jpg" alt="Galeria2"></amp-img>
+            <amp-img layout="responsive" role="button" width="360" height="640" src="/img/home-mobile-9.jpg" alt="Galeria2"></amp-img>
+            <amp-img layout="responsive" role="button" width="360" height="640" src="/img/home-mobile-10.jpg" alt="Galeria2"></amp-img>
+            <amp-img layout="responsive" role="button" width="360" height="640" src="/img/home-mobile-11.jpg" alt="Galeria2"></amp-img>
+            <amp-img layout="responsive" role="button" width="360" height="640" src="/img/home-mobile-12.jpg" alt="Galeria2"></amp-img>
+            <amp-img layout="responsive" role="button" width="360" height="640" src="/img/home-mobile-13.jpg" alt="Galeria2"></amp-img>
+        </amp-carousel>
       </section>
       <section class="textContainerSection">
         <div class="container" id="text1">
@@ -30,9 +53,9 @@
             <amp-carousel id="carouselHabitaciones" type="slides" width="1280" height="550" layout="responsive" controls loop autoplay delay="5000" role="region" aria-label="Tipo Habitaciones">
               <div class="carouselDiv vistaMar">
                   <div class="imgContainer">
-                    <amp-img src="/img/habitaciones-vista-mar-1.webp" width="1080" height="720" layout="responsive">
+                    <a href="rooms-vista-mar"><amp-img src="/img/habitaciones-vista-mar-1.webp" width="1080" height="720" layout="responsive">
                       <amp-img fallback src="/img/habitaciones-vista-mar-1.jpg" width="1080" height="720" layout="responsive"></amp-img>
-                    </amp-img>
+                    </amp-img></a></a>
                   </div>
                   <div class="dataContainer">
                     <h3>Vista <b>Mar</b></h3>
@@ -42,9 +65,9 @@
               </div>
               <div class="carouselDiv bungalowsJardin">
                   <div class="imgContainer">
-                    <amp-img src="/img/habitaciones-bungalow-jardin-1.webp" width="1080" height="720" layout="responsive">
+                    <a href="rooms-bungalow-jardin"><amp-img src="/img/habitaciones-bungalow-jardin-1.webp" width="1080" height="720" layout="responsive">
                       <amp-img fallback src="/img/habitaciones-bungalow-jardin-1.jpg" width="1080" height="720" layout="responsive"></amp-img>
-                    </amp-img>
+                    </amp-img></a>
                   </div>
                   <div class="dataContainer">
                     <h3>Bungalow <b>Jardín</b></h3>
@@ -54,9 +77,9 @@
               </div>
               <div class="carouselDiv bungalowsArena">
                   <div class="imgContainer">
-                    <amp-img src="/img/habitaciones-bungalow-arena-1.webp" width="1080" height="720" layout="responsive" alt="Bungalow Arena">
+                    <a href="rooms-bungalow-arena"><amp-img src="/img/habitaciones-bungalow-arena-1.webp" width="1080" height="720" layout="responsive" alt="Bungalow Arena">
                       <amp-img fallback src="/img/habitaciones-bungalow-arena-1.jpg" width="1080" height="720" layout="responsive" alt="Bungalow Arena"></amp-img>
-                    </amp-img>
+                    </amp-img></a>
                   </div>
                   <div class="dataContainer">
                     <h3>Bungalow <b>Arena</b></h3>
@@ -66,9 +89,9 @@
               </div>
               <div class="carouselDiv bungalowsMangle">
                   <div class="imgContainer">
-                    <amp-img src="/img/habitaciones-bungalow-mangle-1.webp" width="1080" height="720" layout="responsive" alt="Bungalow mangle">
+                    <a href="rooms-bungalow-mangle"><amp-img src="/img/habitaciones-bungalow-mangle-1.webp" width="1080" height="720" layout="responsive" alt="Bungalow mangle">
                       <amp-img fallback src="/img/habitaciones-bungalow-mangle-1.jpg" width="1080" height="720" layout="responsive" alt="Bungalow mangle"></amp-img>
-                    </amp-img>
+                    </amp-img></a>
                   </div>
                   <div class="dataContainer">
                     <h3>Bungalow <b>Mangle</b></h3>
@@ -78,9 +101,9 @@
               </div>
               <div class="carouselDiv Cacao">
                   <div class="imgContainer">
-                    <amp-img src="/img/habitaciones-cacao-1.webp" width="1080" height="720" layout="responsive" alt="Cacao">
+                    <a href="rooms-cacao"><amp-img src="/img/habitaciones-cacao-1.webp" width="1080" height="720" layout="responsive" alt="Cacao">
                       <amp-img fallback src="/img/habitaciones-cacao-1.jpg" width="1080" height="720" layout="responsive" alt="Cacao"></amp-img>
-                    </amp-img>
+                    </amp-img></a>
                   </div>
                   <div class="dataContainer">
                     <h3><b>Cacao</b></h3>
@@ -90,9 +113,9 @@
               </div>
               <div class="carouselDiv Coco">
                   <div class="imgContainer">
-                    <amp-img src="/img/habitaciones-coco-1.webp" width="1080" height="720" layout="responsive" alt="Cacao">
+                    <a href="rooms-coco"><amp-img src="/img/habitaciones-coco-1.webp" width="1080" height="720" layout="responsive" alt="Cacao">
                       <amp-img fallback src="/img/habitaciones-coco-1.jpg" width="1080" height="720" layout="responsive" alt="Cacao"></amp-img>
-                    </amp-img>
+                    </amp-img></a>
                   </div>
                   <div class="dataContainer">
                     <h3><b>Coco</b></h3>
@@ -102,9 +125,9 @@
               </div>
               <div class="carouselDiv Miel">
                   <div class="imgContainer">
-                    <amp-img src="/img/habitaciones-miel-1.webp" width="1080" height="720" layout="responsive" alt="miel">
+                    <a href="rooms-miel"><amp-img src="/img/habitaciones-miel-1.webp" width="1080" height="720" layout="responsive" alt="miel">
                       <amp-img fallback src="/img/habitaciones-miel-1.jpg" width="1080" height="720" layout="responsive" alt="miel"></amp-img>
-                    </amp-img>
+                    </amp-img></a>
                   </div>
                   <div class="dataContainer">
                     <h3><b>Miel</b></h3>
@@ -114,21 +137,21 @@
               </div>
               <div class="carouselDiv SuiteLunaDeMiel">
                   <div class="imgContainer">
-                    <amp-img src="/img/habitaciones-suitelunademiel-1.webp" width="1080" height="720" layout="responsive" alt="suitelunademiel">
+                    <a href="rooms-honeymoon-suite"><amp-img src="/img/habitaciones-suitelunademiel-1.webp" width="1080" height="720" layout="responsive" alt="suitelunademiel">
                       <amp-img fallback src="/img/habitaciones-suitelunademiel-1.jpg" width="1080" height="720" layout="responsive" alt="suitelunademiel"></amp-img>
-                    </amp-img>
+                    </amp-img></a>
                   </div>
                   <div class="dataContainer">
-                    <h3>Suite Luna <b>de Miel</b></h3>
+                    <h3><b>Honeymoon</b> Suite</h3>
                     <p>Enjoy the most with your partner in our <b><i>Honeymoon Suite</i></b>, specially designed to celebrate with your significant other. Conveniently located onthe top floor for more privacy, they have an ocean view and an indoor Jacuzzi where you can spend hours relaxing while you listen to the sea and the birds of Holbox.</p>
                     <div class="reservaHabitaciones" on="tap:reservar" role="button"><span>BOOK NOW</span></div>
                   </div>
               </div>
               <div class="carouselDiv BungalowCielo">
                   <div class="imgContainer">
-                    <amp-img src="/img/habitaciones-bungalow-cielo-1.webp" width="1080" height="720" layout="responsive" alt="bungalow-cielo">
+                    <a href="rooms-master-suite-palapa"><amp-img src="/img/habitaciones-bungalow-cielo-1.webp" width="1080" height="720" layout="responsive" alt="bungalow-cielo">
                       <amp-img fallback src="/img/habitaciones-bungalow-cielo-1.jpg" width="1080" height="720" layout="responsive" alt="bungalow-cielo"></amp-img>
-                    </amp-img>
+                    </amp-img></a>
                   </div>
                   <div class="dataContainer">
                     <h3>Bungalow <b>Cielo</b></h3>
@@ -138,12 +161,12 @@
               </div>
               <div class="carouselDiv SuiteMasterPalapa">
                   <div class="imgContainer">
-                    <amp-img src="/img/habitaciones-suitemasterpalapa-1.webp" width="1080" height="720" layout="responsive" alt="suitemasterpalapa">
+                    <a href="rooms-vista-mar"><amp-img src="/img/habitaciones-suitemasterpalapa-1.webp" width="1080" height="720" layout="responsive" alt="suitemasterpalapa">
                       <amp-img fallback src="/img/habitaciones-suitemasterpalapa-1.jpg" width="1080" height="720" layout="responsive" alt="SuiteMasterPalapa"></amp-img>
-                    </amp-img>
+                    </amp-img></a>
                   </div>
                   <div class="dataContainer">
-                    <h3>Suite Master <b>Palapa</b></h3>
+                    <h3>Master Suite <b>Palapa</b></h3>
                     <p>If you really want to surprise your partner then the <b><i>Master Suite Palapa</i></b> is your choice. Located on a third level for greater privacy, its two terraces will give you views of the sea as well as the mangrove. It has a jacuzzi and outdoor shower. With attractive architectural design, this spacious suite is unique in all of Holbox. It has a King size bed, air conditioning, minibar, safe, support table and chairs, closet, reading lamp, luggage rack.</p>
                     <div class="reservaHabitaciones" on="tap:reservar" role="button"><span>BOOK NOW</span></div>
                   </div>

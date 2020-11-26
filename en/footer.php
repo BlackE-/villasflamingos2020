@@ -33,10 +33,9 @@
 			<a href="https://www.hotelesboutique.com/" target="_blank"><amp-img width="98" height="73" src="/img/Excellence-Badge_2013_en.png"></amp-img></a>
 			<a href="https://preverisk.com/certificados/es/villas-flamingos-holbox/" target="_blank"><amp-img width="138" height="39" src="/img/verified.png"></amp-img></a>
 		</div>
-		<p class="footerText">VILLAS FLAMINGOS <span><?php echo date("Y")?></span> <a href="" target="_blank">Aviso de privacidad</a></p>
+		<p class="footerText">VILLAS FLAMINGOS <span><?php echo date("Y")?></span> <a href="/files/DATA_PROTECTION_NOTICE_vilavidINGOK.pdf" target="_blank">Data Protection Notice</a></p>
 	</div>
 </footer>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/gsap.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/ScrollTrigger.min.js"></script>
-<script type="text/javascript" src="../script/header.js"></script>
-<!-- <script type="text/javascript" src="https://js.mirai.com/mirai-loader/mirai.loader.js"></script> -->
+<script type="text/javascript" src="/script/header.js"></script>

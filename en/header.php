@@ -29,7 +29,7 @@
 	  		</div>
   		</div>
 	    <div class="center">
-	    	<a href="index">
+	    	<a href="/en">
 	    	<amp-img layout="responsive" width="67" height="45" src="/img/villasflamingos-logo.svg"></amp-img></amp-layout></a>
 	    </div>
 	    <div class="rightContainer">

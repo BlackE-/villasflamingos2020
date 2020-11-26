@@ -12,7 +12,6 @@
   <header id="header">
   	<div class="container ampstart-headerbar">
   		<div class="leftContainer">
-  			<!-- <div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger">☰</div> -->
   			<div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger">
   				<div></div>
   				<div></div>
@@ -30,7 +29,7 @@
 	  		</div>
   		</div>
 	    <div class="center">
-	    	<a href="index">
+	    	<a href="/">
 	    	<amp-img layout="responsive" width="67" height="45" src="img/villasflamingos-logo.svg"></amp-img></amp-layout></a>
 	    </div>
 	    <div class="rightContainer">

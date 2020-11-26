@@ -3,9 +3,6 @@
         setTimeout(()=>{
             loading.classList.add('fadeout');
             setTimeout(()=>{loading.classList.add('zero');},2000);
-            let tl = gsap.timeline();
-            tl.from('.videoContainer',{duration:1.5,translateY:200,opacity:0}),
-            tl.to('.videoContainer',{translateY:0,opacity:1});
         },2000);
     });
 
@@ -19,31 +16,27 @@
       }
 
     const carouselHabitaciones = document.getElementById("carouselHabitaciones");
-    const video = document.getElementById("vid");
-    const video_source = document.getElementById("hvid");
-    const media_querie = window.matchMedia("(max-width: 700px)");
-    let resizeTimer;
-        
-    changeVideo = () =>{
-        media_querie.matches ? (video.setAttribute("poster", "/img/villas_vertical-poster.jpg")) : (video.setAttribute("poster", "/img/villas_wide-poster.jpg"));
-        video_source.removeAttribute("src");
-        media_querie.matches ? (video_source.setAttribute("src", "/img/villas_vertical.mp4")) : (video_source.setAttribute("src", "/img/villas_wide.mp4"));
-
-        video.load();
-        video.play();
-
-        
-
-    }
+    // const media_querie = window.matchMedia("(max-width: 700px)");
     init = () =>{
-        changeVideo();
-        media_querie.matches ? carouselHabitaciones.style.height = '720' : carouselHabitaciones.style.height = '550';
+        let w = window.innerWidth;
+        console.log(w);
+        if(w > 768){    //bigger than ipad so desktop
+            carouselHabitaciones.style.height = '550';}
+        else{
+            //mobile
+            if(w<420){  carouselHabitaciones.style.height = '720';}
+            //ipad
+            else{carouselHabitaciones.style.height = '800';}
+        }
+        // media_querie.matches ? carouselHabitaciones.style.height = '720' : carouselHabitaciones.style.height = '550';
     }
-    init();    
+    init();
+    let resizeTimer;    
     window.addEventListener("resize", function () {
         clearTimeout(resizeTimer);
         resizeTimer = setTimeout(function() {// Run code here, resizing has "stopped"
-            changeVideo();
+            // changeVideo();
+            init();
         }, 250);
     });
 
